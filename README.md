@@ -1,6 +1,6 @@
 Challeges in Plot-scle LST retreival
-Repository containing all the notebook for the analysis  carried out for papaer
-How to use this project
+Repository containing all the notebook for the analysis  carried out for paper
+
 
 Contents
 
