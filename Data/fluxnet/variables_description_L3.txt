@@ -1,0 +1,96 @@
+LEVEL 3 – VARIABLES DECRIPTION
+
+
+
+Level 3 data are obtained from the level 2 products, data are quality 
+checked using standardized techniques and NEE is calculated. Data are 
+not changed but descriptive variables (‘flags’) are added.
+
+
+- Month: from 1 to 12
+- Day: day of the month
+- Hour: from 0 to 23.5, indicates the end of the half hour of 
+measurement 
+- DoY: decimal day of the year
+- CO2: carbon dioxide concentration measured at top of the tower 
+[umol/mol]
+- H2O: water vapour concentration measured at top of the tower 
+[mmol/mol]
+- ZL: atmosphere stability parameter
+- Fc: carbon dioxide flux  [umolCO2 m-2 s-1]
+- qf_Fc: fluxes quality flags (see below)
+- NEE_st: Net Ecosystem Exchange standardized -  calculated using the 
+storage obtained with the discrete approach (single point on the top of 
+the tower) with the same method for all the sites [umolCO2 m-2 s-1]
+- qf_NEE_st: fluxes quality flags (see below)
+- NEE_or: Net Ecosystem Exchange original -  calculated using the 
+storage sent by the PI that can be obtained with the discrete approach or 
+using the profile system (see others information below) [umolCO2 m-2 s-1]
+- qf_NEE_or: fluxes quality flags (see below)
+- H: sensible heat flux [W m-2]
+- LE: latent heat flux [W m-2]
+- Ustar: friction velocity  [m s-1]
+- qf_ust: quality flag: 0 = ok, 1 = possible spike. Calculated starting 
+from the linear regration between ustar and wind speed. Flagged as 1 if 
+the residual are bigger than 5 times the standard deviation.
+- Precip: precipitation [mm]
+- Rg: global radiation [W m-2]
+- PPFD: photosynthetic photon flux density [umol m-2 s-1]
+- R_pot: potential radiation (‘at top of atmosphere’) calculated from 
+time and geographic coordinates [W m-2]
+- qf_Rg: quality flag for Rg: 0=ok, 1=possible bad values. Calculated 
+comparing measured Rg and potential radiation.
+- qf_Rad: quality flag for Rg and PPFD: 0 = ok, 1 = possible bad 
+values. Calculated starting from the linear regration between the two 
+variables. Flagged as 1 if the residual are bigger than 5 times the standard 
+deviation.
+- Rr: reflected radiation [W m-2]
+- Rn: net radiation [W m-2]
+- Rd: diffuse radiation (global) [W m-2]
+- APAR: light interception [umol m-2 s-1]
+- Ta: air temperature [°C]
+- Ts1: soil temperature depth 1 [°C]
+- Ts2: soil temperature depth 2 [°C]
+- SWC1: soil water content depth 1 [%vol]
+- SWC2: soil water content depth 2 [%vol]
+- G1: soil heat flux  [W m-2]
+- G2: soil heat flux  [W m-2]
+- Rh: relative humidity  [%]
+- WD: wind direction [degrees]
+- WS: wind horizontal speed [m s-1]
+
+
+Flux quality flags explanation:
+The qc_flag is a 9 bits number. See below the explanation:
+
+Bit 9: QC from PI
+0 = ok (class 0-1 of QA/QC method based on raw data – Foken et al.)
+1 = not ok (class 2)
+
+Bit 8: Marginal point  (at the border to a gap)
+0 = no
+1 = marginal point
+
+Bits 7-6: ustar criterion
+00 = ok
+01 = below threshold
+10 = preceding values is below threshold
+11 = below threshold and preceding below threshold
+
+Bits 5-4: Spike detection
+00 = no spike
+01 = spike as outside 4 SD
+10 = spike as outside 5.5 SD
+11 = spike as outside 7 SD or out of range.
+
+Bit 3: Low variability
+0 = ok
+1 = low variability (e.g. when pump is broken etc.)
+
+Bits 2-1: Summary
+00 = best
+01 = medium (not used)
+10 = bad
+11 = missing
+
+

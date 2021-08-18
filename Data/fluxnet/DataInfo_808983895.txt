@@ -1,0 +1,34 @@
+DATA INFORMATION FILE
+***************************************************
+Versioning code
+We use a versioning code to identify univocally the version of each dataset. 
+Data improvement, new submission, reprocessing, added variables etc. will automatically involve a new code definition with different version number and the description of the differences with the previous datasets.
+
+!!!!!!!! Info about the data downloaded !!!!!!!!
+
+++++++++++++    Site:IL-Yat   Year  2005 ++++++++++++++++++++
+
+  LEVEL 2 Data: 
+Versioning code: EFDC_L2_Flx_ILYat_2005_v03
+
+Differences from version 02 :
+PPFD and SWR corrected for the years 2002-2009
+
+Differences from version 01 :
+First submission
+
+
+  LEVEL 3 Data: 
+Versioning Code: CEIP_EC_L3_ILYat_2005_v01
+
+Referring papers to cite:
+- Contact the PI
+- D. Papale, M. Reichstein, M. Aubinet, E. Canfora, C. Bernhofer, B. Longdoz, W. Kutsch, S. Rambal, R. Valentini, T. Vesala, D. Yakir (2006) Towards a standardized processing of Net Ecosystem Exchange measured with eddy covariance technique: algorithms and uncertainty estimation, Biogeosciences, 3, 571-583
+
+Other Information:
+The CO2 storage flux used to calculate NEE_or has been measured using (discrete approach or profile system): 
+- Contact the PI
+Please note that the qc flags associated with NEE filled using ANN are not exhaustive because the quality depends also by other aspects like the availability of data in the same period of the year and of the day that can be used for the training process.
+*************************************************************************************************************
+
+

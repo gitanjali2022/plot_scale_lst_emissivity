@@ -1,0 +1,34 @@
+DATA USE POLICY and DATA OWNERS, AUTHORS AND CONTACTS
+
+
+The data policy immediately below applies to the site-years :  IL-Yat:2005
+
+The data you downloaded have been acquired during past or ongoing European Research projects or furnished by individual scientists who encourage their use under an open data policy that emphasizes the free and open exchange of scientific information.
+
+The data are made freely available to the public and the scientific community in the belief that their wide dissemination will lead to greater understanding and new scientific insights and that global scientific problems require international cooperation. Data download is unrestricted and requires only a free registration needed for web security reasons.
+
+The data owners and EU projects that decided to share these data openly rely on the ethics and integrity of the users to assure that the data providers and funding projects and agencies receive fair credit for their work through inclusion of the texts provided below in the acknowledgment.
+
+An email has been automatically sent to the contact person of each dataset downloaded to inform them about your interest in the data. We kindly ask you to  send accepted papers or links to them to the database staff and PIs of the sites used in the paper. It is also recommended to contact the site PIs prior to publication to prevent potential misuse or misinterpretation of the data; if the work is based on only a few sites, this contact is strongly recommended.
+
+Downloaded data cannot be redistributed to others and must not be redistributed via other websites, databases r any other storage system to prevent circulation of different versions of the datasets.
+
+
+
+Acknowledgment text:
+
+The data used in this activity has been also funded by the projects:
+
+
+  -------------------------------------------------------------------------------------------
+
+LIST OF PROJECTS TO BE ACKNOWLEDGED FOR EACH SITE-YEAR DOWNLOADED
+
+
+IL-Yat 2005 : CarboEuropeIP (EU-FP6)
+***************************************************************************
+
+DATA OWNERS, AUTHORS AND CONTACTS
+
+IL-Yat 2005: Owner: Dan Yakir, Author: Dan Yakir,  Contact: Dan Yakir (dan.yakir@weizmann.ac.il)
+IL-Yat 2005: Owner: database, Author: database,  Contact: database (database@unitus.it)
