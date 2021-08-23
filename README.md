@@ -8,8 +8,9 @@ This project contains variable definitions, equations and  from the paper titled
 notebook fot all sites using an intercept in H(DT)
 - [/Notebook/HDT_mx.ipynb]: 
 All study sites analysis using reboust linear regression model
-- [notebooks/](/Notebook/HDT_mx.ipynb):
+- [/Notebook/HDT_mx.ipynb]:
 All study sites analysis forcing linear regression through zero
+- [/Notebook/threebox_AS.ipynb] uncertainty analysis in emissivity
 - [Data/tern]:  Data of north aurstalian sites
 - [Data/fluxnet]:  Data from fluxnet sites
 - [Data/]:  MODIS terra MODA011
