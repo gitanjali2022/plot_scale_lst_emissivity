@@ -1,32 +1,18 @@
-Challeges in Plot-scle LST retreival
-Repository containing all the notebook for the analysis  carried out for paper
+# plot_scale LST 
 
+This project contains variable definitions, equations and  from the paper titled: Challenges in estimation of plot-scale emissivity and surface temperature using flux tower measurements
 
-Contents
+## Contents
 
-
-data/
-
-
-plots/ All images used in the manuscript.
-
-
-
-
-
-paper_doc/ Docx-version of the manuscript.
-
-
-paper_pdf/ Pdf-version of the manuscript.
-
-
-src/ Latex and bib-file for the manuscript.
-
-
-supplement/ Pdf-files with the Supplementary Material
-
-
-supplement_src/ Latex files and images per supplement.
-
-
+- [notebooks](notebooks/): 
+Folder with jupyter notebooks
+- [notebooks/](/Notebook/HDT_mx%2Bc.ipynb): 
+All study sites analysis using reboust linear regression model
+- [notebooks/](/Notebook/HDT_mx.ipynb):
+All study sites analysis forcing linear regression through zero
+- [data](tern):  Data of north aurstalian sites
+- [data](fluxnet):  Data from fluxnet sites
+- [data](MODIS):  MODIS terra MODA011
+-[latex]
+paper plots and texfile
 
