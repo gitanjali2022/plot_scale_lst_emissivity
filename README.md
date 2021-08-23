@@ -10,11 +10,18 @@ This project contains variable definitions, equations and  from the paper titled
 
 - [/Notebook/HDT_mx.ipynb]:All study sites analysis forcing linear regression through zero
 
--[Notebook/mx_leq_mainpaper.ipynb]: LST sensitivity to emissivity 
+- [Notebook/mx_leq_mainpaper.ipynb]: LST sensitivity to emissivity 
+
+  
 - [Notebook/threebox_AS.ipynb]: uncertainty in emissivity
+
 - [/Notebook/alice_spr_TS-Ta_unc.ipynb]: uncertainty in diurnal LST
+
 - [Data/tern]:  Data of north aurstalian sites
+
 - [Data/fluxnet]:  Data from fluxnet sites
+
 - [Data/]:  MODIS terra MODA011
+
 - [latex] paper plots and texfile
 
