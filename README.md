@@ -13,6 +13,5 @@ All study sites analysis forcing linear regression through zero
 - [Data/tern]:  Data of north aurstalian sites
 - [Data/fluxnet]:  Data from fluxnet sites
 - [Data/]:  MODIS terra MODA011
--[latex]
-paper plots and texfile
+- [latex] paper plots and texfile
 
