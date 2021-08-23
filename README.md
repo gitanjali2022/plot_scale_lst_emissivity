@@ -4,7 +4,7 @@ This project contains variable definitions, equations and  from the paper titled
 
 ## Contents
 
-- [Notebook/HDT_mx+c.ipynb]: 
+- [../Notebook/HDT_mx+c.ipynb]: 
 notebook fot all sites using an intercept in H(DT)
 - [/Notebook/HDT_mx.ipynb]: 
 All study sites analysis using reboust linear regression model
