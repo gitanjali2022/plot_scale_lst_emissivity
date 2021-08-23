@@ -23,5 +23,6 @@ This project contains variable definitions, equations and  from the paper titled
 
 - [Data/]:  MODIS terra MODA011
 
-- [latex] paper plots and texfile
+- [latex]: paper plots and texfile
+ - [output]: contains random samples using sobol
 
