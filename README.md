@@ -4,9 +4,9 @@ This project contains variable definitions, equations and  from the paper titled
 
 ## Contents
 
-- [notebooks](notebooks/): 
-Folder with jupyter notebooks
-- [notebooks/](/Notebook/HDT_mx%2Bc.ipynb): 
+- [notebooks](/Notebook/HDT_mx+c.ipynb): 
+notebook fot all sites using an intercept in H(DT)
+- [notebooks/](/Notebook/HDT_mx.ipynb): 
 All study sites analysis using reboust linear regression model
 - [notebooks/](/Notebook/HDT_mx.ipynb):
 All study sites analysis forcing linear regression through zero
