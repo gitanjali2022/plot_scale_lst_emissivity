@@ -4,44 +4,46 @@ The top-level auxiliary file: lst_emis_SI_v2.aux
 The style file: naturemag-doi.bst
 Database file #1: lstpaper.bib
 Database file #2: not_indexed_ref.bib
-You've used 53 entries,
+Warning--I didn't find a database entry for "krishnan2015comparison"
+You've used 58 entries,
             2380 wiz_defined-function locations,
-            1314 strings with 20950 characters,
-and the built_in function-call counts, 21266 in all, are:
-= -- 1525
-> -- 552
+            1343 strings with 22557 characters,
+and the built_in function-call counts, 23094 in all, are:
+= -- 1650
+> -- 600
 < -- 1
-+ -- 276
-- -- 138
-* -- 2706
-:= -- 2352
-add.period$ -- 159
-call.type$ -- 53
-change.case$ -- 59
++ -- 300
+- -- 150
+* -- 2955
+:= -- 2565
+add.period$ -- 174
+call.type$ -- 58
+change.case$ -- 62
 chr.to.int$ -- 0
-cite$ -- 53
-duplicate$ -- 1867
-empty$ -- 1912
-format.name$ -- 184
-if$ -- 4204
+cite$ -- 58
+duplicate$ -- 2029
+empty$ -- 2073
+format.name$ -- 200
+if$ -- 4545
 int.to.chr$ -- 0
-int.to.str$ -- 53
-missing$ -- 443
-newline$ -- 275
-num.names$ -- 53
-pop$ -- 314
+int.to.str$ -- 58
+missing$ -- 484
+newline$ -- 300
+num.names$ -- 58
+pop$ -- 334
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 343
+skip$ -- 354
 stack$ -- 0
-substring$ -- 1097
-swap$ -- 1851
+substring$ -- 1201
+swap$ -- 2018
 text.length$ -- 1
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
 warning$ -- 0
-while$ -- 134
-width$ -- 55
-write$ -- 605
+while$ -- 146
+width$ -- 60
+write$ -- 659
+(There was 1 warning)

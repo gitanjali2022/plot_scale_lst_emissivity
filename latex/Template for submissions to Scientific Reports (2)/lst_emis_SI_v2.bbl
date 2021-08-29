@@ -7,13 +7,14 @@
 \providecommand{\bibinfo}[2]{#2}
 \providecommand{\eprint}[2][]{\url{#2}}
 
-\bibitem{still2021imaging}
-\bibinfo{author}{Still, C.~J.} \emph{et~al.}
-\newblock \bibinfo{journal}{\bibinfo{title}{Imaging canopy temperature:
-  shedding (thermal) light on ecosystem processes}}.
-\newblock {\emph{\JournalTitle{New Phytologist}}}
-  \textbf{\bibinfo{volume}{230}}, \bibinfo{pages}{1746--1753}
-  (\bibinfo{year}{2021}).
+\bibitem{rowell2005scenario}
+\bibinfo{author}{Rowell, D.~P.}
+\newblock \bibinfo{journal}{\bibinfo{title}{A scenario of european climate
+  change for the late twenty-first century: seasonal means and interannual
+  variability}}.
+\newblock {\emph{\JournalTitle{Climate Dynamics}}}
+  \textbf{\bibinfo{volume}{25}}, \bibinfo{pages}{837--849}
+  (\bibinfo{year}{2005}).
 
 \bibitem{mallick2015reintroducing}
 \bibinfo{author}{Mallick, K.} \emph{et~al.}
@@ -23,23 +24,58 @@
   \textbf{\bibinfo{volume}{51}}, \bibinfo{pages}{6214--6243}
   (\bibinfo{year}{2015}).
 
-\bibitem{zheng2012improvement}
-\bibinfo{author}{Zheng, W.} \emph{et~al.}
-\newblock \bibinfo{journal}{\bibinfo{title}{Improvement of daytime land surface
-  skin temperature over arid regions in the ncep gfs model and its impact on
-  satellite data assimilation}}.
-\newblock {\emph{\JournalTitle{Journal of Geophysical Research: Atmospheres}}}
-  \textbf{\bibinfo{volume}{117}} (\bibinfo{year}{2012}).
+\bibitem{timmermans2007intercomparison}
+\bibinfo{author}{Timmermans, W.~J.}, \bibinfo{author}{Kustas, W.~P.},
+  \bibinfo{author}{Anderson, M.~C.} \& \bibinfo{author}{French, A.~N.}
+\newblock \bibinfo{journal}{\bibinfo{title}{An intercomparison of the surface
+  energy balance algorithm for land (sebal) and the two-source energy balance
+  (tseb) modeling schemes}}.
+\newblock {\emph{\JournalTitle{Remote Sensing of Environment}}}
+  \textbf{\bibinfo{volume}{108}}, \bibinfo{pages}{369--384}
+  (\bibinfo{year}{2007}).
 
-\bibitem{koch2016spatial}
-\bibinfo{author}{Koch, J.}, \bibinfo{author}{Siemann, A.},
-  \bibinfo{author}{Stisen, S.} \& \bibinfo{author}{Sheffield, J.}
-\newblock \bibinfo{journal}{\bibinfo{title}{Spatial validation of large-scale
-  land surface models against monthly land surface temperature patterns using
-  innovative performance metrics}}.
-\newblock {\emph{\JournalTitle{Journal of Geophysical Research: Atmospheres}}}
-  \textbf{\bibinfo{volume}{121}}, \bibinfo{pages}{5430--5452}
-  (\bibinfo{year}{2016}).
+\bibitem{mallick2018critical}
+\bibinfo{author}{Mallick, K.} \emph{et~al.}
+\newblock \bibinfo{journal}{\bibinfo{title}{A critical evaluation on the role
+  of aerodynamic and canopy--surface conductance parameterization in seb and
+  svat models for simulating evapotranspiration: A case study in the upper
+  biebrza national park wetland in poland}}.
+\newblock {\emph{\JournalTitle{Water}}} \textbf{\bibinfo{volume}{10}},
+  \bibinfo{pages}{1753} (\bibinfo{year}{2018}).
+
+\bibitem{trebs2021role}
+\bibinfo{author}{Trebs, I.} \emph{et~al.}
+\newblock \bibinfo{journal}{\bibinfo{title}{The role of aerodynamic resistance
+  in thermal remote sensing-based evapotranspiration models}}.
+\newblock {\emph{\JournalTitle{Remote Sensing of Environment}}}
+  \textbf{\bibinfo{volume}{264}}, \bibinfo{pages}{112602}
+  (\bibinfo{year}{2021}).
+
+\bibitem{kustas2009advances}
+\bibinfo{author}{Kustas, W.} \& \bibinfo{author}{Anderson, M.}
+\newblock \bibinfo{journal}{\bibinfo{title}{Advances in thermal infrared remote
+  sensing for land surface modeling}}.
+\newblock {\emph{\JournalTitle{Agricultural and Forest Meteorology}}}
+  \textbf{\bibinfo{volume}{149}}, \bibinfo{pages}{2071--2081}
+  (\bibinfo{year}{2009}).
+
+\bibitem{mallick2018bridging}
+\bibinfo{author}{Mallick, K.} \emph{et~al.}
+\newblock \bibinfo{journal}{\bibinfo{title}{Bridging thermal infrared sensing
+  and physically-based evapotranspiration modeling: From theoretical
+  implementation to validation across an aridity gradient in australian
+  ecosystems}}.
+\newblock {\emph{\JournalTitle{Water Resources Research}}}
+  \textbf{\bibinfo{volume}{54}}, \bibinfo{pages}{3409--3435}
+  (\bibinfo{year}{2018}).
+
+\bibitem{still2021imaging}
+\bibinfo{author}{Still, C.~J.} \emph{et~al.}
+\newblock \bibinfo{journal}{\bibinfo{title}{Imaging canopy temperature:
+  shedding (thermal) light on ecosystem processes}}.
+\newblock {\emph{\JournalTitle{New Phytologist}}}
+  \textbf{\bibinfo{volume}{230}}, \bibinfo{pages}{1746--1753}
+  (\bibinfo{year}{2021}).
 
 \bibitem{kustas2007utility}
 \bibinfo{author}{Kustas, W.~P.}, \bibinfo{author}{Anderson, M.~C.},
@@ -102,6 +138,16 @@
 \newblock {\emph{\JournalTitle{Journal of Climate}}}
   \textbf{\bibinfo{volume}{19}}, \bibinfo{pages}{2867--2881},
   \doiprefix\url{10.1175/JCLI3720.1} (\bibinfo{year}{2006}).
+
+\bibitem{cullen2007energy}
+\bibinfo{author}{Cullen, N.~J.}, \bibinfo{author}{M{\"o}lg, T.},
+  \bibinfo{author}{Kaser, G.}, \bibinfo{author}{Steffen, K.} \&
+  \bibinfo{author}{Hardy, D.~R.}
+\newblock \bibinfo{journal}{\bibinfo{title}{Energy-balance model validation on
+  the top of kilimanjaro, tanzania, using eddy covariance data}}.
+\newblock {\emph{\JournalTitle{Annals of Glaciology}}}
+  \textbf{\bibinfo{volume}{46}}, \bibinfo{pages}{227--233}
+  (\bibinfo{year}{2007}).
 
 \bibitem{baldocchi2001fluxnet}
 \bibinfo{author}{Baldocchi, D.} \emph{et~al.}
@@ -205,33 +251,6 @@
 \newblock {\emph{\JournalTitle{Remote Sensing of Environment}}}
   \textbf{\bibinfo{volume}{136}}, \bibinfo{pages}{234--246}
   (\bibinfo{year}{2013}).
-
-\bibitem{rannik2016random}
-\bibinfo{author}{Rannik, {\"U}.}, \bibinfo{author}{Peltola, O.},
-  \bibinfo{author}{Mammarella, I.} \emph{et~al.}
-\newblock \bibinfo{journal}{\bibinfo{title}{Random uncertainties of flux
-  measurements by the eddy covariance technique}}.
-\newblock {\emph{\JournalTitle{Atmospheric Measurement Techniques}}}
-  (\bibinfo{year}{2016}).
-
-\bibitem{mauder2020surface}
-\bibinfo{author}{Mauder, M.}, \bibinfo{author}{Foken, T.} \&
-  \bibinfo{author}{Cuxart, J.}
-\newblock \bibinfo{journal}{\bibinfo{title}{Surface-energy-balance closure over
-  land: a review}}.
-\newblock {\emph{\JournalTitle{Boundary-Layer Meteorology}}}
-  \textbf{\bibinfo{volume}{177}}, \bibinfo{pages}{395--426}
-  (\bibinfo{year}{2020}).
-
-\bibitem{vickers2010uncertainty}
-\bibinfo{author}{Vickers, D.}, \bibinfo{author}{G{\"o}ckede, M.} \&
-  \bibinfo{author}{Law, B.}
-\newblock \bibinfo{journal}{\bibinfo{title}{Uncertainty estimates for 1-h
-  averaged turbulence fluxes of carbon dioxide, latent heat and sensible
-  heat}}.
-\newblock {\emph{\JournalTitle{Tellus B: Chemical and Physical Meteorology}}}
-  \textbf{\bibinfo{volume}{62}}, \bibinfo{pages}{87--99}
-  (\bibinfo{year}{2010}).
 
 \bibitem{wang_evaluation_2009-1}
 \bibinfo{author}{Wang, K.} \& \bibinfo{author}{Liang, S.}
@@ -413,12 +432,11 @@
   \textbf{\bibinfo{volume}{25}}, \bibinfo{pages}{76--80}
   (\bibinfo{year}{2003}).
 
-\bibitem{foken2004post}
-\bibinfo{author}{Foken, T.} \emph{et~al.}
-\newblock \bibinfo{title}{Post-field data quality control}.
-\newblock In \emph{\bibinfo{booktitle}{Handbook of micrometeorology}},
-  \bibinfo{pages}{181--208} (\bibinfo{publisher}{Springer},
-  \bibinfo{year}{2004}).
+\bibitem{gilberto2020fluxnet2015}
+\bibinfo{author}{Gilberto, P.} \emph{et~al.}
+\newblock \bibinfo{journal}{\bibinfo{title}{The fluxnet2015 dataset and the
+  oneflux processing pipeline for eddy covariance data}}.
+\newblock {\emph{\JournalTitle{Scientific Data}}}  (\bibinfo{year}{2020}).
 
 \bibitem{wan2007collection}
 \bibinfo{author}{Wan, Z.}
@@ -441,6 +459,33 @@
 \newblock {\emph{\JournalTitle{Remote Sensing}}} \textbf{\bibinfo{volume}{9}},
   \bibinfo{pages}{1178}, \doiprefix\url{10.3390/rs9111178}
   (\bibinfo{year}{2017}).
+
+\bibitem{rannik2016random}
+\bibinfo{author}{Rannik, {\"U}.}, \bibinfo{author}{Peltola, O.},
+  \bibinfo{author}{Mammarella, I.} \emph{et~al.}
+\newblock \bibinfo{journal}{\bibinfo{title}{Random uncertainties of flux
+  measurements by the eddy covariance technique}}.
+\newblock {\emph{\JournalTitle{Atmospheric Measurement Techniques}}}
+  (\bibinfo{year}{2016}).
+
+\bibitem{mauder2020surface}
+\bibinfo{author}{Mauder, M.}, \bibinfo{author}{Foken, T.} \&
+  \bibinfo{author}{Cuxart, J.}
+\newblock \bibinfo{journal}{\bibinfo{title}{Surface-energy-balance closure over
+  land: a review}}.
+\newblock {\emph{\JournalTitle{Boundary-Layer Meteorology}}}
+  \textbf{\bibinfo{volume}{177}}, \bibinfo{pages}{395--426}
+  (\bibinfo{year}{2020}).
+
+\bibitem{vickers2010uncertainty}
+\bibinfo{author}{Vickers, D.}, \bibinfo{author}{G{\"o}ckede, M.} \&
+  \bibinfo{author}{Law, B.}
+\newblock \bibinfo{journal}{\bibinfo{title}{Uncertainty estimates for 1-h
+  averaged turbulence fluxes of carbon dioxide, latent heat and sensible
+  heat}}.
+\newblock {\emph{\JournalTitle{Tellus B: Chemical and Physical Meteorology}}}
+  \textbf{\bibinfo{volume}{62}}, \bibinfo{pages}{87--99}
+  (\bibinfo{year}{2010}).
 
 \bibitem{saltelli2017new}
 \bibinfo{author}{Saltelli, A.}, \bibinfo{author}{Albrecht, D.},
