@@ -77,6 +77,14 @@
   \textbf{\bibinfo{volume}{230}}, \bibinfo{pages}{1746--1753}
   (\bibinfo{year}{2021}).
 
+\bibitem{norman1995terminology}
+\bibinfo{author}{Norman, J.~M.} \& \bibinfo{author}{Becker, F.}
+\newblock \bibinfo{journal}{\bibinfo{title}{Terminology in thermal infrared
+  remote sensing of natural surfaces}}.
+\newblock {\emph{\JournalTitle{Agricultural and Forest Meteorology}}}
+  \textbf{\bibinfo{volume}{77}}, \bibinfo{pages}{153--166}
+  (\bibinfo{year}{1995}).
+
 \bibitem{kustas2007utility}
 \bibinfo{author}{Kustas, W.~P.}, \bibinfo{author}{Anderson, M.~C.},
   \bibinfo{author}{Norman, J.~M.} \& \bibinfo{author}{Li, F.}
@@ -86,58 +94,14 @@
   \textbf{\bibinfo{volume}{122}}, \bibinfo{pages}{167--187}
   (\bibinfo{year}{2007}).
 
-\bibitem{norman1995terminology}
-\bibinfo{author}{Norman, J.~M.} \& \bibinfo{author}{Becker, F.}
-\newblock \bibinfo{journal}{\bibinfo{title}{Terminology in thermal infrared
-  remote sensing of natural surfaces}}.
-\newblock {\emph{\JournalTitle{Agricultural and Forest Meteorology}}}
-  \textbf{\bibinfo{volume}{77}}, \bibinfo{pages}{153--166}
-  (\bibinfo{year}{1995}).
-
-\bibitem{wang_estimation_2005-1}
-\bibinfo{author}{Wang, K.}
-\newblock \bibinfo{journal}{\bibinfo{title}{Estimation of surface long wave
-  radiation and broadband emissivity using {Moderate} {Resolution} {Imaging}
-  {Spectroradiometer} ({MODIS}) land surface temperature/emissivity products}}.
-\newblock {\emph{\JournalTitle{Journal of Geophysical Research}}}
-  \textbf{\bibinfo{volume}{110}}, \bibinfo{pages}{D11109},
-  \doiprefix\url{10.1029/2004JD005566} (\bibinfo{year}{2005}).
-
-\bibitem{hulley_quantifying_2012-1}
-\bibinfo{author}{Hulley, G.~C.}, \bibinfo{author}{Hughes, C.~G.} \&
-  \bibinfo{author}{Hook, S.~J.}
-\newblock \bibinfo{journal}{\bibinfo{title}{Quantifying uncertainties in land
-  surface temperature and emissivity retrievals from {ASTER} and {MODIS}
-  thermal infrared data}}.
-\newblock {\emph{\JournalTitle{Journal of Geophysical Research: Atmospheres}}}
-  \textbf{\bibinfo{volume}{117}}, \doiprefix\url{10.1029/2012JD018506}
-  (\bibinfo{year}{2012}).
-
-\bibitem{jin2006improved}
-\bibinfo{author}{Jin, M.} \& \bibinfo{author}{Liang, S.}
-\newblock \bibinfo{journal}{\bibinfo{title}{An improved land surface emissivity
-  parameter for land surface models using global remote sensing observations}}.
-\newblock {\emph{\JournalTitle{Journal of Climate}}}
-  \textbf{\bibinfo{volume}{19}}, \bibinfo{pages}{2867--2881}
-  (\bibinfo{year}{2006}).
-
-\bibitem{wang_evaluation_2009}
-\bibinfo{author}{Wang, K.} \& \bibinfo{author}{Liang, S.}
-\newblock \bibinfo{journal}{\bibinfo{title}{Evaluation of {ASTER} and {MODIS}
-  land surface temperature and emissivity products using long-term surface
-  longwave radiation observations at {SURFRAD} sites}}.
-\newblock {\emph{\JournalTitle{Remote Sensing of Environment}}}
-  \textbf{\bibinfo{volume}{113}}, \bibinfo{pages}{1556--1565},
-  \doiprefix\url{10.1016/j.rse.2009.03.009} (\bibinfo{year}{2009}).
-
-\bibitem{jin_improved_2006-1}
-\bibinfo{author}{Jin, M.} \& \bibinfo{author}{Liang, S.}
-\newblock \bibinfo{journal}{\bibinfo{title}{An {Improved} {Land} {Surface}
-  {Emissivity} {Parameter} for {Land} {Surface} {Models} {Using} {Global}
-  {Remote} {Sensing} {Observations}}}.
-\newblock {\emph{\JournalTitle{Journal of Climate}}}
-  \textbf{\bibinfo{volume}{19}}, \bibinfo{pages}{2867--2881},
-  \doiprefix\url{10.1175/JCLI3720.1} (\bibinfo{year}{2006}).
+\bibitem{stoy2013data}
+\bibinfo{author}{Stoy, P.~C.} \emph{et~al.}
+\newblock \bibinfo{journal}{\bibinfo{title}{A data-driven analysis of energy
+  balance closure across fluxnet research sites: The role of landscape scale
+  heterogeneity}}.
+\newblock {\emph{\JournalTitle{Agricultural and forest meteorology}}}
+  \textbf{\bibinfo{volume}{171}}, \bibinfo{pages}{137--152}
+  (\bibinfo{year}{2013}).
 
 \bibitem{cullen2007energy}
 \bibinfo{author}{Cullen, N.~J.}, \bibinfo{author}{M{\"o}lg, T.},
@@ -190,6 +154,14 @@
 \newblock {\emph{\JournalTitle{Meteorology and Atmospheric Physics}}}
   \textbf{\bibinfo{volume}{77}}, \bibinfo{pages}{19--43}
   (\bibinfo{year}{2001}).
+
+\bibitem{mallick2016canopy}
+\bibinfo{author}{Mallick, K.} \emph{et~al.}
+\newblock \bibinfo{journal}{\bibinfo{title}{Canopy-scale biophysical controls
+  of transpiration and evaporation in the amazon basin}}.
+\newblock {\emph{\JournalTitle{Hydrology and Earth System Sciences}}}
+  \textbf{\bibinfo{volume}{20}}, \bibinfo{pages}{4237--4264}
+  (\bibinfo{year}{2016}).
 
 \bibitem{lhomme_radiative_1988}
 \bibinfo{author}{Lhomme, J.-P.}, \bibinfo{author}{Katerji, N.},
@@ -340,14 +312,6 @@
   \textbf{\bibinfo{volume}{114}}, \doiprefix\url{10.1029/2008JD010257}
   (\bibinfo{year}{2009}).
 
-\bibitem{rotenberg2011distinct}
-\bibinfo{author}{Rotenberg, E.} \& \bibinfo{author}{Yakir, D.}
-\newblock \bibinfo{journal}{\bibinfo{title}{Distinct patterns of changes in
-  surface energy budget associated with forestation in the semiarid region}}.
-\newblock {\emph{\JournalTitle{Global change biology}}}
-  \textbf{\bibinfo{volume}{17}}, \bibinfo{pages}{1536--1548}
-  (\bibinfo{year}{2011}).
-
 \bibitem{wilson2002energy}
 \bibinfo{author}{Wilson, K.} \emph{et~al.}
 \newblock \bibinfo{journal}{\bibinfo{title}{Energy balance closure at fluxnet
@@ -355,15 +319,6 @@
 \newblock {\emph{\JournalTitle{Agricultural and Forest Meteorology}}}
   \textbf{\bibinfo{volume}{113}}, \bibinfo{pages}{223--243}
   (\bibinfo{year}{2002}).
-
-\bibitem{stoy2013data}
-\bibinfo{author}{Stoy, P.~C.} \emph{et~al.}
-\newblock \bibinfo{journal}{\bibinfo{title}{A data-driven analysis of energy
-  balance closure across fluxnet research sites: The role of landscape scale
-  heterogeneity}}.
-\newblock {\emph{\JournalTitle{Agricultural and forest meteorology}}}
-  \textbf{\bibinfo{volume}{171}}, \bibinfo{pages}{137--152}
-  (\bibinfo{year}{2013}).
 
 \bibitem{foken2008energy}
 \bibinfo{author}{Foken, T.}
@@ -399,6 +354,15 @@
   validation best practice protocol. version 1.1}}.
 \newblock {\emph{\JournalTitle{Best Practice for Satellite-Derived Land Product
   Validation}}} \bibinfo{pages}{60} (\bibinfo{year}{2018}).
+
+\bibitem{jin_improved_2006-1}
+\bibinfo{author}{Jin, M.} \& \bibinfo{author}{Liang, S.}
+\newblock \bibinfo{journal}{\bibinfo{title}{An {Improved} {Land} {Surface}
+  {Emissivity} {Parameter} for {Land} {Surface} {Models} {Using} {Global}
+  {Remote} {Sensing} {Observations}}}.
+\newblock {\emph{\JournalTitle{Journal of Climate}}}
+  \textbf{\bibinfo{volume}{19}}, \bibinfo{pages}{2867--2881},
+  \doiprefix\url{10.1175/JCLI3720.1} (\bibinfo{year}{2006}).
 
 \bibitem{mira2007influence}
 \bibinfo{author}{Mira, M.}, \bibinfo{author}{Valor, E.},
@@ -449,6 +413,42 @@
 \bibinfo{author}{Delucchi, L.}
 \newblock \bibinfo{title}{pymodis: from satellite to gis maps}.
 \newblock In \emph{\bibinfo{booktitle}{FOSS4G 2014}} (\bibinfo{year}{2014}).
+
+\bibitem{wang_estimation_2005-1}
+\bibinfo{author}{Wang, K.}
+\newblock \bibinfo{journal}{\bibinfo{title}{Estimation of surface long wave
+  radiation and broadband emissivity using {Moderate} {Resolution} {Imaging}
+  {Spectroradiometer} ({MODIS}) land surface temperature/emissivity products}}.
+\newblock {\emph{\JournalTitle{Journal of Geophysical Research}}}
+  \textbf{\bibinfo{volume}{110}}, \bibinfo{pages}{D11109},
+  \doiprefix\url{10.1029/2004JD005566} (\bibinfo{year}{2005}).
+
+\bibitem{hulley_quantifying_2012-1}
+\bibinfo{author}{Hulley, G.~C.}, \bibinfo{author}{Hughes, C.~G.} \&
+  \bibinfo{author}{Hook, S.~J.}
+\newblock \bibinfo{journal}{\bibinfo{title}{Quantifying uncertainties in land
+  surface temperature and emissivity retrievals from {ASTER} and {MODIS}
+  thermal infrared data}}.
+\newblock {\emph{\JournalTitle{Journal of Geophysical Research: Atmospheres}}}
+  \textbf{\bibinfo{volume}{117}}, \doiprefix\url{10.1029/2012JD018506}
+  (\bibinfo{year}{2012}).
+
+\bibitem{jin2006improved}
+\bibinfo{author}{Jin, M.} \& \bibinfo{author}{Liang, S.}
+\newblock \bibinfo{journal}{\bibinfo{title}{An improved land surface emissivity
+  parameter for land surface models using global remote sensing observations}}.
+\newblock {\emph{\JournalTitle{Journal of Climate}}}
+  \textbf{\bibinfo{volume}{19}}, \bibinfo{pages}{2867--2881}
+  (\bibinfo{year}{2006}).
+
+\bibitem{wang_evaluation_2009}
+\bibinfo{author}{Wang, K.} \& \bibinfo{author}{Liang, S.}
+\newblock \bibinfo{journal}{\bibinfo{title}{Evaluation of {ASTER} and {MODIS}
+  land surface temperature and emissivity products using long-term surface
+  longwave radiation observations at {SURFRAD} sites}}.
+\newblock {\emph{\JournalTitle{Remote Sensing of Environment}}}
+  \textbf{\bibinfo{volume}{113}}, \bibinfo{pages}{1556--1565},
+  \doiprefix\url{10.1016/j.rse.2009.03.009} (\bibinfo{year}{2009}).
 
 \bibitem{bahir_evaluation_2017}
 \bibinfo{author}{Bahir, M.} \emph{et~al.}

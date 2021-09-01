@@ -7,30 +7,30 @@ Database file #2: not_indexed_ref.bib
 Warning--I didn't find a database entry for "krishnan2015comparison"
 You've used 58 entries,
             2380 wiz_defined-function locations,
-            1343 strings with 22557 characters,
-and the built_in function-call counts, 23094 in all, are:
+            1341 strings with 22690 characters,
+and the built_in function-call counts, 23098 in all, are:
 = -- 1650
 > -- 600
 < -- 1
 + -- 300
 - -- 150
 * -- 2955
-:= -- 2565
+:= -- 2567
 add.period$ -- 174
 call.type$ -- 58
 change.case$ -- 62
 chr.to.int$ -- 0
 cite$ -- 58
-duplicate$ -- 2029
-empty$ -- 2073
+duplicate$ -- 2030
+empty$ -- 2074
 format.name$ -- 200
-if$ -- 4545
+if$ -- 4546
 int.to.chr$ -- 0
 int.to.str$ -- 58
 missing$ -- 484
 newline$ -- 300
 num.names$ -- 58
-pop$ -- 334
+pop$ -- 333
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
