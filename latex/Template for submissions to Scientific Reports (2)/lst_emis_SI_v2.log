@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2020.7.17)  2 SEP 2021 19:04
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2020.7.17)  7 SEP 2021 09:56
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1416,25 +1416,25 @@ Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 
 LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <10> not available
 (Font)              Font shape `T1/ptm/b/n' tried instead on input line 213.
-<./Plots/Brookings_se_2005-08.png, id=177, 559.08875pt x 365.365pt>
+<./Plots/Brookings_se_2005-08.png, id=176, 559.08875pt x 365.365pt>
 File: ./Plots/Brookings_se_2005-08.png Graphic file (type png)
 <use ./Plots/Brookings_se_2005-08.png>
 Package pdftex.def Info: ./Plots/Brookings_se_2005-08.png  used on input line 2
 16.
 (pdftex.def)             Requested size: 225.21626pt x 147.18036pt.
-<./Plots/Brookings_le_2005-08.png, id=179, 559.08875pt x 365.365pt>
+<./Plots/Brookings_le_2005-08.png, id=178, 559.08875pt x 365.365pt>
 File: ./Plots/Brookings_le_2005-08.png Graphic file (type png)
 <use ./Plots/Brookings_le_2005-08.png>
 Package pdftex.def Info: ./Plots/Brookings_le_2005-08.png  used on input line 2
 19.
 (pdftex.def)             Requested size: 225.21626pt x 147.18036pt.
-<./Plots/Brookings_emmi_twoequ.png, id=180, 534.99875pt x 357.335pt>
+<./Plots/Brookings_emmi_twoequ.png, id=179, 534.99875pt x 357.335pt>
 File: ./Plots/Brookings_emmi_twoequ.png Graphic file (type png)
 <use ./Plots/Brookings_emmi_twoequ.png>
 Package pdftex.def Info: ./Plots/Brookings_emmi_twoequ.png  used on input line 
 222.
 (pdftex.def)             Requested size: 225.21626pt x 150.42863pt.
-<./Plots/Yatir_emmi_twoequ.png, id=181, 548.0475pt x 357.335pt>
+<./Plots/Yatir_emmi_twoequ.png, id=180, 548.0475pt x 357.335pt>
 File: ./Plots/Yatir_emmi_twoequ.png Graphic file (type png)
 <use ./Plots/Yatir_emmi_twoequ.png>
 Package pdftex.def Info: ./Plots/Yatir_emmi_twoequ.png  used on input line 225.
@@ -1453,30 +1453,30 @@ Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `math shift' on input line 232.
 
-<./Plots/Ts_Talocalleqseq.png, id=230, 975.645pt x 462.72874pt>
+<./Plots/Ts_Talocalleqseq.png, id=229, 975.645pt x 462.72874pt>
 File: ./Plots/Ts_Talocalleqseq.png Graphic file (type png)
 <use ./Plots/Ts_Talocalleqseq.png>
 Package pdftex.def Info: ./Plots/Ts_Talocalleqseq.png  used on input line 235.
 (pdftex.def)             Requested size: 341.48087pt x 161.95749pt.
-<./Plots/As_epsmodis_seq_modis2017.png, id=241, 425.59pt x 281.05pt>
+<./Plots/As_epsmodis_seq_modis2017.png, id=240, 425.59pt x 281.05pt>
 File: ./Plots/As_epsmodis_seq_modis2017.png Graphic file (type png)
 <use ./Plots/As_epsmodis_seq_modis2017.png>
 Package pdftex.def Info: ./Plots/As_epsmodis_seq_modis2017.png  used on input l
 ine 247.
 (pdftex.def)             Requested size: 225.21626pt x 148.72849pt.
-<./Plots/as_modiseps_leq_modis2017.png, id=242, 425.59pt x 281.05pt>
+<./Plots/as_modiseps_leq_modis2017.png, id=241, 425.59pt x 281.05pt>
 File: ./Plots/as_modiseps_leq_modis2017.png Graphic file (type png)
 <use ./Plots/as_modiseps_leq_modis2017.png>
 Package pdftex.def Info: ./Plots/as_modiseps_leq_modis2017.png  used on input l
 ine 250.
 (pdftex.def)             Requested size: 225.21626pt x 148.72849pt.
-<./Plots/AS_optps_seq_modis2017.png, id=243, 425.59pt x 281.05pt>
+<./Plots/AS_optps_seq_modis2017.png, id=242, 425.59pt x 281.05pt>
 File: ./Plots/AS_optps_seq_modis2017.png Graphic file (type png)
 <use ./Plots/AS_optps_seq_modis2017.png>
 Package pdftex.def Info: ./Plots/AS_optps_seq_modis2017.png  used on input line
  257.
 (pdftex.def)             Requested size: 225.21626pt x 148.72849pt.
-<./Plots/AS_optps_leq_modis.png, id=244, 425.59pt x 281.05pt>
+<./Plots/AS_optps_leq_modis.png, id=243, 425.59pt x 281.05pt>
 File: ./Plots/AS_optps_leq_modis.png Graphic file (type png)
 <use ./Plots/AS_optps_leq_modis.png>
 Package pdftex.def Info: ./Plots/AS_optps_leq_modis.png  used on input line 260
@@ -1504,22 +1504,22 @@ Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `math shift' on input line 277.
 
-<./Plots/brook_mx_c.png, id=279, 550.055pt x 365.365pt>
+<./Plots/brook_mx_c.png, id=278, 550.055pt x 365.365pt>
 File: ./Plots/brook_mx_c.png Graphic file (type png)
 <use ./Plots/brook_mx_c.png>
 Package pdftex.def Info: ./Plots/brook_mx_c.png  used on input line 282.
 (pdftex.def)             Requested size: 225.21626pt x 149.59435pt.
-<./Plots/as_mx_c.png, id=280, 540.0175pt x 365.365pt>
+<./Plots/as_mx_c.png, id=279, 540.0175pt x 365.365pt>
 File: ./Plots/as_mx_c.png Graphic file (type png)
 <use ./Plots/as_mx_c.png>
 Package pdftex.def Info: ./Plots/as_mx_c.png  used on input line 285.
 (pdftex.def)             Requested size: 225.21626pt x 152.37627pt.
-<./Plots/hs_mx_c.png, id=281, 550.055pt x 365.365pt>
+<./Plots/hs_mx_c.png, id=280, 550.055pt x 365.365pt>
 File: ./Plots/hs_mx_c.png Graphic file (type png)
 <use ./Plots/hs_mx_c.png>
 Package pdftex.def Info: ./Plots/hs_mx_c.png  used on input line 290.
 (pdftex.def)             Requested size: 225.21626pt x 149.59435pt.
-<./Plots/tum_mx_c.png, id=282, 550.055pt x 365.365pt>
+<./Plots/tum_mx_c.png, id=281, 550.055pt x 365.365pt>
 File: ./Plots/tum_mx_c.png Graphic file (type png)
 <use ./Plots/tum_mx_c.png>
 Package pdftex.def Info: ./Plots/tum_mx_c.png  used on input line 293.
@@ -1547,17 +1547,17 @@ Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `math shift' on input line 337.
 
-<./Plots/Two_box_unc.png, id=295, 1003.75pt x 575.14874pt>
+<./Plots/Two_box_unc.png, id=294, 1003.75pt x 575.14874pt>
 File: ./Plots/Two_box_unc.png Graphic file (type png)
 <use ./Plots/Two_box_unc.png>
 Package pdftex.def Info: ./Plots/Two_box_unc.png  used on input line 351.
 (pdftex.def)             Requested size: 325.31154pt x 186.40334pt.
-<./Plots/TsTa_leq_unc1.png, id=296, 570.13pt x 502.87875pt>
+<./Plots/TsTa_leq_unc1.png, id=295, 570.13pt x 502.87875pt>
 File: ./Plots/TsTa_leq_unc1.png Graphic file (type png)
 <use ./Plots/TsTa_leq_unc1.png>
 Package pdftex.def Info: ./Plots/TsTa_leq_unc1.png  used on input line 361.
 (pdftex.def)             Requested size: 200.19054pt x 176.57034pt.
-<./Plots/TsTa_seq_unc1.png, id=297, 570.13pt x 502.87875pt>
+<./Plots/TsTa_seq_unc1.png, id=296, 570.13pt x 502.87875pt>
 File: ./Plots/TsTa_seq_unc1.png Graphic file (type png)
 <use ./Plots/TsTa_seq_unc1.png>
 Package pdftex.def Info: ./Plots/TsTa_seq_unc1.png  used on input line 368.
@@ -1566,12 +1566,12 @@ Package pdftex.def Info: ./Plots/TsTa_seq_unc1.png  used on input line 368.
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 [5 <./Plots/Ts_Talocalleqseq.png>]
-<./Plots/hs_mxc_rlup.png, id=369, 530.98375pt x 365.365pt>
+<./Plots/hs_mxc_rlup.png, id=368, 530.98375pt x 365.365pt>
 File: ./Plots/hs_mxc_rlup.png Graphic file (type png)
 <use ./Plots/hs_mxc_rlup.png>
 Package pdftex.def Info: ./Plots/hs_mxc_rlup.png  used on input line 400.
 (pdftex.def)             Requested size: 225.21626pt x 154.96866pt.
-<./Plots/hs_ebc.png, id=370, 518.93875pt x 365.365pt>
+<./Plots/hs_ebc.png, id=369, 518.93875pt x 365.365pt>
 File: ./Plots/hs_ebc.png Graphic file (type png)
 <use ./Plots/hs_ebc.png>
 Package pdftex.def Info: ./Plots/hs_ebc.png  used on input line 403.
@@ -1871,12 +1871,12 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<./Plots/hS_seq_2018-05.png, id=552, 559.08875pt x 365.365pt>
+<./Plots/hS_seq_2018-05.png, id=551, 559.08875pt x 365.365pt>
 File: ./Plots/hS_seq_2018-05.png Graphic file (type png)
 <use ./Plots/hS_seq_2018-05.png>
 Package pdftex.def Info: ./Plots/hS_seq_2018-05.png  used on input line 683.
 (pdftex.def)             Requested size: 225.21626pt x 147.18036pt.
-<./Plots/hS_le_2018-05.png, id=553, 559.08875pt x 365.365pt>
+<./Plots/hS_le_2018-05.png, id=552, 559.08875pt x 365.365pt>
 File: ./Plots/hS_le_2018-05.png Graphic file (type png)
 <use ./Plots/hS_le_2018-05.png>
 Package pdftex.def Info: ./Plots/hS_le_2018-05.png  used on input line 686.
@@ -1886,7 +1886,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 682--691
 
  []
 
-<./Plots/Alice_spring_longw.png, id=554, 547.04375pt x 465.74pt>
+<./Plots/Alice_spring_longw.png, id=553, 547.04375pt x 465.74pt>
 File: ./Plots/Alice_spring_longw.png Graphic file (type png)
 <use ./Plots/Alice_spring_longw.png>
 Package pdftex.def Info: ./Plots/Alice_spring_longw.png  used on input line 700
@@ -1894,7 +1894,7 @@ Package pdftex.def Info: ./Plots/Alice_spring_longw.png  used on input line 700
 (pdftex.def)             Requested size: 237.72913pt x 202.39627pt.
 LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <9> not available
 (Font)              Font shape `T1/ptm/b/n' tried instead on input line 701.
-<./Plots/TUM_longw.png, id=555, 547.04375pt x 465.74pt>
+<./Plots/TUM_longw.png, id=554, 547.04375pt x 465.74pt>
 File: ./Plots/TUM_longw.png Graphic file (type png)
 <use ./Plots/TUM_longw.png>
 Package pdftex.def Info: ./Plots/TUM_longw.png  used on input line 706.
@@ -1902,13 +1902,13 @@ Package pdftex.def Info: ./Plots/TUM_longw.png  used on input line 706.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<./Plots/Alice_spring_Ts_sensitivity_2005.png, id=558, 569.12625pt x 425.59pt>
+<./Plots/Alice_spring_Ts_sensitivity_2005.png, id=557, 569.12625pt x 425.59pt>
 File: ./Plots/Alice_spring_Ts_sensitivity_2005.png Graphic file (type png)
 <use ./Plots/Alice_spring_Ts_sensitivity_2005.png>
 Package pdftex.def Info: ./Plots/Alice_spring_Ts_sensitivity_2005.png  used on 
 input line 718.
 (pdftex.def)             Requested size: 237.72913pt x 177.77248pt.
-<./Plots/Tum_Ts_sensitivity_2016.png, id=559, 569.12625pt x 425.59pt>
+<./Plots/Tum_Ts_sensitivity_2016.png, id=558, 569.12625pt x 425.59pt>
 File: ./Plots/Tum_Ts_sensitivity_2016.png Graphic file (type png)
 <use ./Plots/Tum_Ts_sensitivity_2016.png>
 Package pdftex.def Info: ./Plots/Tum_Ts_sensitivity_2016.png  used on input lin
@@ -1917,12 +1917,12 @@ e 724.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<./Plots/AS_RMSE_2018.png, id=564, 513.92pt x 428.60126pt>
+<./Plots/AS_RMSE_2018.png, id=563, 513.92pt x 428.60126pt>
 File: ./Plots/AS_RMSE_2018.png Graphic file (type png)
 <use ./Plots/AS_RMSE_2018.png>
 Package pdftex.def Info: ./Plots/AS_RMSE_2018.png  used on input line 745.
 (pdftex.def)             Requested size: 237.72913pt x 198.2642pt.
-<./Plots/tum_RMSE_2017.png, id=565, 513.92pt x 437.635pt>
+<./Plots/tum_RMSE_2017.png, id=564, 513.92pt x 437.635pt>
 File: ./Plots/tum_RMSE_2017.png Graphic file (type png)
 <use ./Plots/tum_RMSE_2017.png>
 Package pdftex.def Info: ./Plots/tum_RMSE_2017.png  used on input line 751.
@@ -1930,7 +1930,7 @@ Package pdftex.def Info: ./Plots/tum_RMSE_2017.png  used on input line 751.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<./Plots/hs_enb.png, id=566, 954.56625pt x 543.02875pt>
+<./Plots/hs_enb.png, id=565, 954.56625pt x 543.02875pt>
 File: ./Plots/hs_enb.png Graphic file (type png)
 <use ./Plots/hs_enb.png>
 Package pdftex.def Info: ./Plots/hs_enb.png  used on input line 762.
@@ -1938,7 +1938,7 @@ Package pdftex.def Info: ./Plots/hs_enb.png  used on input line 762.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<Plots/as_mx+c.png, id=567, 1003.75pt x 714.67pt>
+<Plots/as_mx+c.png, id=566, 1003.75pt x 714.67pt>
 File: Plots/as_mx+c.png Graphic file (type png)
 <use Plots/as_mx+c.png>
 Package pdftex.def Info: Plots/as_mx+c.png  used on input line 770.
@@ -1991,10 +1991,10 @@ tic/uhvr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/symbol/usyr.pfb><
 ve/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/share/texlive/texmf-dist/f
 onts/type1/urw/times/utmr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/
 times/utmri8a.pfb>
-Output written on lst_emis_SI_v2.pdf (19 pages, 1076390 bytes).
+Output written on lst_emis_SI_v2.pdf (19 pages, 1076308 bytes).
 PDF statistics:
- 680 PDF objects out of 1000 (max. 8388607)
- 552 compressed objects within 6 object streams
+ 679 PDF objects out of 1000 (max. 8388607)
+ 551 compressed objects within 6 object streams
  122 named destinations out of 1000 (max. 500000)
  46321 words of extra memory for PDF output out of 51595 (max. 10000000)
 
