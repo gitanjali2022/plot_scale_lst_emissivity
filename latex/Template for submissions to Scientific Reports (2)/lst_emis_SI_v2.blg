@@ -4,10 +4,17 @@ The top-level auxiliary file: lst_emis_SI_v2.aux
 The style file: naturemag-doi.bst
 Database file #1: lstpaper.bib
 Database file #2: not_indexed_ref.bib
-Warning--I didn't find a database entry for "krishnan2015comparison"
+Repeated entry---line 676 of file not_indexed_ref.bib
+ : @article{chu2021representativeness
+ :                                   ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 730 of file not_indexed_ref.bib
+ : @article{stoy2013data
+ :                      ,
+I'm skipping whatever remains of this entry
 You've used 58 entries,
             2380 wiz_defined-function locations,
-            1341 strings with 22690 characters,
+            1340 strings with 22668 characters,
 and the built_in function-call counts, 23098 in all, are:
 = -- 1650
 > -- 600
@@ -46,4 +53,4 @@ warning$ -- 0
 while$ -- 146
 width$ -- 60
 write$ -- 659
-(There was 1 warning)
+(There were 2 error messages)
