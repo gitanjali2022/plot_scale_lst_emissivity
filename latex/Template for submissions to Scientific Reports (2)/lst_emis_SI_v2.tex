@@ -272,10 +272,11 @@ Comparison of estimated plot-scale LST using $\epsilon_{MODIS}$ at satellite ove
 
 \subsection{Plot-scale $\epsilon$ estimation considering intercept}
 In order to account for the possibility of bias between radiometric and aerodynamic measurements (e.g. due to footprint mismatch of measuring devices or instrument bias) we also fitted Eq. \ref{eq_H2}, i.e. a relationship allowing for an intercept in the linear fit between $H$ and $\Delta T$ (instead of forcing it through zero as in Fig. \ref{fig:HDT}) for plot-scale $\epsilon$ estimation. As shown in Fig. \ref{fig:2_mx_c}, the plot-scale $\epsilon$ values resulting from this approach ($H=m\times\Delta T + c$) were substantially closer to the landscape-scale $\epsilon$ values compared with the approach without intercept ($H=m\times\Delta T$), as shown in Table (\ref{table:eps_comp}). 
-The resulting intercept values ranged from -24 to +258 W m$^{-2}$, i.e. up to 70\% of the maximum observed sensible heat flux at a site (e.g. at HS and TUM). %SJS: I don't think we can say much more, as the alleged pattern between closed and open canopies does not work out, given the negative intercept at Yatir and Daly uncleared. Also AR is not really a closed canopy.
+The resulting intercept values ranged from -24 to +258 W m$^{-2}$, i.e. up to 70\% of the maximum observed sensible heat flux at a site (e.g. at HS and TUM).  %SJS: I don't think we can say much more, as the alleged pattern between closed and open canopies does not work out, given the negative intercept at Yatir and Daly uncleared. Also AR is not really a closed canopy. Therefore, I commented out the rest.
  %for BR, a grassland, was 12\% of the maximum observed sensible heat flux ($H_{max}$) and for a mulga shrubland (AS) it was 20\% of $H_{max}$ (Fig. \ref{fig:2_mx_c}). The intercept values for HS and LF were very high (70\% of $H_{max}$) and for TUM is 7\% of $H_{max}$. The intercept value is lowest for a homogenous land cover like TUM and highest for heterogeneous canopy like HS, LF. 
- The comparison of the resulting plot-scale LST with landscape scale LST values reveals an increase in bias at most sites compared to the LST obtained using $\epsilon$ without an intercept as shown in Table (\ref{table:eps_comp}). 
-%The $\epsilon$ value estimated using simplified equation with allowing an intercept in resulted in substantial reduction in $\epsilon$ (lower by 12.7$\%$)
+ Note, however, that if we assume just a slight under-estimation of upwelling longwave radiation by  40 W m$^-{2}$ (approx 8\% of observed $R_{lup}$), the intercept at HS was reduced from 237 to 17  W m$^-{2}$ (Fig. \ref{fig:mxc_dis}a). In this study, we did not apply any energy balance closure scheme, as a Bowen ratio closure resulted in even greater intercept values (Fig. \ref{fig:mxc_dis}b). %SJS: You should not introduce new figures in the discussion, unless they are not part of the main results, in which case they belong in the SI. It might we worth mentioning what happened if you closed the energy balance through upwelling longwave. Actually, it seems that the Bowen ratio closure increased the R2 while increasing the intercept, so I wonder what would happen if we assumed a 40 W under-estimation of upwelling longwave and then did the Bowen ratio closure on top of this.
+ The comparison of the resulting plot-scale LST with landscape scale LST values reveals an increase in bias at most sites compared to the LST obtained using $\epsilon$ without an intercept, as shown in Table (\ref{table:eps_comp}). 
+
 \begin{figure}[h!]
 \begin{subfigure}{\textwidth}
 \begin{overpic}[width=0.45\textwidth]{brook_mx_c} % 
@@ -295,9 +296,24 @@ The resulting intercept values ranged from -24 to +258 W m$^{-2}$, i.e. up to 70
    \end{subfigure}
  \setlength{\belowcaptionskip}{-3ex}
 \caption{Sensible heat flux as a function of surface-to-air temperature difference based on Eq. \ref{eq_H2} ($H = m (T_{s} - T_{a}) + c$). $\epsilon$ was fitted to minimise RMSE of a robust linear regression. The title of the plot contains site, year, month and the fitted $\epsilon$-value. The legend correspond to Fig. \ref{fig:HDT}. %and c is interpreted as the $H$ from the aerodynamic footprint which is not seen by the radiometer. %SJS: I removed the last bit, as this does not belong in the figure caption, rather in the discussion.
+	The colour code indicates the degree of energy imbalance of each data point (i.e. $R_{net} - H - LE - G$). %SJS: please check if this is correct. 
 }
 \label{fig:2_mx_c}
 \end{figure}
+
+\begin{figure}[h!]
+	\begin{overpic}[width=0.45\textwidth]{hs_mxc_rlup} % 
+		\put (18,58){\textbf{a}}
+	\end{overpic}
+	\begin{overpic}[width=0.45\textwidth]{hs_ebc} % ,grid,tics=10
+		\put (18,58){\textbf{b}}
+	\end{overpic}
+	\setlength{\belowcaptionskip}{-3ex}
+	\caption{Sensible heat flux as a function of surface-to-air temperature difference based on Eq. \ref{eq_H2} ($H = m (T_{s} - T_{a}) + c$). Same analysis and legends as in Fig. \ref{fig:2_mx_c}c), but (a) After adding 40 ($W m^{-2}$) to measured $R_{lup}$, and (b) after closing the energy imbalance using a Bowen ratio closure scheme. %SJS: Insights to be gained belong in the main text, so I removed them.
+	}
+	\label{fig:mxc_dis}
+\end{figure}
+
  
 \begin{table}[h!]
 \centering
@@ -335,7 +351,7 @@ YA & 0.974 & 0.855 & -3.45 & 0.93 & 0.793 & -0.582 & 0.873 & 0.826 & 0.073 & -22
 \end{table}
 
 \subsection{Uncertainty in plot-scale $\epsilon$ and LST}
-Each of the observed input variables used for the estimation of plot-scale $\epsilon$ and LST has a certain level of measurement uncertainty associated with it. Here we present an exemplary results for Alice Springs, which showed the highest correlation between plot-scale and landscape scale LST estimations (Table \textbf{SI2}). 
+Each of the observed input variables used for the estimation of plot-scale $\epsilon$ and LST has a certain level of measurement uncertainty associated with it. Here we present exemplary results for Alice Springs, which showed the highest correlation between plot-scale and landscape scale LST estimations (Table \textbf{SI2}). 
 %The box plot shows range of values such that any repetition of the flux measurement within the error bounds of input parameters will produce a new result, which will be within the interval shown by the boxplot. 
 The uncertainty in plot-scale $\epsilon$ estimated using Eq. (\ref{eq_Tleq})  without allowing an intercept for $H(\Delta  T)$ ranged between 0.68 and 0.98. The short equation (Eq.\ref{eq_Tseq}) resulted in constrained values between 0.94 and 0.99 shown by the black boxes (Fig. \ref{fig:eps_unc1}a). The uncertainty in $\epsilon$ is propagated to obtain hourly uncertainty in $T_{s} - T_{a}$ using Eq. (\ref{eq_Tleq}) and Eq. (\ref{eq_Tseq} as shown in Fig. \ref{fig:eps_unc1}b, c. The uncertainty range for plot-scale LST was quite similar for both long and short equation (blue and black boxes in Fig. \ref{fig:eps_unc1}b, c). The uncertainty in $T_{s} - T_{a}$ increased when landscape-scale $\epsilon$ was used as shown by the orange boxes in Fig. \ref{fig:eps_unc1}b, c.
 %is shown using in Fig. (\ref{fig:eps_unc1}b) and Fig. (\ref{fig:eps_unc1}c). $T_{s}$ estimated using Eq. (\ref{eq_Tleq}) and Eq. (\ref{eq_tseq}) is shown in blue and black. The uncertainty range of hourly $\Delta$ T is high using fluxes error bounds with constant $\epsilon$ (MODIS based) shown as orange boxes. The range of $T_{s} - T_{a}$ uncertainty is alomst similar for Eq. (\ref{eq_leq}) and Eq. (\ref{eq_seq}) shown by blue and black boxes respectively. However, the range of $T_{s}$ estimated using Eq. (\ref{eq_leq}) is higher due to the lower value of optimised emissivity (Eq. (\ref{eq_Tleq})). The use of MODIS based constant $\epsilon$ leads to greater bias in hourly estimate of $\Delta$T
@@ -396,18 +412,6 @@ The lower $\epsilon$ value using long equation for sparse canopy (Table \ref{tab
 % Limitation:surface energy balance closure.
 %\cite{marcolla2018geometry,rotenberg2011distinct}
 Surface heterogeneity has also been recognized as one of the potential causes for the lack of energy balance closure observed at most ECS \cite{wilson2002energy, stoy2013data} at diurnal scales. Therefore, as a prerequisite the observed turbulent fluxes are corrected using an energy balance closure scheme \cite{foken2008energy} before use. However, in our analysis the use of an energy balance closure scheme (based on Bowen ratio) led to much lower values of plot-scale $\epsilon$ using Holmes approach. Other studies on plot-scale $\epsilon$ estimation have also used the observed fluxes without correction\cite{chen2003surface, holmes_land_2009-1,juang2007separating,maes2019potential}. The use of  an energy balance closure scheme for plot-scale $\epsilon$ estimation led to an increase in positive intercept (sparse canopy, Fig. \ref{fig:2_mx_c}). We also looked into the intercept of $H(\Delta T)$ by closing energy imbalance using Bowen ratio closure scheme \cite{foken2008energy} which result into higher intercept as shown in Fig \ref{fig:mxc_dis}b. These results show that the relation between intercept in $H(\Delta T)$ and lack of energy balance closure is not conclusive.
-\begin{figure}[h!]
-\begin{overpic}[width=0.45\textwidth]{hs_mxc_rlup} % 
-  \put (18,58){\textbf{a}}
-   \end{overpic}
-   \begin{overpic}[width=0.45\textwidth]{hs_ebc} % ,grid,tics=10
-  \put (18,58){\textbf{b}}
-   \end{overpic}
- \setlength{\belowcaptionskip}{-3ex}
-\caption{  $ H (\Delta T)$ plot using robust linear fit (allowing intercept) (a) By adding 40 ($W m^{-2}$) to measured $R_{lup}$ led to significant reduction in the intercept from 294 $Wm^{-2}$ (Fig. \ref{fig:2_mx_c}c) to 17 $Wm^{-2}$ with increase in $T_{s} - T_{a}$. (b) By closing the energy imbalance using Bowen ratio closure scheme, the intercept is increased from 294 $Wm^{-2}$ (Fig. \ref{fig:2_mx_c} c) to 369 $Wm^{-2}$. The legends correspond to Fig. \ref{fig:2_mx_c} }
-\label{fig:mxc_dis}
-\end{figure}
-
 
 Comparison of plot-scale LST with MODIS LST resulted into very high bias for sparse canopy which is in agreement with previous studies where the bias for sparse canopy reached upto 12$K$ \cite{guillevic2018land}. Plot-scale LST estimates using plot-scale $\epsilon$ reduced the bias in comparson to MODIS LST as shown in Table \textbf{\ref{table:SI2_optlstandmod}}. The use of plot-scale $\epsilon$ also reduces the uncertainty in diurnal LST in comparson to  landscape scale $\epsilon$ (Fig. \ref{fig:eps_unc1}b,c). However, LST estimated using plot-scale $\epsilon$ considering  foot print mismatch ($H=m*\Delta T +c$) resulted into increase in bias for most of the study sites as shown in Table \ref{table:eps_comp}. The increase in bias could be attributed to implicit consideration of spatial heterogeneity (by accepting intercept) at plot-scale, whereas, MODIS LST (landscape scale) are integrated pixel information considering radiating signal from a homogeneous surface.
 
