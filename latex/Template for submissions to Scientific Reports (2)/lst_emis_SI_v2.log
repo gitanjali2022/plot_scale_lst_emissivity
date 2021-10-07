@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2019/dev/Debian) (preloaded format=pdflatex 2021.9.1)  6 OCT 2021 21:37
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2019/dev/Debian) (preloaded format=pdflatex 2021.9.1)  7 OCT 2021 13:54
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1443,221 +1443,219 @@ ts/hs_ebc.png>]
 Underfull \vbox (badness 1533) has occurred while \output is active []
 
  [8]
+[9 <./Plots/Two_box_unc.png> <./Plots/TsTa_leq_unc1.png> <./Plots/TsTa_seq_unc1
+.png>]
 LaTeX Font Info:    Font shape `T1/phv/bx/it' in size <9> not available
-(Font)              Font shape `T1/phv/b/it' tried instead on input line 458.
+(Font)              Font shape `T1/phv/b/it' tried instead on input line 467.
 LaTeX Font Info:    Font shape `T1/phv/b/it' in size <9> not available
-(Font)              Font shape `T1/phv/b/sl' tried instead on input line 458.
+(Font)              Font shape `T1/phv/b/sl' tried instead on input line 467.
 
 
 Package hyperref Warning: Difference (2) between bookmark levels is greater 
-(hyperref)                than one, level fixed on input line 458.
+(hyperref)                than one, level fixed on input line 467.
 
 
-Underfull \vbox (badness 3168) has occurred while \output is active []
-
- [9 <./Plots/Two_box_unc.png> <./Plots/TsTa_leq_unc1.png> <./Plots/TsTa_seq_unc
-1.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 476--476
+Underfull \hbox (badness 10000) in paragraph at lines 485--485
 []|\T1/ptm/b/n/10 latitute,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 476--477
+Underfull \hbox (badness 10000) in paragraph at lines 485--486
 []|\T1/ptm/b/n/10 Time-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 477--477
+Underfull \hbox (badness 10000) in paragraph at lines 486--486
 []|\T1/ptm/b/n/10 longwave
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 477--478
+Underfull \hbox (badness 10000) in paragraph at lines 486--487
 \T1/ptm/b/n/10 in-stal-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 477--478
+Underfull \hbox (badness 10000) in paragraph at lines 486--487
 \T1/ptm/b/n/10 la-tion
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 477--478
+Underfull \hbox (badness 10000) in paragraph at lines 486--487
 \T1/ptm/b/n/10 height
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 479--479
+Underfull \hbox (badness 10000) in paragraph at lines 488--488
 []|\T1/ptm/m/n/10 (+20) -17.1507,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 479--479
+Underfull \hbox (badness 10000) in paragraph at lines 488--488
 []|\T1/ptm/m/n/10 (+20) 2016-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 481--481
+Underfull \hbox (badness 10000) in paragraph at lines 490--490
 []|\T1/ptm/m/n/10 (+20) Alice Springs
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 481--481
+Underfull \hbox (badness 10000) in paragraph at lines 490--490
 []|\T1/ptm/m/n/10 (+20) -22.2828,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 481--481
+Underfull \hbox (badness 10000) in paragraph at lines 490--490
 []|\T1/ptm/m/n/10 (+20) Mulga wood-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 481--481
+Underfull \hbox (badness 10000) in paragraph at lines 490--490
 []|\T1/ptm/m/n/10 (+20) 2016-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 483--483
+Underfull \hbox (badness 10000) in paragraph at lines 492--492
 []|\T1/ptm/m/n/10 (+20) -22.2870,
  []
 
 
-Underfull \hbox (badness 7468) in paragraph at lines 483--483
+Underfull \hbox (badness 7468) in paragraph at lines 492--492
 []|\T1/ptm/m/n/10 (+20) Grassy mulga
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 483--483
+Underfull \hbox (badness 10000) in paragraph at lines 492--492
 \T1/ptm/m/n/10 (+20) wood-land,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 483--483
+Underfull \hbox (badness 10000) in paragraph at lines 492--492
 \T1/ptm/m/n/10 (+20) Corym-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 483--483
+Underfull \hbox (badness 10000) in paragraph at lines 492--492
 \T1/ptm/m/n/10 (+20) bia/Triodia
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 483--483
+Underfull \hbox (badness 10000) in paragraph at lines 492--492
 []|\T1/ptm/m/n/10 (+20) 2016-
  []
 
 
-Underfull \hbox (badness 3601) in paragraph at lines 485--485
+Underfull \hbox (badness 3601) in paragraph at lines 494--494
 []|\T1/ptm/m/n/10 (+20) Howard Springs
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 485--485
+Underfull \hbox (badness 10000) in paragraph at lines 494--494
 []|\T1/ptm/m/n/10 (+20) -12.4943,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 485--485
+Underfull \hbox (badness 10000) in paragraph at lines 494--494
 []|\T1/ptm/m/n/10 (+20) 2016-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 487--487
+Underfull \hbox (badness 10000) in paragraph at lines 496--496
 []|\T1/ptm/m/n/10 (+20) -13.1790,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 487--487
+Underfull \hbox (badness 10000) in paragraph at lines 496--496
 []|\T1/ptm/m/n/10 (+20) Tropical sa-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 487--487
+Underfull \hbox (badness 10000) in paragraph at lines 496--496
 []|\T1/ptm/m/n/10 (+20) 2016-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 489--489
+Underfull \hbox (badness 10000) in paragraph at lines 498--498
 []|\T1/ptm/m/n/10 (+20) Adelaide River
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 489--489
+Underfull \hbox (badness 10000) in paragraph at lines 498--498
 []|\T1/ptm/m/n/10 (+20) -13.0769,
  []
 
 
-Underfull \hbox (badness 1043) in paragraph at lines 489--489
+Underfull \hbox (badness 1043) in paragraph at lines 498--498
 []|\T1/ptm/m/n/10 (+20) Savanna dom-i-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 489--489
+Underfull \hbox (badness 10000) in paragraph at lines 498--498
 []|\T1/ptm/m/n/10 (+20) 2006-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 491--491
+Underfull \hbox (badness 10000) in paragraph at lines 500--500
 []|\T1/ptm/m/n/10 (+20) Daly Un-cleared
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 491--491
+Underfull \hbox (badness 10000) in paragraph at lines 500--500
 []|\T1/ptm/m/n/10 (+20) -14.1592,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 491--491
+Underfull \hbox (badness 10000) in paragraph at lines 500--500
 []|\T1/ptm/m/n/10 (+20) Woodland
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 491--491
+Underfull \hbox (badness 10000) in paragraph at lines 500--500
 []|\T1/ptm/m/n/10 (+20) 2016-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 493--493
+Underfull \hbox (badness 10000) in paragraph at lines 502--502
 []|\T1/ptm/m/n/10 (+20) Tumbarumba
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 493--493
+Underfull \hbox (badness 10000) in paragraph at lines 502--502
 []|\T1/ptm/m/n/10 (+20) -35.6566,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 493--493
+Underfull \hbox (badness 10000) in paragraph at lines 502--502
 []|\T1/ptm/m/n/10 (+20) 2015-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 495--495
+Underfull \hbox (badness 10000) in paragraph at lines 504--504
 []|\T1/ptm/m/n/10 (+20) 44.352,
  []
 
 
-Overfull \hbox (4.05533pt too wide) in paragraph at lines 495--495
+Overfull \hbox (4.05533pt too wide) in paragraph at lines 504--504
 []|\T1/ptm/m/n/10 (-20) pyrgeometers[]| 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 498--498
+Underfull \hbox (badness 10000) in paragraph at lines 507--507
 []|\T1/ptm/m/n/10 (+20) 35.052,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 498--498
+Underfull \hbox (badness 10000) in paragraph at lines 507--507
 []|\T1/ptm/m/n/10 (+20) Evergreen
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 498--498
+Underfull \hbox (badness 10000) in paragraph at lines 507--507
 \T1/ptm/m/n/10 (+20) needle-leaf
  []
 
 
-Overfull \hbox (4.05533pt too wide) in paragraph at lines 498--499
+Overfull \hbox (4.05533pt too wide) in paragraph at lines 507--508
 []|\T1/ptm/m/n/10 (-20) pyrgeometers[]| 
  []
 
@@ -1665,7 +1663,7 @@ Overfull \hbox (4.05533pt too wide) in paragraph at lines 498--499
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 [10] [11]
-Overfull \hbox (20.26659pt too wide) in paragraph at lines 557--558
+Overfull \hbox (20.26659pt too wide) in paragraph at lines 566--567
  [][] 
  []
 
@@ -1699,22 +1697,25 @@ Missing character: There is no t in font nullfont!
 Missing character: There is no ) in font nullfont!
 Missing character: There is no ; in font nullfont!
 
-Overfull \hbox (11.0967pt too wide) in paragraph at lines 587--588
+Overfull \hbox (11.0967pt too wide) in paragraph at lines 596--597
  [][] 
  []
 
 
-Overfull \hbox (1.90001pt too wide) in paragraph at lines 538--589
+Overfull \hbox (1.90001pt too wide) in paragraph at lines 547--598
 []$[]$ $[]$ 
  []
 
-[12] (./lst_emis_SI_v2.bbl [13] [14])
-Underfull \hbox (badness 4391) in paragraph at lines 640--640
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+(./lst_emis_SI_v2.bbl [12] [13] [14])
+Underfull \hbox (badness 4391) in paragraph at lines 649--649
 []|\T1/ptm/m/n/10 (+20) NASA sci-en-tific re-search
  []
 
 
-Underfull \hbox (badness 2126) in paragraph at lines 641--641
+Underfull \hbox (badness 2126) in paragraph at lines 650--650
 []|\T1/ptm/m/n/10 (+20) North Aus-tralian Trop-i-cal
  []
 
@@ -1724,134 +1725,129 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<./Plots/hS_seq_2018-05.png, id=560, 559.08875pt x 365.365pt>
+<./Plots/hS_seq_2018-05.png, id=557, 559.08875pt x 365.365pt>
 File: ./Plots/hS_seq_2018-05.png Graphic file (type png)
 <use ./Plots/hS_seq_2018-05.png>
-Package pdftex.def Info: ./Plots/hS_seq_2018-05.png  used on input line 692.
+Package pdftex.def Info: ./Plots/hS_seq_2018-05.png  used on input line 701.
 (pdftex.def)             Requested size: 225.21626pt x 147.18036pt.
-<./Plots/hS_le_2018-05.png, id=561, 559.08875pt x 365.365pt>
+<./Plots/hS_le_2018-05.png, id=558, 559.08875pt x 365.365pt>
 File: ./Plots/hS_le_2018-05.png Graphic file (type png)
 <use ./Plots/hS_le_2018-05.png>
-Package pdftex.def Info: ./Plots/hS_le_2018-05.png  used on input line 695.
+Package pdftex.def Info: ./Plots/hS_le_2018-05.png  used on input line 704.
 (pdftex.def)             Requested size: 225.21626pt x 147.18036pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 691--700
+Underfull \hbox (badness 10000) in paragraph at lines 700--709
 
  []
 
-<./Plots/Alice_spring_longw.png, id=562, 547.04375pt x 465.74pt>
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+<./Plots/Alice_spring_longw.png, id=559, 547.04375pt x 465.74pt>
 File: ./Plots/Alice_spring_longw.png Graphic file (type png)
 <use ./Plots/Alice_spring_longw.png>
-Package pdftex.def Info: ./Plots/Alice_spring_longw.png  used on input line 709
+Package pdftex.def Info: ./Plots/Alice_spring_longw.png  used on input line 718
 .
 (pdftex.def)             Requested size: 237.72913pt x 202.39627pt.
 LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <9> not available
-(Font)              Font shape `T1/ptm/b/n' tried instead on input line 710.
-<./Plots/TUM_longw.png, id=563, 547.04375pt x 465.74pt>
+(Font)              Font shape `T1/ptm/b/n' tried instead on input line 719.
+<./Plots/TUM_longw.png, id=560, 547.04375pt x 465.74pt>
 File: ./Plots/TUM_longw.png Graphic file (type png)
 <use ./Plots/TUM_longw.png>
-Package pdftex.def Info: ./Plots/TUM_longw.png  used on input line 715.
+Package pdftex.def Info: ./Plots/TUM_longw.png  used on input line 724.
 (pdftex.def)             Requested size: 237.72913pt x 202.39627pt.
-[15 <./Plots/hS_seq_2018-05.png> <./Plots/hS_le_2018-05.png>]
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<./Plots/Alice_spring_Ts_sensitivity_2005.png, id=576, 569.12625pt x 425.59pt>
+<./Plots/Alice_spring_Ts_sensitivity_2005.png, id=563, 569.12625pt x 425.59pt>
 File: ./Plots/Alice_spring_Ts_sensitivity_2005.png Graphic file (type png)
 <use ./Plots/Alice_spring_Ts_sensitivity_2005.png>
 Package pdftex.def Info: ./Plots/Alice_spring_Ts_sensitivity_2005.png  used on 
-input line 727.
+input line 736.
 (pdftex.def)             Requested size: 237.72913pt x 177.77248pt.
-<./Plots/Tum_Ts_sensitivity_2016.png, id=577, 569.12625pt x 425.59pt>
+<./Plots/Tum_Ts_sensitivity_2016.png, id=564, 569.12625pt x 425.59pt>
 File: ./Plots/Tum_Ts_sensitivity_2016.png Graphic file (type png)
 <use ./Plots/Tum_Ts_sensitivity_2016.png>
 Package pdftex.def Info: ./Plots/Tum_Ts_sensitivity_2016.png  used on input lin
-e 733.
+e 742.
 (pdftex.def)             Requested size: 237.72913pt x 177.77248pt.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<./Plots/AS_RMSE_2018.png, id=582, 513.92pt x 428.60126pt>
+<./Plots/AS_RMSE_2018.png, id=569, 513.92pt x 428.60126pt>
 File: ./Plots/AS_RMSE_2018.png Graphic file (type png)
 <use ./Plots/AS_RMSE_2018.png>
-Package pdftex.def Info: ./Plots/AS_RMSE_2018.png  used on input line 754.
+Package pdftex.def Info: ./Plots/AS_RMSE_2018.png  used on input line 763.
 (pdftex.def)             Requested size: 237.72913pt x 198.2642pt.
-<./Plots/tum_RMSE_2017.png, id=583, 513.92pt x 437.635pt>
+<./Plots/tum_RMSE_2017.png, id=570, 513.92pt x 437.635pt>
 File: ./Plots/tum_RMSE_2017.png Graphic file (type png)
 <use ./Plots/tum_RMSE_2017.png>
-Package pdftex.def Info: ./Plots/tum_RMSE_2017.png  used on input line 760.
+Package pdftex.def Info: ./Plots/tum_RMSE_2017.png  used on input line 769.
 (pdftex.def)             Requested size: 237.72913pt x 202.44308pt.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<./Plots/hs_enb.png, id=584, 954.56625pt x 543.02875pt>
+<./Plots/hs_enb.png, id=571, 954.56625pt x 543.02875pt>
 File: ./Plots/hs_enb.png Graphic file (type png)
 <use ./Plots/hs_enb.png>
-Package pdftex.def Info: ./Plots/hs_enb.png  used on input line 771.
+Package pdftex.def Info: ./Plots/hs_enb.png  used on input line 780.
 (pdftex.def)             Requested size: 477.28197pt x 271.5137pt.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<Plots/as_mx+c.png, id=585, 1003.75pt x 714.67pt>
+<Plots/as_mx+c.png, id=572, 1003.75pt x 714.67pt>
 File: Plots/as_mx+c.png Graphic file (type png)
 <use Plots/as_mx+c.png>
-Package pdftex.def Info: Plots/as_mx+c.png  used on input line 779.
+Package pdftex.def Info: Plots/as_mx+c.png  used on input line 788.
 (pdftex.def)             Requested size: 501.87378pt x 357.33412pt.
 
-Overfull \hbox (1.38979pt too wide) in paragraph at lines 779--780
+Overfull \hbox (1.38979pt too wide) in paragraph at lines 788--789
 [][] 
  []
 
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [16]
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 
 AED: lastpage setting LastPage
-[17 <./Plots/Alice_spring_longw.png> <./Plots/TUM_longw.png> <./Plots/Alice_spr
-ing_Ts_sensitivity_2005.png> <./Plots/Tum_Ts_sensitivity_2016.png>] [18 <./Plot
-s/AS_RMSE_2018.png> <./Plots/tum_RMSE_2017.png> <./Plots/hs_enb.png>] [19 <./Pl
-ots/as_mx+c.png>]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 794.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 794.
+[15] [16] [17 <./Plots/hS_seq_2018-05.png> <./Plots/hS_le_2018-05.png> <./Plots
+/Alice_spring_longw.png> <./Plots/TUM_longw.png> <./Plots/Alice_spring_Ts_sensi
+tivity_2005.png> <./Plots/Tum_Ts_sensitivity_2016.png>] [18 <./Plots/AS_RMSE_20
+18.png> <./Plots/tum_RMSE_2017.png> <./Plots/hs_enb.png>] [19 <./Plots/as_mx+c.
+png>]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 803.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 803.
  (./lst_emis_SI_v2.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 794.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 794.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 803.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 803.
 Package rerunfilecheck Info: File `lst_emis_SI_v2.out' has not changed.
 (rerunfilecheck)             Checksum: 02A1FA1D8A404DDF0AF28A40FB6F71A4;732.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 794.
- )
-(\end occurred inside a group at level 1)
-
-### simple group (level 1) entered at line 415 ({)
-### bottom level 
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 803.
+ ) 
 Here is how much of TeX's memory you used:
  39951 strings out of 494485
  805880 string characters out of 6175793
- 930023 words of memory out of 5000000
+ 933023 words of memory out of 5000000
  42709 multiletter control sequences out of 15000+600000
  610816 words of font info for 279 fonts, out of 8000000 for 9000
  59 hyphenation exceptions out of 8191
- 55i,15n,92p,3430b,1014s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}</us
-r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/shar
-e/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texl
-ive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/tex
-mf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dis
-t/fonts/type1/urw/helvetic/uhvb8a.pfb></usr/share/texlive/texmf-dist/fonts/type
-1/urw/helvetic/uhvbo8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/helve
-tic/uhvr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/symbol/usyr.pfb><
-/usr/share/texlive/texmf-dist/fonts/type1/urw/symbol/usyr.pfb></usr/share/texli
-ve/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/share/texlive/texmf-dist/f
-onts/type1/urw/times/utmr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/
-times/utmri8a.pfb>
-Output written on lst_emis_SI_v2.pdf (19 pages, 1077392 bytes).
+ 55i,15n,92p,2063b,947s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texliv
+e/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texlive/texm
+f-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist
+/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/
+type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/
+urw/helvetic/uhvb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/helvetic
+/uhvbo8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb
+></usr/share/texlive/texmf-dist/fonts/type1/urw/symbol/usyr.pfb></usr/share/tex
+live/texmf-dist/fonts/type1/urw/symbol/usyr.pfb></usr/share/texlive/texmf-dist/
+fonts/type1/urw/times/utmb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw
+/times/utmr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmri8a.
+pfb>
+Output written on lst_emis_SI_v2.pdf (19 pages, 1077930 bytes).
 PDF statistics:
- 688 PDF objects out of 1000 (max. 8388607)
- 558 compressed objects within 6 object streams
+ 685 PDF objects out of 1000 (max. 8388607)
+ 555 compressed objects within 6 object streams
  122 named destinations out of 1000 (max. 500000)
  46321 words of extra memory for PDF output out of 51595 (max. 10000000)
 
