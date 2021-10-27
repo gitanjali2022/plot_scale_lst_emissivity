@@ -3,17 +3,9 @@ Capacity: max_strings=100000, hash_size=100000, hash_prime=85009
 The top-level auxiliary file: lst_emis_SI_v2.aux
 The style file: naturemag-doi.bst
 Database file #1: not_indexed_ref.bib
-Repeated entry---line 493 of file not_indexed_ref.bib
- : @article{chen2015determining
- :                             ,
-I'm skipping whatever remains of this entry
-Repeated entry---line 515 of file not_indexed_ref.bib
+Repeated entry---line 506 of file not_indexed_ref.bib
  : @article{snyder1998classification
  :                                  ,
-I'm skipping whatever remains of this entry
-Repeated entry---line 700 of file not_indexed_ref.bib
- : @article{jin2006improved
- :                         ,
 I'm skipping whatever remains of this entry
 Warning--I didn't find a database entry for "wang_global_2013-2"
 Warning--I didn't find a database entry for "lhomme_radiative_1988"
@@ -72,4 +64,4 @@ warning$ -- 0
 while$ -- 103
 width$ -- 42
 write$ -- 446
-(There were 3 error messages)
+(There was 1 error message)
