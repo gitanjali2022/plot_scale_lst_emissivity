@@ -2,55 +2,74 @@ This is BibTeX, Version 0.99d (TeX Live 2017/Debian)
 Capacity: max_strings=100000, hash_size=100000, hash_prime=85009
 The top-level auxiliary file: lst_emis_SI_v2.aux
 The style file: naturemag-doi.bst
-Database file #1: lstpaper.bib
-Database file #2: not_indexed_ref.bib
-Repeated entry---line 676 of file not_indexed_ref.bib
- : @article{chu2021representativeness
- :                                   ,
+Database file #1: not_indexed_ref.bib
+Repeated entry---line 493 of file not_indexed_ref.bib
+ : @article{chen2015determining
+ :                             ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 730 of file not_indexed_ref.bib
- : @article{stoy2013data
- :                      ,
+Repeated entry---line 515 of file not_indexed_ref.bib
+ : @article{snyder1998classification
+ :                                  ,
 I'm skipping whatever remains of this entry
-You've used 58 entries,
+Repeated entry---line 700 of file not_indexed_ref.bib
+ : @article{jin2006improved
+ :                         ,
+I'm skipping whatever remains of this entry
+Warning--I didn't find a database entry for "wang_global_2013-2"
+Warning--I didn't find a database entry for "lhomme_radiative_1988"
+Warning--I didn't find a database entry for "holmes_land_2009"
+Warning--I didn't find a database entry for "holmes_cloud_2016-1"
+Warning--I didn't find a database entry for "wang_evaluation_2009-1"
+Warning--I didn't find a database entry for "crago_use_2014-3"
+Warning--I didn't find a database entry for "crago_use_2014"
+Warning--I didn't find a database entry for "holmes_cloud_2016"
+Warning--I didn't find a database entry for "sugita_optimal_1996-1"
+Warning--I didn't find a database entry for "holmes_land_2009-1"
+Warning--I didn't find a database entry for "jin_improved_2006-1"
+Warning--I didn't find a database entry for "hulley_quantifying_2012-1"
+Warning--I didn't find a database entry for "wang_evaluation_2009"
+Warning--I didn't find a database entry for "wan_land_nodate-1"
+Warning--I didn't find a database entry for "bahir_evaluation_2017"
+Warning--I didn't find a database entry for "jin_improved_2006"
+You've used 40 entries,
             2380 wiz_defined-function locations,
-            1340 strings with 22668 characters,
-and the built_in function-call counts, 23098 in all, are:
-= -- 1650
-> -- 600
+            1261 strings with 19271 characters,
+and the built_in function-call counts, 15818 in all, are:
+= -- 1127
+> -- 400
 < -- 1
-+ -- 300
-- -- 150
-* -- 2955
-:= -- 2567
-add.period$ -- 174
-call.type$ -- 58
-change.case$ -- 62
++ -- 200
+- -- 100
+* -- 1965
+:= -- 1762
+add.period$ -- 120
+call.type$ -- 40
+change.case$ -- 44
 chr.to.int$ -- 0
-cite$ -- 58
-duplicate$ -- 2030
-empty$ -- 2074
-format.name$ -- 200
-if$ -- 4546
+cite$ -- 40
+duplicate$ -- 1408
+empty$ -- 1439
+format.name$ -- 133
+if$ -- 3133
 int.to.chr$ -- 0
-int.to.str$ -- 58
-missing$ -- 484
-newline$ -- 300
-num.names$ -- 58
-pop$ -- 333
+int.to.str$ -- 40
+missing$ -- 330
+newline$ -- 210
+num.names$ -- 40
+pop$ -- 244
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 354
+skip$ -- 257
 stack$ -- 0
-substring$ -- 1201
-swap$ -- 2018
+substring$ -- 814
+swap$ -- 1378
 text.length$ -- 1
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
 warning$ -- 0
-while$ -- 146
-width$ -- 60
-write$ -- 659
-(There were 2 error messages)
+while$ -- 103
+width$ -- 42
+write$ -- 446
+(There were 3 error messages)
