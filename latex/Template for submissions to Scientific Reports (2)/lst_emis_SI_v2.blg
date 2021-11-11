@@ -3,65 +3,44 @@ Capacity: max_strings=100000, hash_size=100000, hash_prime=85009
 The top-level auxiliary file: lst_emis_SI_v2.aux
 The style file: naturemag-doi.bst
 Database file #1: not_indexed_ref.bib
-Repeated entry---line 506 of file not_indexed_ref.bib
- : @article{snyder1998classification
- :                                  ,
-I'm skipping whatever remains of this entry
-Warning--I didn't find a database entry for "wang_global_2013-2"
-Warning--I didn't find a database entry for "lhomme_radiative_1988"
-Warning--I didn't find a database entry for "holmes_land_2009"
-Warning--I didn't find a database entry for "holmes_cloud_2016-1"
-Warning--I didn't find a database entry for "wang_evaluation_2009-1"
-Warning--I didn't find a database entry for "crago_use_2014-3"
-Warning--I didn't find a database entry for "crago_use_2014"
-Warning--I didn't find a database entry for "holmes_cloud_2016"
-Warning--I didn't find a database entry for "sugita_optimal_1996-1"
-Warning--I didn't find a database entry for "holmes_land_2009-1"
-Warning--I didn't find a database entry for "jin_improved_2006-1"
-Warning--I didn't find a database entry for "hulley_quantifying_2012-1"
-Warning--I didn't find a database entry for "wang_evaluation_2009"
-Warning--I didn't find a database entry for "wan_land_nodate-1"
-Warning--I didn't find a database entry for "bahir_evaluation_2017"
-Warning--I didn't find a database entry for "jin_improved_2006"
-You've used 40 entries,
+You've used 49 entries,
             2380 wiz_defined-function locations,
-            1261 strings with 19271 characters,
-and the built_in function-call counts, 15818 in all, are:
-= -- 1127
-> -- 400
+            1291 strings with 20883 characters,
+and the built_in function-call counts, 19420 in all, are:
+= -- 1383
+> -- 500
 < -- 1
-+ -- 200
-- -- 100
-* -- 1965
-:= -- 1762
-add.period$ -- 120
-call.type$ -- 40
-change.case$ -- 44
++ -- 250
+- -- 125
+* -- 2433
+:= -- 2158
+add.period$ -- 147
+call.type$ -- 49
+change.case$ -- 53
 chr.to.int$ -- 0
-cite$ -- 40
-duplicate$ -- 1408
-empty$ -- 1439
-format.name$ -- 133
-if$ -- 3133
+cite$ -- 49
+duplicate$ -- 1723
+empty$ -- 1756
+format.name$ -- 167
+if$ -- 3837
 int.to.chr$ -- 0
-int.to.str$ -- 40
-missing$ -- 330
-newline$ -- 210
-num.names$ -- 40
-pop$ -- 244
+int.to.str$ -- 49
+missing$ -- 407
+newline$ -- 255
+num.names$ -- 49
+pop$ -- 297
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 257
+skip$ -- 309
 stack$ -- 0
-substring$ -- 814
-swap$ -- 1378
+substring$ -- 1000
+swap$ -- 1700
 text.length$ -- 1
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
 warning$ -- 0
-while$ -- 103
-width$ -- 42
-write$ -- 446
-(There was 1 error message)
+while$ -- 125
+width$ -- 51
+write$ -- 545

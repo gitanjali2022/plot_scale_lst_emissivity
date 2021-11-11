@@ -109,6 +109,15 @@
 \newblock {\emph{\JournalTitle{Best Practice for Satellite-Derived Land Product
   Validation}}} \bibinfo{pages}{60} (\bibinfo{year}{2017}).
 
+\bibitem{wang2013global}
+\bibinfo{author}{Wang, K.} \& \bibinfo{author}{Dickinson, R.~E.}
+\newblock \bibinfo{journal}{\bibinfo{title}{Global atmospheric downward
+  longwave radiation at the surface from ground-based observations, satellite
+  retrievals, and reanalyses}}.
+\newblock {\emph{\JournalTitle{Reviews of Geophysics}}}
+  \textbf{\bibinfo{volume}{51}}, \bibinfo{pages}{150--185}
+  (\bibinfo{year}{2013}).
+
 \bibitem{sun1995relationship}
 \bibinfo{author}{Sun, J.} \& \bibinfo{author}{Mahrt, L.}
 \newblock \bibinfo{journal}{\bibinfo{title}{Relationship of surface heat flux
@@ -161,6 +170,32 @@
   \textbf{\bibinfo{volume}{122}}, \bibinfo{pages}{167--187}
   (\bibinfo{year}{2007}).
 
+\bibitem{lhomme1988radiative}
+\bibinfo{author}{Lhomme, J.-P.}, \bibinfo{author}{Katerji, N.},
+  \bibinfo{author}{Perrier, A.} \& \bibinfo{author}{Bertolini, J.-M.}
+\newblock \bibinfo{journal}{\bibinfo{title}{Radiative surface temperature and
+  convective flux calculation over crop canopies}}.
+\newblock {\emph{\JournalTitle{Boundary-Layer Meteorology}}}
+  \textbf{\bibinfo{volume}{43}}, \bibinfo{pages}{383--392}
+  (\bibinfo{year}{1988}).
+
+\bibitem{holmes2009land}
+\bibinfo{author}{Holmes, T.}, \bibinfo{author}{De~Jeu, R.},
+  \bibinfo{author}{Owe, M.} \& \bibinfo{author}{Dolman, A.}
+\newblock \bibinfo{journal}{\bibinfo{title}{Land surface temperature from ka
+  band (37 ghz) passive microwave observations}}.
+\newblock {\emph{\JournalTitle{Journal of Geophysical Research: Atmospheres}}}
+  \textbf{\bibinfo{volume}{114}} (\bibinfo{year}{2009}).
+
+\bibitem{holmes2016cloud}
+\bibinfo{author}{Holmes, T.~R.}, \bibinfo{author}{Hain, C.~R.},
+  \bibinfo{author}{Anderson, M.~C.} \& \bibinfo{author}{Crow, W.~T.}
+\newblock \bibinfo{journal}{\bibinfo{title}{Cloud tolerance of remote-sensing
+  technologies to measure land surface temperature}}.
+\newblock {\emph{\JournalTitle{Hydrology and Earth System Sciences}}}
+  \textbf{\bibinfo{volume}{20}}, \bibinfo{pages}{3263--3275}
+  (\bibinfo{year}{2016}).
+
 \bibitem{maes2019potential}
 \bibinfo{author}{Maes, W.~H.}, \bibinfo{author}{Gentine, P.},
   \bibinfo{author}{Verhoest, N.~E.} \& \bibinfo{author}{Miralles, D.~G.}
@@ -195,6 +230,15 @@
   \textbf{\bibinfo{volume}{136}}, \bibinfo{pages}{234--246}
   (\bibinfo{year}{2013}).
 
+\bibitem{wang2009evaluation}
+\bibinfo{author}{Wang, K.} \& \bibinfo{author}{Liang, S.}
+\newblock \bibinfo{journal}{\bibinfo{title}{Evaluation of aster and modis land
+  surface temperature and emissivity products using long-term surface longwave
+  radiation observations at surfrad sites}}.
+\newblock {\emph{\JournalTitle{Remote Sensing of Environment}}}
+  \textbf{\bibinfo{volume}{113}}, \bibinfo{pages}{1556--1565}
+  (\bibinfo{year}{2009}).
+
 \bibitem{trenberth2012tracking}
 \bibinfo{author}{Trenberth, K.~E.} \& \bibinfo{author}{Fasullo, J.~T.}
 \newblock \bibinfo{journal}{\bibinfo{title}{Tracking earth’s energy: From el
@@ -202,6 +246,15 @@
 \newblock {\emph{\JournalTitle{Surveys in geophysics}}}
   \textbf{\bibinfo{volume}{33}}, \bibinfo{pages}{413--426}
   (\bibinfo{year}{2012}).
+
+\bibitem{crago2014use}
+\bibinfo{author}{Crago, R.~D.} \& \bibinfo{author}{Qualls, R.~J.}
+\newblock \bibinfo{journal}{\bibinfo{title}{Use of land surface temperature to
+  estimate surface energy fluxes: Contributions of wilfried brutsaert and
+  collaborators}}.
+\newblock {\emph{\JournalTitle{Water Resources Research}}}
+  \textbf{\bibinfo{volume}{50}}, \bibinfo{pages}{3396--3408}
+  (\bibinfo{year}{2014}).
 
 \bibitem{stephens1995review}
 \bibinfo{author}{Stephens, G.~L.}
@@ -219,6 +272,15 @@
   implementation of the sobol’ method for parameter sensitivity analysis}}.
 \newblock {\emph{\JournalTitle{Journal of Geophysical Research: Atmospheres}}}
   \textbf{\bibinfo{volume}{117}} (\bibinfo{year}{2012}).
+
+\bibitem{sugita1996optimal}
+\bibinfo{author}{Sugita, M.} \& \bibinfo{author}{Brutsaert, W.}
+\newblock \bibinfo{journal}{\bibinfo{title}{Optimal measurement strategy for
+  surface temperature to determine sensible heat flux from anisothermal
+  vegetation}}.
+\newblock {\emph{\JournalTitle{Water resources research}}}
+  \textbf{\bibinfo{volume}{32}}, \bibinfo{pages}{2129--2134}
+  (\bibinfo{year}{1996}).
 
 \bibitem{snyder1998classification}
 \bibinfo{author}{Snyder, W.~C.}, \bibinfo{author}{Wan, Z.},
@@ -257,20 +319,27 @@
 \newblock {\emph{\JournalTitle{Geophysical Research Letters}}}
   \textbf{\bibinfo{volume}{34}} (\bibinfo{year}{2007}).
 
-\bibitem{foken2008energy}
-\bibinfo{author}{Foken, T.}
-\newblock \bibinfo{journal}{\bibinfo{title}{The energy balance closure problem:
-  an overview}}.
-\newblock {\emph{\JournalTitle{Ecological Applications}}}
-  \textbf{\bibinfo{volume}{18}}, \bibinfo{pages}{1351--1367}
-  (\bibinfo{year}{2008}).
-
 \bibitem{guillevic2018land}
 \bibinfo{author}{Guillevic, P.} \emph{et~al.}
 \newblock \bibinfo{journal}{\bibinfo{title}{Land surface temperature product
   validation best practice protocol. version 1.1}}.
 \newblock {\emph{\JournalTitle{Best Practice for Satellite-Derived Land Product
   Validation}}} \bibinfo{pages}{60} (\bibinfo{year}{2018}).
+
+\bibitem{eisenhauer2003regression}
+\bibinfo{author}{Eisenhauer, J.~G.}
+\newblock \bibinfo{journal}{\bibinfo{title}{Regression through the origin}}.
+\newblock {\emph{\JournalTitle{Teaching statistics}}}
+  \textbf{\bibinfo{volume}{25}}, \bibinfo{pages}{76--80}
+  (\bibinfo{year}{2003}).
+
+\bibitem{jin2006improved}
+\bibinfo{author}{Jin, M.} \& \bibinfo{author}{Liang, S.}
+\newblock \bibinfo{journal}{\bibinfo{title}{An improved land surface emissivity
+  parameter for land surface models using global remote sensing observations}}.
+\newblock {\emph{\JournalTitle{Journal of Climate}}}
+  \textbf{\bibinfo{volume}{19}}, \bibinfo{pages}{2867--2881}
+  (\bibinfo{year}{2006}).
 
 \bibitem{mira2007influence}
 \bibinfo{author}{Mira, M.}, \bibinfo{author}{Valor, E.},
@@ -297,13 +366,6 @@
 \newblock {\emph{\JournalTitle{Applied optics}}} \textbf{\bibinfo{volume}{58}},
   \bibinfo{pages}{4599--4609} (\bibinfo{year}{2019}).
 
-\bibitem{eisenhauer2003regression}
-\bibinfo{author}{Eisenhauer, J.~G.}
-\newblock \bibinfo{journal}{\bibinfo{title}{Regression through the origin}}.
-\newblock {\emph{\JournalTitle{Teaching statistics}}}
-  \textbf{\bibinfo{volume}{25}}, \bibinfo{pages}{76--80}
-  (\bibinfo{year}{2003}).
-
 \bibitem{gilberto2020fluxnet2015}
 \bibinfo{author}{Gilberto, P.} \emph{et~al.}
 \newblock \bibinfo{journal}{\bibinfo{title}{The fluxnet2015 dataset and the
@@ -322,13 +384,30 @@
 \newblock \bibinfo{title}{pymodis: from satellite to gis maps}.
 \newblock In \emph{\bibinfo{booktitle}{FOSS4G 2014}} (\bibinfo{year}{2014}).
 
-\bibitem{jin2006improved}
-\bibinfo{author}{Jin, M.} \& \bibinfo{author}{Liang, S.}
-\newblock \bibinfo{journal}{\bibinfo{title}{An improved land surface emissivity
-  parameter for land surface models using global remote sensing observations}}.
-\newblock {\emph{\JournalTitle{Journal of Climate}}}
-  \textbf{\bibinfo{volume}{19}}, \bibinfo{pages}{2867--2881}
-  (\bibinfo{year}{2006}).
+\bibitem{hulley2012quantifying}
+\bibinfo{author}{Hulley, G.~C.}, \bibinfo{author}{Hughes, C.~G.} \&
+  \bibinfo{author}{Hook, S.~J.}
+\newblock \bibinfo{journal}{\bibinfo{title}{Quantifying uncertainties in land
+  surface temperature and emissivity retrievals from aster and modis thermal
+  infrared data}}.
+\newblock {\emph{\JournalTitle{Journal of Geophysical Research: Atmospheres}}}
+  \textbf{\bibinfo{volume}{117}} (\bibinfo{year}{2012}).
+
+\bibitem{bahir2017evaluation}
+\bibinfo{author}{Bahir, M.} \emph{et~al.}
+\newblock \bibinfo{journal}{\bibinfo{title}{Evaluation and aggregation
+  properties of thermal infra-red-based evapotranspiration algorithms from 100
+  m to the km scale over a semi-arid irrigated agricultural area}}.
+\newblock {\emph{\JournalTitle{Remote Sensing}}} \textbf{\bibinfo{volume}{9}},
+  \bibinfo{pages}{1178} (\bibinfo{year}{2017}).
+
+\bibitem{foken2008energy}
+\bibinfo{author}{Foken, T.}
+\newblock \bibinfo{journal}{\bibinfo{title}{The energy balance closure problem:
+  an overview}}.
+\newblock {\emph{\JournalTitle{Ecological Applications}}}
+  \textbf{\bibinfo{volume}{18}}, \bibinfo{pages}{1351--1367}
+  (\bibinfo{year}{2008}).
 
 \bibitem{saltelli2017new}
 \bibinfo{author}{Saltelli, A.}, \bibinfo{author}{Albrecht, D.},

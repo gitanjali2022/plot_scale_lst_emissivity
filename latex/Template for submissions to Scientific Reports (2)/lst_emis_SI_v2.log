@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=latex 2020.7.17)  2 NOV 2021 11:48
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2020.7.17)  11 NOV 2021 14:57
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -516,10 +516,10 @@ Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
 (/usr/share/texlive/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
 File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
 )
-Package graphics Info: Driver file: dvips.def on input line 99.
+Package graphics Info: Driver file: pdftex.def on input line 99.
 
-(/usr/share/texlive/texmf-dist/tex/latex/graphics-def/dvips.def
-File: dvips.def 2017/06/20 v3.1d Graphics/color driver for dvips
+(/usr/share/texlive/texmf-dist/tex/latex/graphics-def/pdftex.def
+File: pdftex.def 2018/01/08 v1.0l Graphics/color driver for pdftex
 ))
 \Gin@req@height=\dimen116
 \Gin@req@width=\dimen117
@@ -530,8 +530,9 @@ Package: xcolor 2016/05/11 v2.12 LaTeX color extensions (UK)
 (/usr/share/texlive/texmf-dist/tex/latex/graphics-cfg/color.cfg
 File: color.cfg 2016/01/02 v1.6 sample color configuration
 )
-Package xcolor Info: Driver file: dvips.def on input line 225.
+Package xcolor Info: Driver file: pdftex.def on input line 225.
 Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1348.
+Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1352.
 Package xcolor Info: Model `RGB' extended on input line 1364.
 Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1366.
 Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1367.
@@ -636,7 +637,7 @@ Package: pdftexcmds 2018/01/21 v0.26 Utility functions of pdfTeX for LuaTeX (HO
 Package pdftexcmds Info: LuaTeX not detected.
 Package pdftexcmds Info: \pdf@primitive is available.
 Package pdftexcmds Info: \pdf@ifprimitive is available.
-Package pdftexcmds Info: \pdfdraftmode is ignored in DVI mode.
+Package pdftexcmds Info: \pdfdraftmode found.
 Package: pdfescape 2016/05/16 v1.14 Implements pdfTeX's escape features (HO)
 Package: bigintcalc 2016/05/16 v1.4 Expandable calculations on big integers (HO
 )
@@ -705,20 +706,12 @@ LaTeX Info: Redefining \pageref on input line 6443.
 \c@Item=\count121
 \c@Hfootnote=\count122
 )
-Package hyperref Info: Driver (default): hdvips.
+Package hyperref Info: Driver (autodetected): hpdftex.
 
-(/usr/share/texlive/texmf-dist/tex/latex/hyperref/hdvips.def
-File: hdvips.def 2018/02/06 v6.86b Hyperref driver for dvips
-
-(/usr/share/texlive/texmf-dist/tex/latex/hyperref/pdfmark.def
-File: pdfmark.def 2018/02/06 v6.86b Hyperref definitions for pdfmark specials
-\pdf@docset=\toks23
-\pdf@box=\box28
-\pdf@toks=\toks24
-\pdf@defaulttoks=\toks25
-\HyField@AnnotCount=\count123
-\Fld@listcount=\count124
-\c@bookmark@seq@number=\count125
+(/usr/share/texlive/texmf-dist/tex/latex/hyperref/hpdftex.def
+File: hpdftex.def 2018/02/06 v6.86b Hyperref driver for pdfTeX
+\Fld@listcount=\count123
+\c@bookmark@seq@number=\count124
 
 (/usr/share/texlive/texmf-dist/tex/latex/oberdiek/rerunfilecheck.sty
 Package: rerunfilecheck 2016/05/16 v1.8 Rerun checks for auxiliary files (HO)
@@ -726,7 +719,7 @@ Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 82.
 )
 \Hy@SectionHShift=\skip51
-))
+)
 (/usr/share/texlive/texmf-dist/tex/latex/cite/cite.sty
 LaTeX Info: Redefining \cite on input line 302.
 LaTeX Info: Redefining \nocite on input line 332.
@@ -751,12 +744,12 @@ Package: lastpage 2015/03/29 v1.2m Refers to last page's name (HMM; JPG)
 )
 (/usr/share/texlive/texmf-dist/tex/latex/titlesec/titlesec.sty
 Package: titlesec 2016/03/21 v2.10.2 Sectioning titles
-\ttl@box=\box29
+\ttl@box=\box28
 \beforetitleunit=\skip61
 \aftertitleunit=\skip62
 \ttl@plus=\dimen150
 \ttl@minus=\dimen151
-\ttl@toksa=\toks26
+\ttl@toksa=\toks23
 \titlewidth=\dimen152
 \titlewidthlast=\dimen153
 \titlewidthfirst=\dimen154
@@ -772,34 +765,34 @@ Package: titletoc 2011/12/15 v1.6 TOC entries
 Package: enumitem 2011/09/28 v3.5.2 Customized lists
 \labelindent=\skip63
 \enit@outerparindent=\dimen156
-\enit@toks=\toks27
-\enit@inbox=\box30
-\enitdp@description=\count126
+\enit@toks=\toks24
+\enit@inbox=\box29
+\enitdp@description=\count125
 )
 \tocsep=\skip64
 
 (/usr/share/texlive/texmf-dist/tex/latex/lipsum/lipsum.sty
 Package: lipsum 2014/07/27 v1.3 150 paragraphs of Lorem Ipsum dummy text
-\c@lips@count=\count127
+\c@lips@count=\count126
 )) (./jabbrv.sty
 Package: jabbrv 2010/08/18 v0.2 Automatic Journal Title Abbreviation Package
-\temp@journal@text=\toks28
-\temp@journal@text@=\toks29
-\c@jabbrv@strlen@count=\count128
-\c@jabbrv@gobble@temp=\count129
-\c@jabbrv@loop@i=\count130
-\c@jabbrv@loop@max=\count131
-\c@jabbrv@word@count=\count132
+\temp@journal@text=\toks25
+\temp@journal@text@=\toks26
+\c@jabbrv@strlen@count=\count127
+\c@jabbrv@gobble@temp=\count128
+\c@jabbrv@loop@i=\count129
+\c@jabbrv@loop@max=\count130
+\c@jabbrv@word@count=\count131
 
 (./jabbrv-ltwa-all.ldf) (./jabbrv-ltwa-en.ldf))
 (/usr/share/texlive/texmf-dist/tex/latex/microtype/microtype.sty
 Package: microtype 2018/01/14 v2.7a Micro-typographical refinements (RS)
-\MT@toks=\toks30
-\MT@count=\count133
+\MT@toks=\toks27
+\MT@count=\count132
 LaTeX Info: Redefining \textls on input line 793.
 \MT@outer@kern=\dimen157
 LaTeX Info: Redefining \textmicrotypecontext on input line 1339.
-\MT@listname@count=\count134
+\MT@listname@count=\count133
 
 (/usr/share/texlive/texmf-dist/tex/latex/microtype/microtype-pdftex.def
 File: microtype-pdftex.def 2018/01/14 v2.7a Definitions specific to pdftex (RS)
@@ -822,8 +815,8 @@ LaTeX Font Info:    Redeclaring font encoding T1 on input line 48.
 ))
 (/usr/share/texlive/texmf-dist/tex/latex/caption/subcaption.sty
 Package: subcaption 2016/05/22 v1.1-161 Sub-captions (AR)
-\c@subfigure=\count135
-\c@subtable=\count136
+\c@subfigure=\count134
+\c@subtable=\count135
 )
 (/usr/share/texlive/texmf-dist/tex/latex/setspace/setspace.sty
 Package: setspace 2011/12/19 v6.7a set line spacing
@@ -831,7 +824,7 @@ Package: setspace 2011/12/19 v6.7a set line spacing
 (/usr/share/texlive/texmf-dist/tex/latex/multirow/multirow.sty
 Package: multirow 2016/11/25 v2.2 Span multiple rows of a table
 \multirow@colwidth=\skip66
-\multirow@cntb=\count137
+\multirow@cntb=\count136
 \multirow@dima=\skip67
 \bigstrutjot=\dimen158
 )
@@ -844,34 +837,41 @@ Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
 (/usr/share/texlive/texmf-dist/tex/latex/oberdiek/grfext.sty
 Package: grfext 2016/05/16 v1.2 Manage graphics extensions (HO)
 )
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
+38.
+Package grfext Info: Graphics extension search list:
+(grfext)             [.pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPE
+G,.JBIG2,.JB2,.eps]
+(grfext)             \AppendGraphicsExtensions on input line 456.
 
-Package epstopdf Warning: Drivers other than `pdftex' and `luatex' are not supp
-orted.
-
-)) (/usr/share/texlive/texmf-dist/tex/latex/blindtext/blindtext.sty
+(/usr/share/texlive/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
+File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
+e
+)))
+(/usr/share/texlive/texmf-dist/tex/latex/blindtext/blindtext.sty
 Package: blindtext 2012/01/06 V2.0 blindtext-Package
 
 (/usr/share/texlive/texmf-dist/tex/latex/tools/xspace.sty
 Package: xspace 2014/10/28 v1.13 Space after command names (DPC,MH)
 )
-\c@blindtext=\count138
-\c@Blindtext=\count139
-\c@blind@countparstart=\count140
-\blind@countxx=\count141
-\blindtext@numBlindtext=\count142
-\blind@countyy=\count143
-\c@blindlist=\count144
-\c@blindlistlevel=\count145
-\c@blindlist@level=\count146
-\blind@listitem=\count147
-\c@blind@listcount=\count148
-\c@blind@levelcount=\count149
-\blind@mathformula=\count150
-\blind@Mathformula=\count151
-\c@blind@randomcount=\count152
-\c@blind@randommax=\count153
-\c@blind@pangramcount=\count154
-\c@blind@pangrammax=\count155
+\c@blindtext=\count137
+\c@Blindtext=\count138
+\c@blind@countparstart=\count139
+\blind@countxx=\count140
+\blindtext@numBlindtext=\count141
+\blind@countyy=\count142
+\c@blindlist=\count143
+\c@blindlistlevel=\count144
+\c@blindlist@level=\count145
+\blind@listitem=\count146
+\c@blind@listcount=\count147
+\c@blind@levelcount=\count148
+\blind@mathformula=\count149
+\blind@Mathformula=\count150
+\c@blind@randomcount=\count151
+\c@blind@randommax=\count152
+\c@blind@pangramcount=\count153
+\c@blind@pangrammax=\count154
 )
 (/usr/share/texlive/texmf-dist/tex/latex/import/import.sty
 Package: import 2009/03/23  v 5.1
@@ -881,21 +881,21 @@ Package: overpic 2017/10/06 1.0 picture overlays
 
 (/usr/share/texlive/texmf-dist/tex/latex/eepic/epic.sty
 Enhancements to Picture Environment. Version 1.2 - Released June 1, 1986
-\@@multicnt=\count156
-\d@lta=\count157
+\@@multicnt=\count155
+\d@lta=\count156
 \@delta=\dimen159
 \@@delta=\dimen160
-\@gridcnt=\count158
-\@joinkind=\count159
+\@gridcnt=\count157
+\@joinkind=\count158
 \@dotgap=\dimen161
 \@ddotgap=\dimen162
-\@x@diff=\count160
-\@y@diff=\count161
+\@x@diff=\count159
+\@y@diff=\count160
 \x@diff=\dimen163
 \y@diff=\dimen164
-\@dotbox=\box31
-\num@segments=\count162
-\num@segmentsi=\count163
+\@dotbox=\box30
+\num@segments=\count161
+\num@segmentsi=\count162
 \@datafile=\read1
 )) (/usr/share/texlive/texmf-dist/tex/latex/tools/tabularx.sty
 Package: tabularx 2016/02/03 v2.11 `tabularx' package (DPC)
@@ -904,7 +904,7 @@ Package: tabularx 2016/02/03 v2.11 `tabularx' package (DPC)
 Package: array 2016/10/06 v2.4d Tabular extension package (FMi)
 \col@sep=\dimen165
 \extrarowheight=\dimen166
-\NC@list=\toks31
+\NC@list=\toks28
 \extratabsurround=\skip68
 \backup@length=\skip69
 )
@@ -913,20 +913,20 @@ Package: array 2016/10/06 v2.4d Tabular extension package (FMi)
 \TX@old@col=\dimen169
 \TX@target=\dimen170
 \TX@delta=\dimen171
-\TX@cols=\count164
-\TX@ftn=\toks32
+\TX@cols=\count163
+\TX@ftn=\toks29
 )
 (/usr/share/texlive/texmf-dist/tex/latex/pgf/frontendlayer/tikz.sty
 (/usr/share/texlive/texmf-dist/tex/latex/pgf/basiclayer/pgf.sty
 (/usr/share/texlive/texmf-dist/tex/latex/pgf/utilities/pgfrcs.sty
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfutil-common.tex
-\pgfutil@everybye=\toks33
+\pgfutil@everybye=\toks30
 \pgfutil@tempdima=\dimen172
 \pgfutil@tempdimb=\dimen173
 
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfutil-common-lists.t
 ex)) (/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfutil-latex.def
-\pgfutil@abb=\box32
+\pgfutil@abb=\box31
 (/usr/share/texlive/texmf-dist/tex/latex/ms/everyshi.sty
 Package: everyshi 2001/05/15 v3.00 EveryShipout Package (MS)
 ))
@@ -941,12 +941,12 @@ Package: pgf 2015/08/07 v3.0.1a (rcs-revision 1.15)
 Package: pgfsys 2014/07/09 v3.0.1a (rcs-revision 1.48)
 
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfkeys.code.tex
-\pgfkeys@pathtoks=\toks34
-\pgfkeys@temptoks=\toks35
+\pgfkeys@pathtoks=\toks31
+\pgfkeys@temptoks=\toks32
 
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfkeysfiltered.code.t
 ex
-\pgfkeys@tmptoks=\toks36
+\pgfkeys@tmptoks=\toks33
 ))
 \pgf@x=\dimen174
 \pgf@y=\dimen175
@@ -958,31 +958,30 @@ ex
 \pgf@yc=\dimen181
 \w@pgf@writea=\write3
 \r@pgf@reada=\read2
-\c@pgf@counta=\count165
-\c@pgf@countb=\count166
-\c@pgf@countc=\count167
-\c@pgf@countd=\count168
-\t@pgf@toka=\toks37
-\t@pgf@tokb=\toks38
-\t@pgf@tokc=\toks39
+\c@pgf@counta=\count164
+\c@pgf@countb=\count165
+\c@pgf@countc=\count166
+\c@pgf@countd=\count167
+\t@pgf@toka=\toks34
+\t@pgf@tokb=\toks35
+\t@pgf@tokc=\toks36
  (/usr/share/texlive/texmf-dist/tex/generic/pgf/systemlayer/pgf.cfg
 File: pgf.cfg 2008/05/14  (rcs-revision 1.7)
 )
-Driver file for pgf: pgfsys-dvips.def
+Driver file for pgf: pgfsys-pdftex.def
 
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/systemlayer/pgfsys-dvips.def
-File: pgfsys-dvips.def 2014/07/09  (rcs-revision 1.25)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/systemlayer/pgfsys-pdftex.def
+File: pgfsys-pdftex.def 2014/10/11  (rcs-revision 1.35)
 
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/systemlayer/pgfsys-common-postsc
-ript.def
-File: pgfsys-common-postscript.def 2008/10/01  (rcs-revision 1.22)
-\pgf@objectcount=\count169
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/systemlayer/pgfsys-common-pdf.de
+f
+File: pgfsys-common-pdf.def 2013/10/10  (rcs-revision 1.13)
 )))
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/systemlayer/pgfsyssoftpath.code.
 tex
 File: pgfsyssoftpath.code.tex 2013/09/09  (rcs-revision 1.9)
-\pgfsyssoftpath@smallbuffer@items=\count170
-\pgfsyssoftpath@bigbuffer@items=\count171
+\pgfsyssoftpath@smallbuffer@items=\count168
+\pgfsyssoftpath@bigbuffer@items=\count169
 )
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/systemlayer/pgfsysprotocol.code.
 tex
@@ -996,11 +995,11 @@ Package: pgfcore 2010/04/11 v3.0.1a (rcs-revision 1.7)
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathutil.code.tex)
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathparser.code.tex
 \pgfmath@dimen=\dimen182
-\pgfmath@count=\count172
-\pgfmath@box=\box33
-\pgfmath@toks=\toks40
-\pgfmath@stack@operand=\toks41
-\pgfmath@stack@operation=\toks42
+\pgfmath@count=\count170
+\pgfmath@box=\box32
+\pgfmath@toks=\toks37
+\pgfmath@stack@operand=\toks38
+\pgfmath@stack@operation=\toks39
 )
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.code.tex
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.basic.code
@@ -1020,7 +1019,7 @@ tex)
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.integerari
 thmetics.code.tex)))
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfloat.code.tex
-\c@pgfmathroundto@lastzeros=\count173
+\c@pgfmathroundto@lastzeros=\count171
 ))
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepoints.code.te
 x
@@ -1055,10 +1054,10 @@ File: pgfcorepathusage.code.tex 2014/11/02  (rcs-revision 1.24)
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorescopes.code.te
 x
 File: pgfcorescopes.code.tex 2015/05/08  (rcs-revision 1.46)
-\pgfpic=\box34
-\pgf@hbox=\box35
-\pgf@layerbox@main=\box36
-\pgf@picture@serial@count=\count174
+\pgfpic=\box33
+\pgf@hbox=\box34
+\pgf@layerbox@main=\box35
+\pgf@picture@serial@count=\count172
 )
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoregraphicstate.c
 ode.tex
@@ -1091,7 +1090,7 @@ File: pgfcorearrows.code.tex 2015/05/14  (rcs-revision 1.43)
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreshade.code.tex
 File: pgfcoreshade.code.tex 2013/07/15  (rcs-revision 1.15)
 \pgf@max=\dimen262
-\pgf@sys@shading@range@num=\count175
+\pgf@sys@shading@range@num=\count173
 )
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreimage.code.tex
 File: pgfcoreimage.code.tex 2013/07/15  (rcs-revision 1.18)
@@ -1099,7 +1098,7 @@ File: pgfcoreimage.code.tex 2013/07/15  (rcs-revision 1.18)
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreexternal.code.
 tex
 File: pgfcoreexternal.code.tex 2014/07/09  (rcs-revision 1.21)
-\pgfexternal@startupbox=\box37
+\pgfexternal@startupbox=\box36
 ))
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorelayers.code.te
 x
@@ -1115,7 +1114,7 @@ File: pgfcorepatterns.code.tex 2013/11/07  (rcs-revision 1.5)
 )))
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/modules/pgfmoduleshapes.code.tex
 File: pgfmoduleshapes.code.tex 2014/03/21  (rcs-revision 1.35)
-\pgfnodeparttextbox=\box38
+\pgfnodeparttextbox=\box37
 ) (/usr/share/texlive/texmf-dist/tex/generic/pgf/modules/pgfmoduleplot.code.tex
 File: pgfmoduleplot.code.tex 2015/08/03  (rcs-revision 1.13)
 )
@@ -1139,8 +1138,8 @@ Package: pgffor 2013/12/13 v3.0.1a (rcs-revision 1.25)
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex)
 \pgffor@iter=\dimen265
 \pgffor@skip=\dimen266
-\pgffor@stack=\toks43
-\pgffor@toks=\toks44
+\pgffor@stack=\toks40
+\pgffor@toks=\toks41
 ))
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/tikz.code.tex
 Package: tikz 2015/08/07 v3.0.1a (rcs-revision 1.151)
@@ -1148,7 +1147,7 @@ Package: tikz 2015/08/07 v3.0.1a (rcs-revision 1.151)
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/libraries/pgflibraryplothandlers
 .code.tex
 File: pgflibraryplothandlers.code.tex 2013/08/31 v3.0.1a (rcs-revision 1.20)
-\pgf@plot@mark@count=\count176
+\pgf@plot@mark@count=\count174
 \pgfplotmarksize=\dimen267
 )
 \tikz@lastx=\dimen268
@@ -1157,22 +1156,22 @@ File: pgflibraryplothandlers.code.tex 2013/08/31 v3.0.1a (rcs-revision 1.20)
 \tikz@lastysaved=\dimen271
 \tikzleveldistance=\dimen272
 \tikzsiblingdistance=\dimen273
-\tikz@figbox=\box39
-\tikz@figbox@bg=\box40
-\tikz@tempbox=\box41
-\tikz@tempbox@bg=\box42
-\tikztreelevel=\count177
-\tikznumberofchildren=\count178
-\tikznumberofcurrentchild=\count179
-\tikz@fig@count=\count180
+\tikz@figbox=\box38
+\tikz@figbox@bg=\box39
+\tikz@tempbox=\box40
+\tikz@tempbox@bg=\box41
+\tikztreelevel=\count175
+\tikznumberofchildren=\count176
+\tikznumberofcurrentchild=\count177
+\tikz@fig@count=\count178
 
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/modules/pgfmodulematrix.code.tex
 File: pgfmodulematrix.code.tex 2013/09/17  (rcs-revision 1.8)
-\pgfmatrixcurrentrow=\count181
-\pgfmatrixcurrentcolumn=\count182
-\pgf@matrix@numberofcolumns=\count183
+\pgfmatrixcurrentrow=\count179
+\pgfmatrixcurrentcolumn=\count180
+\pgf@matrix@numberofcolumns=\count181
 )
-\tikz@expandcount=\count184
+\tikz@expandcount=\count182
 
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tik
 zlibrarytopaths.code.tex
@@ -1180,11 +1179,11 @@ File: tikzlibrarytopaths.code.tex 2008/06/17 v3.0.1a (rcs-revision 1.2)
 )))
 (/usr/share/texlive/texmf-dist/tex/latex/float/float.sty
 Package: float 2001/11/08 v1.3d Float enhancements (AL)
-\c@float@type=\count185
-\float@exts=\toks45
-\float@box=\box43
-\@float@everytoks=\toks46
-\@floatcapt=\box44
+\c@float@type=\count183
+\float@exts=\toks42
+\float@box=\box42
+\@float@everytoks=\toks43
+\@floatcapt=\box43
 )
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tik
 zlibraryshapes.geometric.code.tex
@@ -1204,32 +1203,49 @@ File: tikzlibraryarrows.code.tex 2008/01/09 v3.0.1a (rcs-revision 1.1)
 tex
 File: pgflibraryarrows.code.tex 2013/09/23 v3.0.1a (rcs-revision 1.16)
 \arrowsize=\dimen274
-)) (./lst_emis_SI_v2.aux)
+)) (./lst_emis_SI_v2.aux
+
+LaTeX Warning: Label `fig:rmse_eps' multiply defined.
+
+)
 \openout1 = `lst_emis_SI_v2.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 85.
-LaTeX Font Info:    ... okay on input line 85.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 85.
-LaTeX Font Info:    ... okay on input line 85.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 85.
-LaTeX Font Info:    ... okay on input line 85.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 85.
-LaTeX Font Info:    ... okay on input line 85.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 85.
-LaTeX Font Info:    ... okay on input line 85.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 85.
-LaTeX Font Info:    ... okay on input line 85.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 85.
-LaTeX Font Info:    ... okay on input line 85.
-LaTeX Font Info:    Try loading font information for T1+ptm on input line 85.
-
-(/usr/share/texlive/texmf-dist/tex/latex/psnfss/t1ptm.fd
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 84.
+LaTeX Font Info:    ... okay on input line 84.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 84.
+LaTeX Font Info:    ... okay on input line 84.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 84.
+LaTeX Font Info:    ... okay on input line 84.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 84.
+LaTeX Font Info:    ... okay on input line 84.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 84.
+LaTeX Font Info:    ... okay on input line 84.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 84.
+LaTeX Font Info:    ... okay on input line 84.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 84.
+LaTeX Font Info:    ... okay on input line 84.
+LaTeX Font Info:    Try loading font information for T1+ptm on input line 84.
+ (/usr/share/texlive/texmf-dist/tex/latex/psnfss/t1ptm.fd
 File: t1ptm.fd 2001/06/04 font definitions for T1/ptm.
 )
+(/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count184
+\scratchdimen=\dimen275
+\scratchbox=\box44
+\nofMPsegments=\count185
+\nofMParguments=\count186
+\everyMPshowfont=\toks44
+\MPscratchCnt=\count187
+\MPscratchDim=\dimen276
+\MPnumerator=\count188
+\makeMPintoPDFobject=\count189
+\everyMPtoPDFconversion=\toks45
+)
 *geometry* driver: auto-detecting
-*geometry* detected driver: dvips
+*geometry* detected driver: pdftex
 *geometry* verbose mode - [ preamble ] result:
-* driver: dvips
+* driver: pdftex
 * paper: letterpaper
 * layout: <same size as paper>
 * layoutoffset:(h,v)=(0.0pt,0.0pt)
@@ -1265,18 +1281,18 @@ Package caption Info: float package is loaded.
 Package caption Info: hyperref package is loaded.
 Package caption Info: End \AtBeginDocument code.
 \AtBeginShipoutBox=\box45
-Package hyperref Info: Link coloring ON on input line 85.
+Package hyperref Info: Link coloring ON on input line 84.
 (/usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
 
 (/usr/share/texlive/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
 Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 )
-\c@section@level=\count186
+\c@section@level=\count190
 )
-LaTeX Info: Redefining \ref on input line 85.
-LaTeX Info: Redefining \pageref on input line 85.
-LaTeX Info: Redefining \nameref on input line 85.
+LaTeX Info: Redefining \ref on input line 84.
+LaTeX Info: Redefining \pageref on input line 84.
+LaTeX Info: Redefining \nameref on input line 84.
 
 (./lst_emis_SI_v2.out) (./lst_emis_SI_v2.out)
 \@outlinefile=\write4
@@ -1284,12 +1300,14 @@ LaTeX Info: Redefining \nameref on input line 85.
 
 Package lastpage Info: Please have a look at the pageslts package at
 (lastpage)             https://www.ctan.org/pkg/pageslts
-(lastpage)             ! on input line 85.
-LaTeX Info: Redefining \microtypecontext on input line 85.
-Package microtype Info: Generating DVI output.
+(lastpage)             ! on input line 84.
+LaTeX Info: Redefining \microtypecontext on input line 84.
+Package microtype Info: Generating PDF output.
 Package microtype Info: Character protrusion enabled (level 2).
 Package microtype Info: Using default protrusion set `alltext'.
-Package microtype Info: No font expansion.
+Package microtype Info: Automatic font expansion enabled (level 2),
+(microtype)             stretch: 20, shrink: 20, step: 1, non-selected.
+Package microtype Info: Using default expansion set `basictext'.
 Package microtype Info: No adjustment of tracking.
 Package microtype Info: No adjustment of interword spacing.
 Package microtype Info: No adjustment of character kerning.
@@ -1298,7 +1316,7 @@ Package microtype Info: No adjustment of character kerning.
 File: mt-ptm.cfg 2006/04/20 v1.7 microtype config. file: Times (RS)
 )
 ABD: EveryShipout initializing macros
-LaTeX Font Info:    Try loading font information for T1+phv on input line 93.
+LaTeX Font Info:    Try loading font information for T1+phv on input line 92.
 
 (/usr/share/texlive/texmf-dist/tex/latex/psnfss/t1phv.fd
 File: t1phv.fd 2001/06/04 scalable font definitions for T1/phv.
@@ -1308,10 +1326,10 @@ Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
 LaTeX Font Info:    Font shape `T1/phv/bx/n' in size <10> not available
-(Font)              Font shape `T1/phv/b/n' tried instead on input line 93.
+(Font)              Font shape `T1/phv/b/n' tried instead on input line 92.
 LaTeX Font Info:    Font shape `T1/phv/bx/n' in size <20> not available
-(Font)              Font shape `T1/phv/b/n' tried instead on input line 93.
-LaTeX Font Info:    Try loading font information for OT1+phv on input line 93.
+(Font)              Font shape `T1/phv/b/n' tried instead on input line 92.
+LaTeX Font Info:    Try loading font information for OT1+phv on input line 92.
 
 (/usr/share/texlive/texmf-dist/tex/latex/psnfss/ot1phv.fd
 File: ot1phv.fd 2001/06/04 scalable font definitions for OT1/phv.
@@ -1320,7 +1338,7 @@ Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             `phv' (encoding: OT1).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
-LaTeX Font Info:    Try loading font information for OT1+ztmcm on input line 93
+LaTeX Font Info:    Try loading font information for OT1+ztmcm on input line 92
 .
 
 (/usr/share/texlive/texmf-dist/tex/latex/psnfss/ot1ztmcm.fd
@@ -1330,35 +1348,35 @@ Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             `ztmcm' (encoding: OT1).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
-LaTeX Font Info:    Try loading font information for OML+ztmcm on input line 93
+LaTeX Font Info:    Try loading font information for OML+ztmcm on input line 92
 .
 
 (/usr/share/texlive/texmf-dist/tex/latex/psnfss/omlztmcm.fd
 File: omlztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OML/ztmcm.
 )
-LaTeX Font Info:    Try loading font information for OMS+ztmcm on input line 93
+LaTeX Font Info:    Try loading font information for OMS+ztmcm on input line 92
 .
 
 (/usr/share/texlive/texmf-dist/tex/latex/psnfss/omsztmcm.fd
 File: omsztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OMS/ztmcm.
 )
-LaTeX Font Info:    Try loading font information for OMX+ztmcm on input line 93
+LaTeX Font Info:    Try loading font information for OMX+ztmcm on input line 92
 .
 
 (/usr/share/texlive/texmf-dist/tex/latex/psnfss/omxztmcm.fd
 File: omxztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OMX/ztmcm.
 )
-LaTeX Font Info:    Try loading font information for OT1+ptm on input line 93.
+LaTeX Font Info:    Try loading font information for OT1+ptm on input line 92.
 
 (/usr/share/texlive/texmf-dist/tex/latex/psnfss/ot1ptm.fd
 File: ot1ptm.fd 2001/06/04 font definitions for OT1/ptm.
 )
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <12> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 93.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 92.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <9> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 93.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 92.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 93.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 92.
 
 (/usr/share/texlive/texmf-dist/tex/latex/microtype/mt-msa.cfg
 File: mt-msa.cfg 2006/02/04 v1.1 microtype config. file: AMS symbols (a) (RS)
@@ -1367,836 +1385,436 @@ File: mt-msa.cfg 2006/02/04 v1.1 microtype config. file: AMS symbols (a) (RS)
 File: mt-msb.cfg 2005/06/01 v1.0 microtype config. file: AMS symbols (b) (RS)
 )
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <10> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 93.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 92.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7.4> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 93.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 92.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <6> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 93.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 92.
 LaTeX Font Info:    Font shape `T1/phv/bx/n' in size <12> not available
-(Font)              Font shape `T1/phv/b/n' tried instead on input line 93.
+(Font)              Font shape `T1/phv/b/n' tried instead on input line 92.
 LaTeX Font Info:    Font shape `T1/phv/bx/n' in size <9> not available
-(Font)              Font shape `T1/phv/b/n' tried instead on input line 93.
+(Font)              Font shape `T1/phv/b/n' tried instead on input line 92.
 
-Underfull \hbox (badness 10000) in paragraph at lines 93--93
+Underfull \hbox (badness 10000) in paragraph at lines 92--92
 
  []
-
-LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <7.4> not available
-(Font)              Font shape `T1/ptm/b/n' tried instead on input line 102.
-
-LaTeX Warning: Citation `wang_global_2013-2' on page 1 undefined on input line 
-102.
 
 [1
 
-] [2]
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] [2]
 
-LaTeX Warning: Citation `lhomme_radiative_1988' on page 3 undefined on input li
-ne 146.
-
-
-LaTeX Warning: Citation `holmes_land_2009' on page 3 undefined on input line 14
-6.
-
-
-LaTeX Warning: Citation `holmes_cloud_2016-1' on page 3 undefined on input line
- 146.
-
-
-LaTeX Warning: Citation `wang_evaluation_2009-1' on page 3 undefined on input l
-ine 154.
-
-
-LaTeX Warning: Citation `crago_use_2014-3' on page 3 undefined on input line 15
-4.
-
-
-LaTeX Warning: Citation `crago_use_2014' on page 3 undefined on input line 162.
-
-
-
-LaTeX Warning: Citation `holmes_land_2009' on page 3 undefined on input line 17
-5.
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 178.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 179.
+(hyperref)                removing `\epsilon' on input line 178.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\epsilon' on input line 179.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 179.
-
-
-LaTeX Warning: Citation `holmes_land_2009' on page 3 undefined on input line 18
-1.
-
-
-LaTeX Warning: Citation `holmes_cloud_2016' on page 3 undefined on input line 1
-81.
+(hyperref)                removing `math shift' on input line 178.
 
 LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <10> not available
-(Font)              Font shape `T1/ptm/b/n' tried instead on input line 181.
-
-LaTeX Warning: Citation `holmes_land_2009' on page 3 undefined on input line 18
-1.
-
-
-LaTeX Warning: Citation `holmes_land_2009' on page 3 undefined on input line 18
-3.
-
+(Font)              Font shape `T1/ptm/b/n' tried instead on input line 180.
 [3]
+<./Plots/Brookings_se_2005-08.png, id=205, 559.08875pt x 365.365pt>
+File: ./Plots/Brookings_se_2005-08.png Graphic file (type png)
+<use ./Plots/Brookings_se_2005-08.png>
+Package pdftex.def Info: ./Plots/Brookings_se_2005-08.png  used on input line 1
+85.
+(pdftex.def)             Requested size: 225.21626pt x 147.18036pt.
+<./Plots/Brookings_le_2005-08.png, id=207, 559.08875pt x 365.365pt>
+File: ./Plots/Brookings_le_2005-08.png Graphic file (type png)
+<use ./Plots/Brookings_le_2005-08.png>
+Package pdftex.def Info: ./Plots/Brookings_le_2005-08.png  used on input line 1
+88.
+(pdftex.def)             Requested size: 225.21626pt x 147.18036pt.
+<./Plots/Brookings_emmi_twoequ.png, id=208, 534.99875pt x 357.335pt>
+File: ./Plots/Brookings_emmi_twoequ.png Graphic file (type png)
+<use ./Plots/Brookings_emmi_twoequ.png>
+Package pdftex.def Info: ./Plots/Brookings_emmi_twoequ.png  used on input line 
+191.
+(pdftex.def)             Requested size: 225.21626pt x 150.42863pt.
+<./Plots/Yatir_emmi_twoequ.png, id=209, 548.0475pt x 357.335pt>
+File: ./Plots/Yatir_emmi_twoequ.png Graphic file (type png)
+<use ./Plots/Yatir_emmi_twoequ.png>
+Package pdftex.def Info: ./Plots/Yatir_emmi_twoequ.png  used on input line 194.
 
-! LaTeX Error: File `Brookings_se_2005-08' not found.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.188 ...dth=0.45\textwidth]{Brookings_se_2005-08}
-                                                  
-I could not locate the file with any of these extensions:
-.eps,.ps,.eps.gz,.ps.gz,.eps.Z,.mps
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-! Arithmetic overflow.
-\OVP@calc ...le \divide \@tempcnta by \unitlength 
-                                                  \fi \ifnum \count@ =\z@ \c...
-l.188 ...dth=0.45\textwidth]{Brookings_se_2005-08}
-                                                  
-I can't carry out that multiplication or division,
-since the result is out of range.
-
-
-! LaTeX Error: File `Brookings_le_2005-08' not found.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.191 ...dth=0.45\textwidth]{Brookings_le_2005-08}
-                                                   % ,grid,tics=10
-I could not locate the file with any of these extensions:
-.eps,.ps,.eps.gz,.ps.gz,.eps.Z,.mps
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-! Arithmetic overflow.
-\OVP@calc ...le \divide \@tempcnta by \unitlength 
-                                                  \fi \ifnum \count@ =\z@ \c...
-l.191 ...dth=0.45\textwidth]{Brookings_le_2005-08}
-                                                   % ,grid,tics=10
-I can't carry out that multiplication or division,
-since the result is out of range.
-
-
-! LaTeX Error: File `Brookings_emmi_twoequ' not found.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.194 ...th=0.45\textwidth]{Brookings_emmi_twoequ}
-                                                   %
-I could not locate the file with any of these extensions:
-.eps,.ps,.eps.gz,.ps.gz,.eps.Z,.mps
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-! Arithmetic overflow.
-\OVP@calc ...le \divide \@tempcnta by \unitlength 
-                                                  \fi \ifnum \count@ =\z@ \c...
-l.194 ...th=0.45\textwidth]{Brookings_emmi_twoequ}
-                                                   %
-I can't carry out that multiplication or division,
-since the result is out of range.
-
-
-! LaTeX Error: File `Yatir_emmi_twoequ' not found.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.197 ...[width=0.45\textwidth]{Yatir_emmi_twoequ}
-                                                   %
-I could not locate the file with any of these extensions:
-.eps,.ps,.eps.gz,.ps.gz,.eps.Z,.mps
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-! Arithmetic overflow.
-\OVP@calc ...le \divide \@tempcnta by \unitlength 
-                                                  \fi \ifnum \count@ =\z@ \c...
-l.197 ...[width=0.45\textwidth]{Yatir_emmi_twoequ}
-                                                   %
-I can't carry out that multiplication or division,
-since the result is out of range.
-
-
-LaTeX Warning: Citation `holmes_land_2009' on page 4 undefined on input line 20
-1.
-
-
-LaTeX Warning: Citation `holmes_land_2009' on page 4 undefined on input line 20
-1.
+(pdftex.def)             Requested size: 225.21626pt x 146.84634pt.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 204.
+(hyperref)                removing `math shift' on input line 201.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\epsilon' on input line 204.
+(hyperref)                removing `\epsilon' on input line 201.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 204.
+(hyperref)                removing `math shift' on input line 201.
+
+<./Plots/tsta_violion.png, id=231, 874.26625pt x 510.90875pt>
+File: ./Plots/tsta_violion.png Graphic file (type png)
+<use ./Plots/tsta_violion.png>
+Package pdftex.def Info: ./Plots/tsta_violion.png  used on input line 204.
+(pdftex.def)             Requested size: 305.99777pt x 178.82074pt.
+<./Plots/As_epsmodis_seq_modis2017.png, id=242, 425.59pt x 281.05pt>
+File: ./Plots/As_epsmodis_seq_modis2017.png Graphic file (type png)
+<use ./Plots/As_epsmodis_seq_modis2017.png>
+Package pdftex.def Info: ./Plots/As_epsmodis_seq_modis2017.png  used on input l
+ine 215.
+(pdftex.def)             Requested size: 225.21626pt x 148.72849pt.
+<./Plots/as_modiseps_leq_modis2017.png, id=243, 425.59pt x 281.05pt>
+File: ./Plots/as_modiseps_leq_modis2017.png Graphic file (type png)
+<use ./Plots/as_modiseps_leq_modis2017.png>
+Package pdftex.def Info: ./Plots/as_modiseps_leq_modis2017.png  used on input l
+ine 218.
+(pdftex.def)             Requested size: 225.21626pt x 148.72849pt.
+<./Plots/AS_optps_seq_modis2017.png, id=244, 425.59pt x 281.05pt>
+File: ./Plots/AS_optps_seq_modis2017.png Graphic file (type png)
+<use ./Plots/AS_optps_seq_modis2017.png>
+Package pdftex.def Info: ./Plots/AS_optps_seq_modis2017.png  used on input line
+ 225.
+(pdftex.def)             Requested size: 225.21626pt x 148.72849pt.
+<./Plots/AS_optps_leq_modis.png, id=245, 425.59pt x 281.05pt>
+File: ./Plots/AS_optps_leq_modis.png Graphic file (type png)
+<use ./Plots/AS_optps_leq_modis.png>
+Package pdftex.def Info: ./Plots/AS_optps_leq_modis.png  used on input line 228
+.
+(pdftex.def)             Requested size: 225.21626pt x 148.72849pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 224--239
+
+ []
+
+[4 <./Plots/Brookings_se_2005-08.png> <./Plots/Brookings_le_2005-08.png> <./Plo
+ts/Brookings_emmi_twoequ.png> <./Plots/Yatir_emmi_twoequ.png>]
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 
-! LaTeX Error: Cannot determine size of graphic in ./Plots/tsta_violion.png (no
- BoundingBox).
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.207 ...udegraphics[scale=0.35]{tsta_violion.png}
-                                                   %Ts_Talocalleqseq
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-File: ./Plots/tsta_violion.png Graphic file (type eps)
-<./Plots/tsta_violion.png>
-
-! LaTeX Error: File `As_epsmodis_seq_modis2017' not found.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.218 ....45\textwidth]{As_epsmodis_seq_modis2017}
-                                                   % ,grid,tics=10
-I could not locate the file with any of these extensions:
-.eps,.ps,.eps.gz,.ps.gz,.eps.Z,.mps
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-! Arithmetic overflow.
-\OVP@calc ...le \divide \@tempcnta by \unitlength 
-                                                  \fi \ifnum \count@ =\z@ \c...
-l.218 ....45\textwidth]{As_epsmodis_seq_modis2017}
-                                                   % ,grid,tics=10
-I can't carry out that multiplication or division,
-since the result is out of range.
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 243.
 
 
-! LaTeX Error: File `as_modiseps_leq_modis2017' not found.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.221 ....45\textwidth]{as_modiseps_leq_modis2017}
-                                                   % ,grid,tics=10
-I could not locate the file with any of these extensions:
-.eps,.ps,.eps.gz,.ps.gz,.eps.Z,.mps
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-! Arithmetic overflow.
-\OVP@calc ...le \divide \@tempcnta by \unitlength 
-                                                  \fi \ifnum \count@ =\z@ \c...
-l.221 ....45\textwidth]{as_modiseps_leq_modis2017}
-                                                   % ,grid,tics=10
-I can't carry out that multiplication or division,
-since the result is out of range.
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\epsilon' on input line 243.
 
 
-! LaTeX Error: File `AS_optps_seq_modis2017' not found.
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 243.
 
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.228 ...h=0.45\textwidth]{AS_optps_seq_modis2017}
-                                                   % ,grid,tics=10
-I could not locate the file with any of these extensions:
-.eps,.ps,.eps.gz,.ps.gz,.eps.Z,.mps
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
+<./Plots/brook_mx_c.png, id=284, 550.055pt x 365.365pt>
+File: ./Plots/brook_mx_c.png Graphic file (type png)
+<use ./Plots/brook_mx_c.png>
+Package pdftex.def Info: ./Plots/brook_mx_c.png  used on input line 249.
+(pdftex.def)             Requested size: 225.21626pt x 149.59435pt.
+<./Plots/as_mx_c.png, id=285, 540.0175pt x 365.365pt>
+File: ./Plots/as_mx_c.png Graphic file (type png)
+<use ./Plots/as_mx_c.png>
+Package pdftex.def Info: ./Plots/as_mx_c.png  used on input line 252.
+(pdftex.def)             Requested size: 225.21626pt x 152.37627pt.
+<./Plots/hs_mx_c.png, id=286, 550.055pt x 365.365pt>
+File: ./Plots/hs_mx_c.png Graphic file (type png)
+<use ./Plots/hs_mx_c.png>
+Package pdftex.def Info: ./Plots/hs_mx_c.png  used on input line 257.
+(pdftex.def)             Requested size: 225.21626pt x 149.59435pt.
+<./Plots/tum_mx_c.png, id=287, 550.055pt x 365.365pt>
+File: ./Plots/tum_mx_c.png Graphic file (type png)
+<use ./Plots/tum_mx_c.png>
+Package pdftex.def Info: ./Plots/tum_mx_c.png  used on input line 260.
+(pdftex.def)             Requested size: 225.21626pt x 149.59435pt.
 
-! Arithmetic overflow.
-\OVP@calc ...le \divide \@tempcnta by \unitlength 
-                                                  \fi \ifnum \count@ =\z@ \c...
-l.228 ...h=0.45\textwidth]{AS_optps_seq_modis2017}
-                                                   % ,grid,tics=10
-I can't carry out that multiplication or division,
-since the result is out of range.
-
-
-! LaTeX Error: File `AS_optps_leq_modis' not found.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.231 ...width=0.45\textwidth]{AS_optps_leq_modis}
-                                                   % ,grid,tics=10
-I could not locate the file with any of these extensions:
-.eps,.ps,.eps.gz,.ps.gz,.eps.Z,.mps
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-! Arithmetic overflow.
-\OVP@calc ...le \divide \@tempcnta by \unitlength 
-                                                  \fi \ifnum \count@ =\z@ \c...
-l.231 ...width=0.45\textwidth]{AS_optps_leq_modis}
-                                                   % ,grid,tics=10
-I can't carry out that multiplication or division,
-since the result is out of range.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 227--242
+Underfull \hbox (badness 10000) in paragraph at lines 248--266
 
  []
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
+<./Plots/rlup_corr.png, id=292, 532.99126pt x 365.365pt>
+File: ./Plots/rlup_corr.png Graphic file (type png)
+<use ./Plots/rlup_corr.png>
+Package pdftex.def Info: ./Plots/rlup_corr.png  used on input line 271.
+(pdftex.def)             Requested size: 225.21626pt x 154.38327pt.
+<./Plots/br_hs.png, id=293, 549.05125pt x 365.365pt>
+File: ./Plots/br_hs.png Graphic file (type png)
+<use ./Plots/br_hs.png>
+Package pdftex.def Info: ./Plots/br_hs.png  used on input line 274.
+(pdftex.def)             Requested size: 225.21626pt x 149.86751pt.
 
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 246.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\epsilon' on input line 246.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 246.
-
-[4]
-
-! LaTeX Error: File `brook_mx_c' not found.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.255 ...verpic}[width=0.45\textwidth]{brook_mx_c}
-                                                   %
-I could not locate the file with any of these extensions:
-.eps,.ps,.eps.gz,.ps.gz,.eps.Z,.mps
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-! Arithmetic overflow.
-\OVP@calc ...le \divide \@tempcnta by \unitlength 
-                                                  \fi \ifnum \count@ =\z@ \c...
-l.255 ...verpic}[width=0.45\textwidth]{brook_mx_c}
-                                                   %
-I can't carry out that multiplication or division,
-since the result is out of range.
-
-
-! LaTeX Error: File `as_mx_c' not found.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.258 ...n{overpic}[width=0.45\textwidth]{as_mx_c}
-                                                   % ,grid,tics=10
-I could not locate the file with any of these extensions:
-.eps,.ps,.eps.gz,.ps.gz,.eps.Z,.mps
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-! Arithmetic overflow.
-\OVP@calc ...le \divide \@tempcnta by \unitlength 
-                                                  \fi \ifnum \count@ =\z@ \c...
-l.258 ...n{overpic}[width=0.45\textwidth]{as_mx_c}
-                                                   % ,grid,tics=10
-I can't carry out that multiplication or division,
-since the result is out of range.
-
-
-! LaTeX Error: File `hs_mx_c' not found.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.263 ...n{overpic}[width=0.45\textwidth]{hs_mx_c}
-                                                   %
-I could not locate the file with any of these extensions:
-.eps,.ps,.eps.gz,.ps.gz,.eps.Z,.mps
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-! Arithmetic overflow.
-\OVP@calc ...le \divide \@tempcnta by \unitlength 
-                                                  \fi \ifnum \count@ =\z@ \c...
-l.263 ...n{overpic}[width=0.45\textwidth]{hs_mx_c}
-                                                   %
-I can't carry out that multiplication or division,
-since the result is out of range.
-
-
-! LaTeX Error: File `tum_mx_c' not found.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.266 ...{overpic}[width=0.45\textwidth]{tum_mx_c}
-                                                   %
-I could not locate the file with any of these extensions:
-.eps,.ps,.eps.gz,.ps.gz,.eps.Z,.mps
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-! Arithmetic overflow.
-\OVP@calc ...le \divide \@tempcnta by \unitlength 
-                                                  \fi \ifnum \count@ =\z@ \c...
-l.266 ...{overpic}[width=0.45\textwidth]{tum_mx_c}
-                                                   %
-I can't carry out that multiplication or division,
-since the result is out of range.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 254--272
-
- []
-
-
-! LaTeX Error: File `rlup_corr' not found.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.277 ...overpic}[width=0.45\textwidth]{rlup_corr}
-                                                   %
-I could not locate the file with any of these extensions:
-.eps,.ps,.eps.gz,.ps.gz,.eps.Z,.mps
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-! Arithmetic overflow.
-\OVP@calc ...le \divide \@tempcnta by \unitlength 
-                                                  \fi \ifnum \count@ =\z@ \c...
-l.277 ...overpic}[width=0.45\textwidth]{rlup_corr}
-                                                   %
-I can't carry out that multiplication or division,
-since the result is out of range.
-
-
-! LaTeX Error: File `br_hs' not found.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.280 ...gin{overpic}[width=0.45\textwidth]{br_hs}
-                                                   % ,grid,tics=10
-I could not locate the file with any of these extensions:
-.eps,.ps,.eps.gz,.ps.gz,.eps.Z,.mps
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-! Arithmetic overflow.
-\OVP@calc ...le \divide \@tempcnta by \unitlength 
-                                                  \fi \ifnum \count@ =\z@ \c...
-l.280 ...gin{overpic}[width=0.45\textwidth]{br_hs}
-                                                   % ,grid,tics=10
-I can't carry out that multiplication or division,
-since the result is out of range.
+LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 327.
+(hyperref)                removing `math shift' on input line 321.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\epsilon' on input line 327.
+(hyperref)                removing `\epsilon' on input line 321.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 327.
+(hyperref)                removing `math shift' on input line 321.
 
-
-! LaTeX Error: File `unc_eps_vio' not found.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.337 ...n{overpic}[width=\textwidth]{unc_eps_vio}
-                                                   % ,grid,tics=10 (opteps_b...
-
-I could not locate the file with any of these extensions:
-.eps,.ps,.eps.gz,.ps.gz,.eps.Z,.mps
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-! Arithmetic overflow.
-\OVP@calc ...le \divide \@tempcnta by \unitlength 
-                                                  \fi \ifnum \count@ =\z@ \c...
-l.337 ...n{overpic}[width=\textwidth]{unc_eps_vio}
-                                                   % ,grid,tics=10 (opteps_b...
-I can't carry out that multiplication or division,
-since the result is out of range.
-
-
-! LaTeX Error: File `tsta_unc_leq_vio' not found.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.347 ...rpic}[width=\textwidth]{tsta_unc_leq_vio}
-                                                   % ,grid,tics=10
-I could not locate the file with any of these extensions:
-.eps,.ps,.eps.gz,.ps.gz,.eps.Z,.mps
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-! Arithmetic overflow.
-\OVP@calc ...le \divide \@tempcnta by \unitlength 
-                                                  \fi \ifnum \count@ =\z@ \c...
-l.347 ...rpic}[width=\textwidth]{tsta_unc_leq_vio}
-                                                   % ,grid,tics=10
-I can't carry out that multiplication or division,
-since the result is out of range.
-
-
-! LaTeX Error: File `tsta_unc_seq_voi' not found.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.354 ...rpic}[width=\textwidth]{tsta_unc_seq_voi}
-                                                   % ,grid,tics=10
-I could not locate the file with any of these extensions:
-.eps,.ps,.eps.gz,.ps.gz,.eps.Z,.mps
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-! Arithmetic overflow.
-\OVP@calc ...le \divide \@tempcnta by \unitlength 
-                                                  \fi \ifnum \count@ =\z@ \c...
-l.354 ...rpic}[width=\textwidth]{tsta_unc_seq_voi}
-                                                   % ,grid,tics=10
-I can't carry out that multiplication or division,
-since the result is out of range.
+[5 <./Plots/tsta_violion.png>]
+<./Plots/unc_eps_vio.png, id=328, 864.22874pt x 523.9575pt>
+File: ./Plots/unc_eps_vio.png Graphic file (type png)
+<use ./Plots/unc_eps_vio.png>
+Package pdftex.def Info: ./Plots/unc_eps_vio.png  used on input line 331.
+(pdftex.def)             Requested size: 325.31154pt x 197.22711pt.
+<./Plots/tsta_unc_leq_vio.png, id=329, 640.3925pt x 495.8525pt>
+File: ./Plots/tsta_unc_leq_vio.png Graphic file (type png)
+<use ./Plots/tsta_unc_leq_vio.png>
+Package pdftex.def Info: ./Plots/tsta_unc_leq_vio.png  used on input line 341.
+(pdftex.def)             Requested size: 200.19054pt x 155.00648pt.
+<./Plots/tsta_unc_seq_voi.png, id=330, 623.32875pt x 500.87125pt>
+File: ./Plots/tsta_unc_seq_voi.png Graphic file (type png)
+<use ./Plots/tsta_unc_seq_voi.png>
+Package pdftex.def Info: ./Plots/tsta_unc_seq_voi.png  used on input line 348.
+(pdftex.def)             Requested size: 200.19054pt x 160.8629pt.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
+[6 <./Plots/As_epsmodis_seq_modis2017.png> <./Plots/as_modiseps_leq_modis2017.p
+ng> <./Plots/AS_optps_seq_modis2017.png> <./Plots/AS_optps_leq_modis.png>]
+Underfull \vbox (badness 1231) has occurred while \output is active []
 
-LaTeX Warning: Citation `sugita1996optimal' on page 5 undefined on input line 3
-70.
+ [7 <./Plots/brook_mx_c.png> <./Plots/as_mx_c.png> <./Plots/hs_mx_c.png> <./Plo
+ts/tum_mx_c.png> <./Plots/rlup_corr.png> <./Plots/br_hs.png>] [8]
+Underfull \vbox (badness 1960) has occurred while \output is active []
 
-
-LaTeX Warning: Citation `holmes_land_2009-1' on page 5 undefined on input line 
-372.
-
-[5]
-
-LaTeX Warning: Citation `holmes_land_2009-1' on page 6 undefined on input line 
-381.
-
-
-Underfull \vbox (badness 2050) has occurred while \output is active []
-
- [6]
+ [9 <./Plots/unc_eps_vio.png> <./Plots/tsta_unc_leq_vio.png> <./Plots/tsta_unc_
+seq_voi.png>]
 LaTeX Font Info:    Font shape `T1/phv/bx/it' in size <9> not available
-(Font)              Font shape `T1/phv/b/it' tried instead on input line 413.
+(Font)              Font shape `T1/phv/b/it' tried instead on input line 408.
 LaTeX Font Info:    Font shape `T1/phv/b/it' in size <9> not available
-(Font)              Font shape `T1/phv/b/sl' tried instead on input line 413.
+(Font)              Font shape `T1/phv/b/sl' tried instead on input line 408.
 
 
 Package hyperref Warning: Difference (2) between bookmark levels is greater 
-(hyperref)                than one, level fixed on input line 413.
+(hyperref)                than one, level fixed on input line 408.
 
 
-LaTeX Warning: Citation `holmes_land_2009-1' on page 7 undefined on input line 
-415.
-
-
-LaTeX Warning: Citation `holmes_land_2009' on page 7 undefined on input line 41
-5.
-
-[7]
-
-LaTeX Warning: Citation `jin_improved_2006-1' on page 8 undefined on input line
- 419.
-
-
-LaTeX Warning: Citation `hulley2012quantifying' on page 8 undefined on input li
-ne 419.
-
-
-LaTeX Warning: Citation `wang_evaluation_2009' on page 8 undefined on input lin
-e 419.
-
-
-LaTeX Warning: Citation `wan_land_nodate-1' on page 8 undefined on input line 4
-19.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 427--427
-[]|\T1/ptm/b/n/10 latitute,
+Underfull \hbox (badness 10000) in paragraph at lines 421--421
+[]|\T1/ptm/b/n/10 Latitute,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 427--428
+Underfull \hbox (badness 10000) in paragraph at lines 421--421
+\T1/ptm/b/n/10 Lon-gi-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 421--422
 []|\T1/ptm/b/n/10 Time-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 428--428
-[]|\T1/ptm/b/n/10 longwave
+Underfull \hbox (badness 10000) in paragraph at lines 422--422
+[]|\T1/ptm/b/n/10 Longwave
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 428--429
+Underfull \hbox (badness 10000) in paragraph at lines 422--423
 \T1/ptm/b/n/10 in-stal-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 428--429
+Underfull \hbox (badness 10000) in paragraph at lines 422--423
 \T1/ptm/b/n/10 la-tion
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 428--429
+Underfull \hbox (badness 10000) in paragraph at lines 422--423
 \T1/ptm/b/n/10 height
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 430--430
-[]|\T1/ptm/m/n/10 -17.1507,
+Underfull \hbox (badness 10000) in paragraph at lines 424--424
+[]|\T1/ptm/m/n/10 (+20) -17.1507,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 424--424
+[]|\T1/ptm/m/n/10 (+20) 2016-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 426--426
+[]|\T1/ptm/m/n/10 (+20) Alice Springs
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 426--426
+[]|\T1/ptm/m/n/10 (+20) -22.2828,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 426--426
+[]|\T1/ptm/m/n/10 (+20) Mulga wood-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 426--426
+[]|\T1/ptm/m/n/10 (+20) 2016-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 428--428
+[]|\T1/ptm/m/n/10 (+20) -22.2870,
+ []
+
+
+Underfull \hbox (badness 7468) in paragraph at lines 428--428
+[]|\T1/ptm/m/n/10 (+20) Grassy mulga
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 428--428
+\T1/ptm/m/n/10 (+20) wood-land,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 428--428
+\T1/ptm/m/n/10 (+20) Corym-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 428--428
+\T1/ptm/m/n/10 (+20) bia/Triodia
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 428--428
+[]|\T1/ptm/m/n/10 (+20) 2016-
+ []
+
+
+Underfull \hbox (badness 3601) in paragraph at lines 430--430
+[]|\T1/ptm/m/n/10 (+20) Howard Springs
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 430--430
-[]|\T1/ptm/m/n/10 2016-
+[]|\T1/ptm/m/n/10 (+20) -12.4943,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 430--430
+[]|\T1/ptm/m/n/10 (+20) 2016-
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 432--432
-[]|\T1/ptm/m/n/10 Alice Springs
+[]|\T1/ptm/m/n/10 (+20) -13.1790,
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 432--432
-[]|\T1/ptm/m/n/10 -22.2828,
+[]|\T1/ptm/m/n/10 (+20) Tropical sa-
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 432--432
-[]|\T1/ptm/m/n/10 Mulga wood-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 432--432
-[]|\T1/ptm/m/n/10 2016-
+[]|\T1/ptm/m/n/10 (+20) 2016-
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 434--434
-[]|\T1/ptm/m/n/10 -22.2870,
+[]|\T1/ptm/m/n/10 (+20) Adelaide River
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 434--434
-[]|\T1/ptm/m/n/10 Grassy mulga
+[]|\T1/ptm/m/n/10 (+20) -13.0769,
+ []
+
+
+Underfull \hbox (badness 1043) in paragraph at lines 434--434
+[]|\T1/ptm/m/n/10 (+20) Savanna dom-i-
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 434--434
-\T1/ptm/m/n/10 wood-land,
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 434--434
-\T1/ptm/m/n/10 Corym-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 434--434
-\T1/ptm/m/n/10 bia/Triodia
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 434--434
-[]|\T1/ptm/m/n/10 2016-
- []
-
-
-Underfull \hbox (badness 7099) in paragraph at lines 436--436
-[]|\T1/ptm/m/n/10 Howard Springs
+[]|\T1/ptm/m/n/10 (+20) 2006-
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 436--436
-[]|\T1/ptm/m/n/10 -12.4943,
+[]|\T1/ptm/m/n/10 (+20) Daly Un-cleared
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 436--436
-[]|\T1/ptm/m/n/10 Open wood-
+[]|\T1/ptm/m/n/10 (+20) -14.1592,
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 436--436
-[]|\T1/ptm/m/n/10 2016-
+[]|\T1/ptm/m/n/10 (+20) Woodland
  []
 
 
-Underfull \hbox (badness 5726) in paragraph at lines 436--436
-[]|\T1/ptm/m/n/10 CM-7B, CG-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 438--438
-[]|\T1/ptm/m/n/10 -13.1790,
+Underfull \hbox (badness 10000) in paragraph at lines 436--436
+[]|\T1/ptm/m/n/10 (+20) 2016-
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 438--438
-[]|\T1/ptm/m/n/10 Tropical sa-
+[]|\T1/ptm/m/n/10 (+20) Tumbarumba
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 438--438
-[]|\T1/ptm/m/n/10 2016-
+[]|\T1/ptm/m/n/10 (+20) -35.6566,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 438--438
+[]|\T1/ptm/m/n/10 (+20) 2015-
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 440--440
-[]|\T1/ptm/m/n/10 Adelaide River
+[]|\T1/ptm/m/n/10 (+20) 44.352,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 440--440
-[]|\T1/ptm/m/n/10 -13.0769,
+Overfull \hbox (4.05533pt too wide) in paragraph at lines 440--440
+[]|\T1/ptm/m/n/10 (-20) pyrgeometers[]| 
  []
 
 
-Underfull \hbox (badness 2582) in paragraph at lines 440--440
-[]|\T1/ptm/m/n/10 Savanna dom-i-
+Underfull \hbox (badness 10000) in paragraph at lines 443--443
+[]|\T1/ptm/m/n/10 (+20) 35.052,
  []
 
 
-Underfull \hbox (badness 1874) in paragraph at lines 440--440
-\T1/ptm/m/n/10 lyp-tus tec-ti-fica
+Underfull \hbox (badness 10000) in paragraph at lines 443--443
+[]|\T1/ptm/m/n/10 (+20) Evergreen
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 440--440
-[]|\T1/ptm/m/n/10 2006-
+Underfull \hbox (badness 10000) in paragraph at lines 443--443
+\T1/ptm/m/n/10 (+20) needle-leaf
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 442--442
-[]|\T1/ptm/m/n/10 Daly Un-cleared
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 442--442
-[]|\T1/ptm/m/n/10 -14.1592,
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 442--442
-[]|\T1/ptm/m/n/10 Woodland
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 442--442
-[]|\T1/ptm/m/n/10 2016-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 444--444
-[]|\T1/ptm/m/n/10 Tumbarumba
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 444--444
-[]|\T1/ptm/m/n/10 -35.6566,
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 444--444
-[]|\T1/ptm/m/n/10 2015-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 444--444
-[]|\T1/ptm/m/n/10 CM3 and
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 446--446
-[]|\T1/ptm/m/n/10 44.352,
- []
-
-
-Overfull \hbox (5.14398pt too wide) in paragraph at lines 446--446
-[]|\T1/ptm/m/n/10 pyrgeometers[]| 
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 449--449
-[]|\T1/ptm/m/n/10 35.052,
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 449--449
-[]|\T1/ptm/m/n/10 Evergreen
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 449--449
-\T1/ptm/m/n/10 needle-leaf
- []
-
-
-Overfull \hbox (5.14398pt too wide) in paragraph at lines 449--450
-[]|\T1/ptm/m/n/10 pyrgeometers[]| 
+Overfull \hbox (4.05533pt too wide) in paragraph at lines 443--444
+[]|\T1/ptm/m/n/10 (-20) pyrgeometers[]| 
  []
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-
-LaTeX Warning: Citation `holmes2009land' on page 8 undefined on input line 458.
-
-
-
-LaTeX Warning: Citation `holmes_land_2009' on page 8 undefined on input line 45
-9.
-
-[8]
-
-LaTeX Warning: Citation `bahir_evaluation_2017' on page 9 undefined on input li
-ne 477.
-
-
-Overfull \hbox (20.26659pt too wide) in paragraph at lines 517--518
+[10] [11]
+Overfull \hbox (20.26659pt too wide) in paragraph at lines 506--507
  [][] 
  []
 
@@ -2230,28 +1848,30 @@ Missing character: There is no t in font nullfont!
 Missing character: There is no ) in font nullfont!
 Missing character: There is no ; in font nullfont!
 
-Overfull \hbox (11.0967pt too wide) in paragraph at lines 547--548
+Overfull \hbox (11.0967pt too wide) in paragraph at lines 537--538
  [][] 
  []
 
 
-Overfull \hbox (1.90001pt too wide) in paragraph at lines 498--549
+Overfull \hbox (1.90001pt too wide) in paragraph at lines 487--539
 []$[]$ $[]$ 
  []
 
-[9] [10] (./lst_emis_SI_v2.bbl [11])
-Underfull \hbox (badness 10000) in paragraph at lines 596--596
-[]|\T1/ptm/m/n/10 Aerodynamic con-duc-tance
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+(./lst_emis_SI_v2.bbl [12]
+Underfull \vbox (badness 2221) has occurred while \output is active []
+
+ [13]
+[14])
+Underfull \hbox (badness 4391) in paragraph at lines 590--590
+[]|\T1/ptm/m/n/10 (+20) NASA sci-en-tific re-search
  []
 
 
-Underfull \hbox (badness 7273) in paragraph at lines 600--600
-[]|\T1/ptm/m/n/10 NASA sci-en-tific re-search
- []
-
-
-Underfull \hbox (badness 4024) in paragraph at lines 601--601
-[]|\T1/ptm/m/n/10 North Aus-tralian Trop-i-cal
+Underfull \hbox (badness 2126) in paragraph at lines 591--591
+[]|\T1/ptm/m/n/10 (+20) North Aus-tralian Trop-i-cal
  []
 
 
@@ -2260,285 +1880,175 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
+<./Plots/hS_seq_2018-05.png, id=547, 559.08875pt x 365.365pt>
+File: ./Plots/hS_seq_2018-05.png Graphic file (type png)
+<use ./Plots/hS_seq_2018-05.png>
+Package pdftex.def Info: ./Plots/hS_seq_2018-05.png  used on input line 639.
+(pdftex.def)             Requested size: 225.21626pt x 147.18036pt.
+<./Plots/hS_le_2018-05.png, id=548, 559.08875pt x 365.365pt>
+File: ./Plots/hS_le_2018-05.png Graphic file (type png)
+<use ./Plots/hS_le_2018-05.png>
+Package pdftex.def Info: ./Plots/hS_le_2018-05.png  used on input line 642.
+(pdftex.def)             Requested size: 225.21626pt x 147.18036pt.
 
-! LaTeX Error: File `hS_seq_2018-05' not found.
+Underfull \hbox (badness 10000) in paragraph at lines 638--648
 
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.652 ...ic}[width=0.45\textwidth]{hS_seq_2018-05}
-                                                   % ,grid,tics=10
-I could not locate the file with any of these extensions:
-.eps,.ps,.eps.gz,.ps.gz,.eps.Z,.mps
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
+ []
 
-! Arithmetic overflow.
-\OVP@calc ...le \divide \@tempcnta by \unitlength 
-                                                  \fi \ifnum \count@ =\z@ \c...
-l.652 ...ic}[width=0.45\textwidth]{hS_seq_2018-05}
-                                                   % ,grid,tics=10
-I can't carry out that multiplication or division,
-since the result is out of range.
+<./Plots/Alice_spring_longw.png, id=549, 547.04375pt x 465.74pt>
+File: ./Plots/Alice_spring_longw.png Graphic file (type png)
+<use ./Plots/Alice_spring_longw.png>
+Package pdftex.def Info: ./Plots/Alice_spring_longw.png  used on input line 656
+.
+(pdftex.def)             Requested size: 225.21626pt x 191.74347pt.
+<./Plots/TUM_longw.png, id=550, 547.04375pt x 465.74pt>
+File: ./Plots/TUM_longw.png Graphic file (type png)
+<use ./Plots/TUM_longw.png>
+Package pdftex.def Info: ./Plots/TUM_longw.png  used on input line 659.
+(pdftex.def)             Requested size: 225.21626pt x 191.74347pt.
 
-
-! LaTeX Error: File `hS_le_2018-05' not found.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.655 ...pic}[width=0.45\textwidth]{hS_le_2018-05}
-                                                   % ,grid,tics=10
-I could not locate the file with any of these extensions:
-.eps,.ps,.eps.gz,.ps.gz,.eps.Z,.mps
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-! Arithmetic overflow.
-\OVP@calc ...le \divide \@tempcnta by \unitlength 
-                                                  \fi \ifnum \count@ =\z@ \c...
-l.655 ...pic}[width=0.45\textwidth]{hS_le_2018-05}
-                                                   % ,grid,tics=10
-I can't carry out that multiplication or division,
-since the result is out of range.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 651--661
+Underfull \hbox (badness 10000) in paragraph at lines 655--665
 
  []
 
 
-! LaTeX Error: Cannot determine size of graphic in ./Plots/Alice_spring_longw.p
-ng (no BoundingBox).
+LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.670 ...th=.95\linewidth]{Alice_spring_longw.png}
-                                                  
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
+<./Plots/AS_RMSE_2018.png, id=553, 513.92pt x 428.60126pt>
+File: ./Plots/AS_RMSE_2018.png Graphic file (type png)
+<use ./Plots/AS_RMSE_2018.png>
+Package pdftex.def Info: ./Plots/AS_RMSE_2018.png  used on input line 677.
+(pdftex.def)             Requested size: 225.21626pt x 187.82649pt.
+<./Plots/tum_RMSE_2017.png, id=554, 513.92pt x 437.635pt>
+File: ./Plots/tum_RMSE_2017.png Graphic file (type png)
+<use ./Plots/tum_RMSE_2017.png>
+Package pdftex.def Info: ./Plots/tum_RMSE_2017.png  used on input line 680.
+(pdftex.def)             Requested size: 225.21626pt x 191.78537pt.
 
-File: ./Plots/Alice_spring_longw.png Graphic file (type eps)
-<./Plots/Alice_spring_longw.png>
-LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <9> not available
-(Font)              Font shape `T1/ptm/b/n' tried instead on input line 671.
+Underfull \hbox (badness 10000) in paragraph at lines 676--686
 
-
-! LaTeX Error: File `TUM_longw' not found.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.676 ...egraphics[width=.95\linewidth]{TUM_longw}
-                                                  
-I could not locate the file with any of these extensions:
-.eps,.ps,.eps.gz,.ps.gz,.eps.Z,.mps
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
+ []
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
+<./Plots/Alice_spring_Ts_sensitivity_2005.png, id=555, 569.12625pt x 425.59pt>
+File: ./Plots/Alice_spring_Ts_sensitivity_2005.png Graphic file (type png)
+<use ./Plots/Alice_spring_Ts_sensitivity_2005.png>
+Package pdftex.def Info: ./Plots/Alice_spring_Ts_sensitivity_2005.png  used on 
+input line 695.
+(pdftex.def)             Requested size: 225.21626pt x 168.41466pt.
+<./Plots/Tum_Ts_sensitivity_2016.png, id=556, 569.12625pt x 425.59pt>
+File: ./Plots/Tum_Ts_sensitivity_2016.png Graphic file (type png)
+<use ./Plots/Tum_Ts_sensitivity_2016.png>
+Package pdftex.def Info: ./Plots/Tum_Ts_sensitivity_2016.png  used on input lin
+e 698.
+(pdftex.def)             Requested size: 225.21626pt x 168.41466pt.
 
-LaTeX Warning: Citation `jin_improved_2006' on page 12 undefined on input line 
-683.
+Underfull \hbox (badness 10000) in paragraph at lines 694--703
 
-
-! LaTeX Error: File `{Alice_spring_Ts_sensitivity_2005}' not found.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.688 ...idth]{{Alice_spring_Ts_sensitivity_2005}}
-                                                  
-I could not locate the file with any of these extensions:
-.eps,.ps,.eps.gz,.ps.gz,.eps.Z,.mps
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-! LaTeX Error: File `Tum_Ts_sensitivity_2016' not found.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.694 ...h=.95\linewidth]{Tum_Ts_sensitivity_2016}
-                                                  
-I could not locate the file with any of these extensions:
-.eps,.ps,.eps.gz,.ps.gz,.eps.Z,.mps
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
+ []
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
+File: ./Plots/AS_RMSE_2018.png Graphic file (type png)
+<use ./Plots/AS_RMSE_2018.png>
+Package pdftex.def Info: ./Plots/AS_RMSE_2018.png  used on input line 733.
+(pdftex.def)             Requested size: 225.21626pt x 187.82649pt.
+File: ./Plots/tum_RMSE_2017.png Graphic file (type png)
+<use ./Plots/tum_RMSE_2017.png>
+Package pdftex.def Info: ./Plots/tum_RMSE_2017.png  used on input line 736.
+(pdftex.def)             Requested size: 225.21626pt x 191.78537pt.
 
-! LaTeX Error: File `AS_RMSE_2018' not found.
+Underfull \hbox (badness 10000) in paragraph at lines 732--742
 
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.715 ...aphics[width=.95\linewidth]{AS_RMSE_2018}
-                                                  
-I could not locate the file with any of these extensions:
-.eps,.ps,.eps.gz,.ps.gz,.eps.Z,.mps
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-! LaTeX Error: File `tum_RMSE_2017' not found.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.721 ...phics[width=.95\linewidth]{tum_RMSE_2017}
-                                                  
-I could not locate the file with any of these extensions:
-.eps,.ps,.eps.gz,.ps.gz,.eps.Z,.mps
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
+ []
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
+<./Plots/rlup_br_hs.png, id=561, 549.05125pt x 365.365pt>
+File: ./Plots/rlup_br_hs.png Graphic file (type png)
+<use ./Plots/rlup_br_hs.png>
+Package pdftex.def Info: ./Plots/rlup_br_hs.png  used on input line 751.
+(pdftex.def)             Requested size: 225.21626pt x 149.86751pt.
+<./Plots/hs_lst_cor.png, id=562, 430.60875pt x 281.05pt>
+File: ./Plots/hs_lst_cor.png Graphic file (type png)
+<use ./Plots/hs_lst_cor.png>
+Package pdftex.def Info: ./Plots/hs_lst_cor.png  used on input line 754.
+(pdftex.def)             Requested size: 225.21626pt x 146.99594pt.
 
-! LaTeX Error: Cannot determine size of graphic in ./Plots/hs_enb.png (no Bound
-ingBox).
+Underfull \hbox (badness 10000) in paragraph at lines 750--760
 
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.732   \includegraphics[scale=0.5]{hs_enb.png}
-                                               
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-File: ./Plots/hs_enb.png Graphic file (type eps)
-<./Plots/hs_enb.png>
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-
-! LaTeX Error: Cannot determine size of graphic in ./Plots/rlup_br_hs.png (no B
-oundingBox).
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.738 ...cludegraphics[scale=0.35]{rlup_br_hs.png}
-                                                  
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-File: ./Plots/rlup_br_hs.png Graphic file (type eps)
-<./Plots/rlup_br_hs.png>
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-
-! LaTeX Error: File `Plots/TUm_hmx_intrc' not found.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.747 ...egraphics[scale=0.5]{Plots/TUm_hmx_intrc}
-                                                  
-I could not locate the file with any of these extensions:
-.eps,.ps,.eps.gz,.ps.gz,.eps.Z,.mps
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
+ []
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-
-! LaTeX Error: File `3_blocks_eps_unc' not found.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.759 ...}[width=0.45\textwidth]{3_blocks_eps_unc}
-                                                   %
-I could not locate the file with any of these extensions:
-.eps,.ps,.eps.gz,.ps.gz,.eps.Z,.mps
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-! Arithmetic overflow.
-\OVP@calc ...le \divide \@tempcnta by \unitlength 
-                                                  \fi \ifnum \count@ =\z@ \c...
-l.759 ...}[width=0.45\textwidth]{3_blocks_eps_unc}
-                                                   %
-I can't carry out that multiplication or division,
-since the result is out of range.
-
-
-! LaTeX Error: File `tsta_interc' not found.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.762 ...erpic}[width=0.45\textwidth]{tsta_interc}
-                                                   % ,grid,tics=10
-I could not locate the file with any of these extensions:
-.eps,.ps,.eps.gz,.ps.gz,.eps.Z,.mps
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-! Arithmetic overflow.
-\OVP@calc ...le \divide \@tempcnta by \unitlength 
-                                                  \fi \ifnum \count@ =\z@ \c...
-l.762 ...erpic}[width=0.45\textwidth]{tsta_interc}
-                                                   % ,grid,tics=10
-I can't carry out that multiplication or division,
-since the result is out of range.
-
+<./Plots/3_blocks_eps_unc.png, id=567, 864.22874pt x 543.02875pt>
+File: ./Plots/3_blocks_eps_unc.png Graphic file (type png)
+<use ./Plots/3_blocks_eps_unc.png>
+Package pdftex.def Info: ./Plots/3_blocks_eps_unc.png  used on input line 771.
+(pdftex.def)             Requested size: 225.21626pt x 141.5073pt.
+<./Plots/tsta_interc.png, id=568, 640.3925pt x 500.87125pt>
+File: ./Plots/tsta_interc.png Graphic file (type png)
+<use ./Plots/tsta_interc.png>
+Package pdftex.def Info: ./Plots/tsta_interc.png  used on input line 774.
+(pdftex.def)             Requested size: 225.21626pt x 176.14824pt.
+[15 <./Plots/hS_seq_2018-05.png> <./Plots/hS_le_2018-05.png>]
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 
 AED: lastpage setting LastPage
-[12] [13] [14]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 778.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 778.
+[16] [17 <./Plots/Alice_spring_longw.png> <./Plots/TUM_longw.png> <./Plots/AS_R
+MSE_2018.png> <./Plots/tum_RMSE_2017.png> <./Plots/Alice_spring_Ts_sensitivity_
+2005.png> <./Plots/Tum_Ts_sensitivity_2016.png>] [18 <./Plots/rlup_br_hs.png> <
+./Plots/hs_lst_cor.png> <./Plots/3_blocks_eps_unc.png> <./Plots/tsta_interc.png
+>]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 790.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 790.
  (./lst_emis_SI_v2.aux)
-Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 778.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 778.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 790.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 790.
 Package rerunfilecheck Info: File `lst_emis_SI_v2.out' has not changed.
-(rerunfilecheck)             Checksum: 02A1FA1D8A404DDF0AF28A40FB6F71A4;732.
+(rerunfilecheck)             Checksum: 547D97F2D93C954D807EA57CCD185ABC;777.
 
 
-LaTeX Warning: There were undefined references.
+LaTeX Warning: There were multiply-defined labels.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 778.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 790.
  )
 (\end occurred inside a group at level 2)
 
-### simple group (level 2) entered at line 329 ({)
-### simple group (level 1) entered at line 329 ({)
-### bottom level
-(\end occurred when \ifx on line 161 was incomplete) 
+### simple group (level 2) entered at line 323 ({)
+### simple group (level 1) entered at line 323 ({)
+### bottom level 
 Here is how much of TeX's memory you used:
- 29681 strings out of 494881
- 600289 string characters out of 6179627
- 774152 words of memory out of 5000000
- 32453 multiletter control sequences out of 15000+600000
- 52207 words of font info for 83 fonts, out of 8000000 for 9000
+ 30504 strings out of 494880
+ 613050 string characters out of 6179601
+ 764990 words of memory out of 5000000
+ 32938 multiletter control sequences out of 15000+600000
+ 80222 words of font info for 268 fonts, out of 8000000 for 9000
  36 hyphenation exceptions out of 8191
- 55i,15n,92p,1797b,983s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 55i,15n,92p,2700b,991s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}</us
+r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/shar
+e/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texl
+ive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/tex
+mf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dis
+t/fonts/type1/urw/helvetic/uhvb8a.pfb></usr/share/texlive/texmf-dist/fonts/type
+1/urw/helvetic/uhvbo8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/helve
+tic/uhvr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/symbol/usyr.pfb><
+/usr/share/texlive/texmf-dist/fonts/type1/urw/symbol/usyr.pfb></usr/share/texli
+ve/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/share/texlive/texmf-dist/f
+onts/type1/urw/times/utmr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/
+times/utmri8a.pfb>
+Output written on lst_emis_SI_v2.pdf (18 pages, 1055044 bytes).
+PDF statistics:
+ 669 PDF objects out of 1000 (max. 8388607)
+ 535 compressed objects within 6 object streams
+ 114 named destinations out of 1000 (max. 500000)
+ 45827 words of extra memory for PDF output out of 51595 (max. 10000000)
 
-Output written on lst_emis_SI_v2.dvi (14 pages, 207976 bytes).

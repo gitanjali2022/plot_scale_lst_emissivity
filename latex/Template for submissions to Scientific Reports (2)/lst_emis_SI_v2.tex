@@ -35,7 +35,7 @@
 %\usepackage{fontspec}
 %\setmainfont{Code2000}
 \graphicspath{{./Plots/}}
-\title{ Challenges in estimating emissivity and surface temperature using flux tower measurements} 
+\title{ Challenges and uncertainty in estimating emissivity and surface temperature using flux tower measurements} 
 
 %\addbibresource{My_ref.bib}
 
@@ -76,9 +76,8 @@
 
 \begin{abstract}
 
-Land surface temperature (LST) is a preeminent state variable that controls the energy and water exchange between the Earth’s surface and the atmosphere. At the landscape scale, LST is derived from thermal infrared radiance measured using space-borne radiometers. At the plot-scale, the flux tower recorded longwave radiation components are inverted to retrieve LST. Since the down-welling longwave component was not measured routinely until recently, usually only the up-welling longwave component is used for the plot-scale LST retrieval. However, we found %SJS: I wrote "found" instead of "hypothesize", since this is the abstract, not intro. 
-that ignoring reflected down-welling longwave radiation for plot-scale LST estimations can lead to substantial discrepancies compared to the approach including down-welling longwave radiation. This also has important implications for estimating the correct surface emissivity using flux tower measurements, which is needed for plot-scale LST retrievals. This study addresses in detail the consequence of omitting downwelling longwave radiation for LST and emissivity estimation. It uses observations at ten eddy covariance sites with different land cover types. We found that the LST values obtained using both up-welling and down-welling longwave radiation components (long equation) are 0.5 to 1.5K lower than estimates using only up-welling longwave radiation (short equation). %SJS: I slightly shortened above.
-Plot-scale emissivity was estimated using a fitting procedure based on observed sensible heat flux and estimated surface-to-air temperature difference. The emissivity obtained using the long equation was generally lower than if the short equation was used. We also quantified the uncertainty in plot-scale LST and emissivity estimates due to uncertainty in measured fluxes. We found that despite additional input data for the long equation, the uncertainty in plot-scale LST was not greater than if the short equation was used. Landscape-scale day-time LST obtained from satellite data (MODIS TERRA) was strongly correlated with our plot-scale estimates, but on average, higher by several Kelvin, regardless of the estimation method. For most sites, the correspondence between MODIS LST and plot-scale LST estimates increased significantly if plot-scale emissivity was used instead of the landscape scale emissivity obtained from satellite measurements. The results of this work have significant implications for the combined use of aerodynamic and radiometric measurements (which require plot-scale emissivity estimation) to understand the interactions and feedbacks between LST and surface-atmosphere exchange processes.
+Land surface temperature (LST) is a preeminent state variable that controls the energy and water exchange between the Earth’s surface and the atmosphere. At the landscape-scale, LST is derived from thermal infrared radiance measured using space-borne radiometers. At the plot-scale, the flux tower recorded longwave radiation components are inverted to retrieve LST. Since the down-welling longwave component was not measured routinely until recently, usually only the up-welling longwave component is used for the plot-scale LST retrieval. However, we found that ignoring reflected down-welling longwave radiation for plot-scale LST estimations can lead to substantial discrepancies compared to the approach including down-welling longwave radiation. This also has important implications for estimating the correct surface emissivity using flux tower measurements, which is needed for plot-scale LST retrievals. The present study proposes a new method for plot-scale emissivity
+estimation and addresses in detail the consequence of omitting downwelling longwave radiation in existing method for LST and emissivity estimation. It uses observations at ten eddy covariance sites with different land cover types. We found that the LST values obtained using both up-welling and down-welling longwave radiation components (long equation) are 0.5 to 1.5 K lower than estimates using only up-welling longwave radiation (short equation). Plot-scale emissivity was estimated using a fitting procedure based on observed sensible heat flux and estimated surface-to-air temperature difference. The emissivity obtained using the long equation was generally lower than if the short equation was used. We also quantified the uncertainty in plot-scale LST and emissivity estimates due to bias in measured fluxes. We found that despite additional input data for the long equation, the uncertainty in plot-scale LST was not greater than if the short equation was used. Landscape-scale day-time LST obtained from satellite data (MODIS TERRA) was strongly correlated with our plot-scale estimates for most of the sites, but on average, higher by several Kelvin at some sites. The correspondence between MODIS LST and plot-scale LST estimates increased significantly by applying correction to the upwelling longwave such that the linearfit between sensible heat and surface-air temperature difference has minimum offset. The results of this work have significant implications for the combined use of aerodynamic and radiometric measurements to understand the interactions and feedbacks between LST and surface-atmosphere exchange processes.
 
 
 \end{abstract}
@@ -99,7 +98,7 @@ Plot-scale emissivity was estimated using a fitting procedure based on observed 
 The effects of global change are reflected in land surface temperature (LST) anomalies and their interannual variability \cite{rowell2005scenario}. It controls the magnitude and variability of the surface energy balance (SEB) components and simultaneously gets modulated by the SEB partitioning\cite{mallick2015reintroducing,timmermans2007intercomparison}. LST contains imprints of surface moisture and is extremely sensitive to evaporative cooling, which makes it a preeminent variable for studying evaporation and surface-atmosphere exchange \cite{mallick2018critical,trebs2021role,kustas2009advances}. It directly affects the amount of emitted longwave radiation and influences the saturation vapor pressure at the surface that drives latent heat flux. Thus, the ecohydrological functioning and carbon-water coupling are largely controlled by the surface temperature of the soil-vegetation system \cite{still2021imaging}.
  The availability of an extensive network of eddy covariance measurements (FLUXNET) allows us to understand the interactions and feedbacks between the surface-atmosphere exchange processes such as evaporation, transpiration, and its control by the atmosphere and vegetation at the diurnal time scale. However, the unavailability of direct LST measurements at the same scale hinders a detailed understanding of the interactions and feedbacks between LST and surface-atmosphere exchange processes, which is of utmost importance to the climate modeling community \cite{migliavacca2021three} 
  In the last two decades, plot-scale radiometric data collected at eddy covariance sites (ECS) have gained popularity for in-situ LST retrieval due to its wide availability and high temporal resolution \cite{stoy2013data,cullen2007energy}. In addition to this, the LST estimates at plot-scale originate from a relatively homogeneous footprint in comparison to the satellite-derived LST (MODIS pixels). ECS measurements are primarily used to assess the impacts and feedbacks of climate change on key ecosystem fluxes\cite{baldocchi2001fluxnet}. 
- By definition, LST is a thermodynamic temperature that can be felt or measured by an accurate thermometer at the land surface-atmosphere point-of-contact and is independent of wavelength \cite{guillevic2017land}. The instantaneous value of LST is the result of interplay between the net radiation at the surface, ground heat flux ($G$), sensible heat flux ($H$) and latent heat flux ($LE$) \cite{wang_global_2013-2}. Thus, LST can also be used for the estimation of $H$ \cite{sun1995relationship} and $LE$ \cite{jacob2001comprehensive} between the surface and the atmosphere. LST provides the lower-boundary condition in SEB models for diagnostic estimates of LE  and is highly relevant for drought monitoring \cite{trebs2021role,mallick2016canopy,mallick2015reintroducing}. 
+ By definition, LST is a thermodynamic temperature that can be felt or measured by an accurate thermometer at the land surface-atmosphere point-of-contact and is independent of wavelength \cite{guillevic2017land}. The instantaneous value of LST is the result of interplay between the net radiation at the surface, ground heat flux ($G$), sensible heat flux ($H$) and latent heat flux ($LE$) \cite{wang2013global}. Thus, LST can also be used for the estimation of $H$ \cite{sun1995relationship} and $LE$ \cite{jacob2001comprehensive} between the surface and the atmosphere. LST provides the lower-boundary condition in SEB models for diagnostic estimates of LE  and is highly relevant for drought monitoring \cite{trebs2021role,mallick2016canopy,mallick2015reintroducing}. 
   Inversion of the longwave radiation in FLUXNET data to obtain LST has been found to strongly depend on the emissivity of the underlying surface\cite{mallick2018bridging}, which is not available as routine measurement. Therefore, estimating in-situ LST is not straightforward due to the involvement of two unknowns (LST and emissivity) inside one measurement variable (up-welling longwave radiation). To circumvent this challenge, we conducted simultaneous retrievals of LST and emissivity by exploiting the longwave radiation components in conjunction with associated SEB flux measurements.
 
 The SEB components can be sub-divided into radiative components (often lumped in net radiation, $R_{net}$) and thermodynamic components, including sensible, latent and ground heat flux ($H$, $LE$, $G$ respectively):
@@ -122,7 +121,7 @@ Reflected shortwave in Eq. ({\ref{eq_Rn1}}) is expressed as $R_{sref} = \alpha R
 R_{lref} = (1 - \epsilon) R_{ldwn} 
 \end{equation}
 Radiometric temperature or LST is the “ensemble directional radiometric surface temperature” \cite{norman1995terminology}, and can be estimated from the infrared radiance emanating from a given surface with known emissivity\cite{kustas2007utility}. The emitted and down-welling longwave radiance are measured at given angle within its instantaneous field of view (fov) by a downward facing sensor relatively close to the surface (a few meters for an eddy covariance tower). The radiation received by a pyrgeometer or infrared sensor is a combination of the radiation emitted and reflected by the surfaces in its fov. 
-%This radiant energy can be attenuated, absorbed, and re-emitted by the atmosphere between the surface and the sensor before reaching the sensor \cite{krishnan2020intercomparison}
+
 \begin{equation}\label{eq_Rlup}
 R_{lup} = R_{lem} + R_{lref}
 \end{equation}
@@ -143,15 +142,15 @@ where $T_{a}$ (K) is the temperature of the air measured at a reference height a
 \begin{equation}\label{eq_H}
 H= m(T_{s} - T_{a})
 \end{equation}
-where $m$ (m s$^{-1}$) is a proportionality constant (defined as $m=\rho C_{p}/r_{a}$ and broadly referred to as heat transfer coefficient) and depends on surface characteristics and micro-meteorology \cite{lhomme_radiative_1988}. It is evident from Eq. (\ref{eq_H}) that for $T_{s} - T_{a} = 0$, $H$ will be zero. This boundary condition and the linear relationship  between $H$ and $\Delta T $ has been used in the past to estimate $\epsilon$ at the plot-scale from observed $H$, $T_a$ and estimated $T_{s}$ using measured longwave radiation\cite{holmes_land_2009,holmes_cloud_2016-1}. Another approach for plot-scale $\epsilon$ estimation filters the data where $H$ is close to zero, substitutes $T_{s}$ in Eq. (\ref{eq_leq}) by $T_{a}$ and solves for $\epsilon$\cite{maes2019potential}. 
+where $m$ (m s$^{-1}$) is a proportionality constant (defined as $m=\rho C_{p}/r_{a}$ and broadly referred to as heat transfer coefficient) and depends on surface characteristics and micro-meteorology \cite{lhomme1988radiative}. It is evident from Eq. (\ref{eq_H}) that for $T_{s} - T_{a} = 0$, $H$ will be zero. This boundary condition and the linear relationship  between $H$ and $\Delta T $ has been used in the past to estimate $\epsilon$ at the plot-scale from observed $H$, $T_a$ and estimated $T_{s}$ using measured longwave radiation\cite{holmes2009land,holmes2016cloud}. Another approach for plot-scale $\epsilon$ estimation filters the data where $H$ is close to zero, substitutes $T_{s}$ in Eq. (\ref{eq_leq}) by $T_{a}$ and solves for $\epsilon$\cite{maes2019potential}. 
 
-However, due to surface heterogeneity, sparse canopies are prone to footprint mismatch between the aerodynamic (flux tower) footprint and radiometric (hemispherical) footprint \cite{chu2021representativeness,marcolla2018geometry,morillas2013using}, where the aerodynamic footprint represents the area contributing to measured sensible heat flux, while the hemispherical footprint is the area within the radiometer footprint, contributing to the measured longwave radiation (used for $T_{s}$ estimation). This can result in a different boundary condition i.e. at $\Delta T =0$, $H \not= 0$ as expressed in Eq. (\ref{eq_H2}): %GT: I would also like to add here that for heterogenous canopy R_lup measurement can have problems when viewed from a narrow field of view \cite{voogt2000modeling} %SJS: What sort of problems? It would be good to explain that the "hemispherical" footprint is actually center-weighted, i.e. the area directly under the sensor contributes more to the signal than the surfaces further away.
+However, due to surface heterogeneity, sparse canopies are prone to footprint mismatch between the aerodynamic (flux tower) footprint and radiometric (hemispherical) footprint \cite{chu2021representativeness,marcolla2018geometry,morillas2013using}, where the aerodynamic footprint represents the area contributing to measured sensible heat flux, while the hemispherical footprint is the area within the radiometer footprint, contributing to the measured longwave radiation (used for $T_{s}$ estimation). This can result in a different boundary condition i.e. at $\Delta T =0$, $H \not= 0$ as expressed in Eq. (\ref{eq_H2}): %GT: I would also like to add here that for heterogenous canopy R_lup measurement can have problems when viewed from a narrow field of view \cite{voogt2000modeling} %SJS: What sort of problems? It would be good to explain that the "hemispherical" footprint is actually center-weighted, i.e. the area directly under the sensor contributes more to the signal than the surfaces further away.%GT Prof Mike Roderick had also conformed by 60% angle so i think we can call it narrow fov , you agree ?
 \begin{equation}\label{eq_H2}
 H= m(T_{s} - T_{a}) +  c    
 \end{equation}
 where $H$ is representative of the sensible heat flux from the eddy covariance tower footprint, $T_{s}$ is representative of all the radiating surfaces in the radiometric sensor’s view, and $c$ is interpreted as the $H$ from surfaces in the aerodynamic footprint that are not seen by the radiometer. 
 
-Plot-scale estimation of $\epsilon$ and LST using observed $H$, $T_{a}$, $R_{lup}$ and $R_{ldw}$ as described above and in the Methods section, may be prone to substantial uncertainty. It is unclear how uncertainties in observed fluxes propagate into the uncertainty of estimated LST and $\epsilon$. By design, infrared thermal (IRT) sensors only measure up-welling infrared radiance and therefore cannot explicitly account for the amount of reflected down-welling infrared radiation in the signal. For a long time, down-welling longwave $R_{ldw}$ was not routinely observed at ECS \cite{wang_evaluation_2009-1} and was also considered to be the most poorly quantified component of the radiation budget \cite{trenberth2012tracking}. Therefore, the second term in Eq. (\ref{eq_leq}) is commonly omitted, arguing that $\epsilon\approx 1$, and therefore Eq. (\ref{eq_leq}) is simplified to Eq. (\ref{eq_Rlem}) \cite{crago_use_2014-3}:
+Plot-scale estimation of $\epsilon$ and LST using observed $H$, $T_{a}$, $R_{lup}$ and $R_{ldw}$ as described above and in the Methods section, may be prone to substantial uncertainty. It is unclear how uncertainties in observed fluxes propagate into the uncertainty of estimated LST and $\epsilon$. By design, infrared thermal (IRT) sensors only measure up-welling infrared radiance and therefore cannot explicitly account for the amount of reflected down-welling infrared radiation in the signal. For a long time, down-welling longwave $R_{ldw}$ was not routinely observed at ECS \cite{wang2009evaluation} and was also considered to be the most poorly quantified component of the radiation budget \cite{trenberth2012tracking}. Therefore, the second term in Eq. (\ref{eq_leq}) is commonly omitted, arguing that $\epsilon\approx 1$, and therefore Eq. (\ref{eq_leq}) is simplified to Eq. (\ref{eq_Rlem}) \cite{crago2014use}:
 \begin{equation}\label{eq_seq}
 R_{lup} \approx \epsilon \sigma T_{s}^{4}
 \end{equation} 
@@ -159,7 +158,7 @@ Eq. (\ref{eq_seq}) can be solved for $T_s$ to yield what we will term the "short
 \begin{equation}\label{eq_Tseq}
 T_{s} \approx \sqrt[4]{\frac{R_{lup}}{\epsilon \sigma}}
 \end{equation} 
-Note that the above derivation is actually flawed, as the second term of Eq. (\ref{eq_leq}) was omitted arguing that $\epsilon\approx 1$, and yet $\epsilon$ was retained in the first part of the equation. Nevertheless, even with the availability of down-welling longwave measurements \cite{stephens1995review}, the use of Eq. (\ref{eq_seq}) is still a common practice\cite{crago_use_2014,mallick2018bridging}. This gives rise to the question if the short equation (Eq. \ref{eq_Tseq}) is adequate to estimate LST from ground-based measurements. In the remainder of this paper, we will refer to LST obtained using the long equation (Eq. \ref{eq_Tleq}) as $T_{leq}$ and to LST obtained using the short equation (Eq. \ref{eq_Tseq}) as $T_{seq}$.
+Note that the above derivation is actually flawed, as the second term of Eq. (\ref{eq_leq}) was omitted arguing that $\epsilon\approx 1$, and yet $\epsilon$ was retained in the first part of the equation. Nevertheless, even with the availability of down-welling longwave measurements \cite{stephens1995review}, the use of Eq. (\ref{eq_seq}) is still a common practice\cite{crago2014use,mallick2018bridging}. This gives rise to the question if the short equation (Eq. (\ref{eq_Tseq})) is adequate to estimate LST from ground-based measurements. In the remainder of this paper, we will refer to LST obtained using the long equation (Eq. (\ref{eq_Tleq})) as $T_{leq}$ and to LST obtained using the short equation (Eq. (\ref{eq_Tseq})) as $T_{seq}$.
 
 %\subsection*{Purpose and objectives of this study}
 
@@ -167,20 +166,18 @@ To better understand and improve approaches of plot-scale LST estimation, the pr
 \begin{enumerate}
 	\item Can we obtain an adequate estimate of plot-scale LST while neglecting the reflected down-welling longwave radiation?
 	\item Does the estimation of plot-scale $\epsilon$ based on observed sensible heat flux ($H$) have an advantage over satellite-derived $\epsilon$ for plot-scale LST estimation?
-    %\item Does accepting an intercept in $H (\Delta$ T) lead to realistic estimate of plot-scale $\epsilon$?
+    
     \item How much uncertainty is introduced in plot-scale LST and $\epsilon$ due to uncertainty in measured EC fluxes?
     
 \end{enumerate}    
 To answer these questions, we analysed data for ten eddy covariance sites in different biomes and climates (see Table \ref{table:studysites}).
-Plot-scale broadband monthly emissivity was derived using observed $H$ and estimated $\Delta T$ as proposed by Holmes et al. \cite{holmes_land_2009}.  Plot-scale LST was estimated using plot-scale or landscape scale emissivity with (Eq. \ref{eq_Tleq}) and (Eq. \ref{eq_Tseq}). Plot-scale LST was compared with MODIS LST (TERRA satellite-sensed) for the times of satellite overpass. Uncertainty in $\epsilon$ and LST due to uncertainty in observed fluxes were calculated using SOBOL based uncertainty analysis (SAlib) \cite{rosolem2012fully}. See the Methods section for more details.
+Plot-scale broadband monthly emissivity was derived using observed $H$ and estimated $\Delta T$ as proposed by Holmes et al. \cite{holmes2009land}.  Plot-scale LST was estimated using plot-scale or landscape scale emissivity with (Eq. \ref{eq_Tleq}) and (Eq. \ref{eq_Tseq}). Plot-scale LST was compared with MODIS LST (TERRA satellite-sensed) for the times of satellite overpass. Uncertainty in $\epsilon$ and LST due to uncertainty in observed fluxes were calculated using SOBOL based uncertainty analysis (SAlib) \cite{rosolem2012fully}. See the Methods section for more details.
 
 \section{Results}
 
 \subsection{Plot-scale $\epsilon$ using long and short equation}
 
-Following the method proposed by Holmes et al. \cite{holmes_land_2009, holmes_cloud_2016}, plot-scale monthly $\epsilon$ was estimated at the study site by fitting $\epsilon$ to minimise the root mean square error (RMSE) of the regression between $H$ and $T_s - T_a$ (\textbf{SI Fig. \ref{fig:rmse_eps}}). In Fig. \ref{fig:HDT}a, c, and d, we reproduced the original data of Figs. 2a, 3C, and 3Q from Holmes et al. (2009) \cite{holmes_land_2009} to validate our interpretation of their approach using the short equation (Eq. \ref{eq_Tseq}). We noted only marginal differences between the two results based on the short equation, which are likely due to different fitting algorithms. 
-The replication of the $H (\Delta T)$ plot using the long equation (Eq. \ref{eq_Tleq}) with the same data is given in Fig. \ref{fig:HDT}b and the monthly $\epsilon$ values are shown in Fig. \ref{fig:HDT}c, d, indicated by blue stars.
- The retrieved LST values were slightly higher when using Eq. (\ref{eq_Tleq}) (compare a and b in Fig. \ref{fig:HDT}). The use of the long equation (Eq. \ref{eq_Tleq}) resulted in substantially (10\%) lower values of $\epsilon$ as compared to the values estimated by Holmes et al.\cite{holmes_land_2009} for the common study sites (Brookings, Fig. \ref{fig:HDT}c and Yatir, Fig. \ref{fig:HDT}d). 
+Following the method proposed by Holmes et al. \cite{holmes2009land, holmes2016cloud}, plot-scale monthly $\epsilon$ was estimated at the study site by fitting $\epsilon$ to minimise the root mean square error (RMSE) of the regression between $H$ and $T_s - T_a$ (\textbf{SI Fig. \ref{fig:rmse_eps}}). In Fig. \ref{fig:HDT}a, c, and d, we reproduced the original data of Figs. 2a, 3C, and 3Q from Holmes et al. (2009) \cite{holmes2009land} to validate our interpretation of their approach using the short equation (Eq. (\ref{eq_Tseq})). We noted only marginal differences between the two results based on the short equation, which are likely due to different fitting algorithms. The replication of the $H (\Delta T)$ plot using the long equation (Eq. (\ref{eq_Tleq})) with the same data is given in Fig. \ref{fig:HDT}b and the monthly $\epsilon$ values are shown in Fig. \ref{fig:HDT}c, d, indicated by blue stars. The retrieved LST values were slightly higher when using Eq. (\ref{eq_Tleq}) (compare a and b in Fig. \ref{fig:HDT}). The use of the long equation (Eq. (\ref{eq_Tleq})) resulted in substantially (10\%) lower values of $\epsilon$ as compared to the values estimated by Holmes et al.\cite{holmes2009land} for the common study sites (Brookings, Fig. \ref{fig:HDT}c and Yatir, Fig. \ref{fig:HDT}d). 
 
 Another approach for plot-scale $\epsilon$ estimation (Maes et al. (2019) \cite{maes2019potential}) in combination with Eq. \ref{eq_Tleq})  resulted in even lower $\epsilon$ values for Brookings, as shown in Fig. \ref{fig:HDT}c (red stars), whereas at Yatir, this approach gave an $\epsilon$ value higher than 1 (red star in  Fig. \ref{fig:HDT}d). Note that the long equation also yielded $H(\Delta T)$ relationship for many more months at Yatir Forest (blue star) than the short equation (black dots) as shown in Fig. \ref{fig:HDT}d, as it resulted in achieving a strong correlation between $H$ and $\Delta T$ (section \ref{sec:Methods} for details). The pattern of lower $\epsilon$ and higher LST using the long equation compared to the short equation was confirmed for all the ten sites used in the present study (Table \textbf{SI 2}).
 \begin{figure}[h!]
@@ -198,7 +195,7 @@ Another approach for plot-scale $\epsilon$ estimation (Maes et al. (2019) \cite{
 		\put (18,56){\textbf{d}}
 	\end{overpic}
 	\setlength{\belowcaptionskip}{-3ex}
-	\caption{Reproduction of analysis presented in Figs. 2a, 3C, and Q in Holmes et al. (2009) \cite{holmes_land_2009}. \textbf{(a)} Sensible heat ($H$) vs. $\Delta T = T_{seq} - T_{a}$ based on the short equation ($T_{seq}$, Eq. \ref{eq_Tseq}); (b) $H$ vs. $\Delta T$ based on the long equation ($T_{leq}$, Eq. \ref{eq_Tleq}). Both show data for August 2005 at Brookings. Blue crosses represent data points satisfying the filtering criteria, while black dots represent points not considered in the analysis. N is the number of blue crosses used for regression (red line), m is the slope of regression, RMSE is the root mean square error and R$^{2}$ is the square of the coefficient of determination. The fitted $\epsilon$ value is reported in the title. \textbf{(c)} Optimised $\epsilon$ values at Brookings obtained for the months where  R$^{2} > 0.5$ using the short equation (Eq. \ref{eq_seq}, black dots) and long equation (Eq. \ref{eq_leq}, blue stars), and $\epsilon$ obtained using the approach of Maes et. al (2019)\cite{maes2019potential}  (red stars).  \textbf{(d)} Same as (c), but for Yatir Forest, see table \ref{table:studysites} for site descriptions.}
+	\caption{Reproduction of analysis presented in Figs. 2a, 3C, and Q in Holmes et al. (2009) \cite{holmes2009land}. \textbf{(a)} Sensible heat ($H$) vs. $\Delta T = T_{seq} - T_{a}$ based on the short equation ($T_{seq}$, Eq. \ref{eq_Tseq}); (b) $H$ vs. $\Delta T$ based on the long equation ($T_{leq}$, Eq. \ref{eq_Tleq}). Both show data for August 2005 at Brookings. Blue crosses represent data points satisfying the filtering criteria, while black dots represent points not considered in the analysis. N is the number of blue crosses used for regression (red line), m is the slope of regression, RMSE is the root mean square error and R$^{2}$ is the square of the coefficient of determination. The fitted $\epsilon$ value is reported in the title. \textbf{(c)} Optimised $\epsilon$ values at Brookings obtained for the months where  R$^{2} > 0.5$ using the short equation (Eq. \ref{eq_seq}, black dots) and long equation (Eq. \ref{eq_leq}, blue stars), and $\epsilon$ obtained using the approach of Maes et. al (2019)\cite{maes2019potential}  (red stars).  \textbf{(d)} Same as (c), but for Yatir Forest, see table \ref{table:studysites} for site descriptions.}
 	\label{fig:HDT}
 \end{figure}
 \subsection{Landscape scale vs plot-scale estimates of $\epsilon$ and LST}
@@ -243,12 +240,9 @@ Comparison of estimated plot-scale LST using $\epsilon_{MODIS}$ at satellite ove
 	\label{fig:LST local and MODIS}
 \end{figure}
 
-\subsection{Plot-scale $\epsilon$ estimation considering intercept}
-In order to account for the possibility of bias between radiometric and aerodynamic measurements (e.g. due to footprint mismatch of measuring devices or instrument bias) we also fitted Eq. \ref{eq_H2}, i.e. a relationship allowing for an intercept in the linear fit between $H$ and $\Delta T$ (instead of forcing it through zero as in Fig. \ref{fig:HDT}) for plot-scale $\epsilon$ estimation. As shown in Fig. \ref{fig:2_mx_c}, the plot-scale $\epsilon$ values resulting from this approach ($H=m \Delta T + c$) were substantially closer to the landscape-scale $\epsilon$ values compared with the approach without intercept ($H=m \Delta T$), as shown in Table (\ref{table:eps_comp}). However, comparison of the resulting plot-scale LST with landscape scale LST values revealed an increase in bias at most sites compared to the LST obtained using $\epsilon$ without an intercept(Table \ref{table:eps_comp}). The median values of the resulting intercept ranged from -24 to +258 W m$^{-2}$, with the highest intercept values at Howard Springs (amounting to 70 \% of the maximum observed $H$ at this site). The minimum value of intercept was obtained at Tumbarumba (5\% of the maximum observed $H$). 
-%SJS: I am not sure what you want to show with the following statement. Perhaps remove it, and also remove (Fig. \ref{fig:yr_intrc})?
-% The variation of maximum recorded $H$ with the estimated intercept for Tumbarumba is also shown in \textbf(SI (Fig. \ref{fig:yr_intrc}). 
-Note, that if we assumed just a slight under-estimation of upwelling longwave radiation by 40 W m$^-{2}$ at Howard Springs (ca. 8\% of observed $R_{lup}$), the intercept was reduced from 294 (Fig. \ref{fig:2_mx_c}c) to 17  W m$^-{2}$ (Fig. \ref{fig:mxc_dis}a) without change in other regression paramaters (m, RMSE, $R^{2}$). In this study, we did not apply any energy balance closure scheme, as a Bowen ratio closure, although resulting in higher $R^2$ values at HS, also led to even greater intercept (c) (Fig. \ref{fig:mxc_dis}b). 
-Interestingly, adding 40 W m$^-{2}$ to the  measured upwelling longwave radiation and subsequent energy balance closure largely removes the intercept and at the same time increases $R^2$, as shown in \textbf(SI Fig. \ref{fig:Rlup_ebc}). %SJS: I moved the last sentence up and reformuated a bit. Please check. What happened to the bias between MODIS and plot-scale LST if you added 40 W and closed the energy balance? Might be worth mentioning, whether this also reduced the bias at HS. 
+\subsection{Plot-scale $\epsilon$ estimation }
+In order to account for the possibility of bias between radiometric and aerodynamic measurements (e.g. due to footprint mismatch of measuring devices or instrument bias) we also fitted Eq. \ref{eq_H2}, i.e. a relationship allowing for an intercept in the linear fit between $H$ and $\Delta T$ (instead of forcing it through zero as in Fig. \ref{fig:HDT}) for plot-scale $\epsilon$ estimation. As shown in Fig. \ref{fig:2_mx_c}, the plot-scale $\epsilon$ values resulting from this approach ($H=m \Delta T + c$) were substantially closer to the landscape-scale $\epsilon$ values compared with the approach without intercept ($H=m \Delta T$), as shown in Table (\ref{table:eps_comp}). However, comparison of the resulting plot-scale LST with landscape scale LST values revealed an increase in bias at most sites compared to the LST obtained using $\epsilon$ without an intercept(Table \ref{table:eps_comp}). The median values of the resulting intercept ranged from -24 to +258 W m$^{-2}$, with the highest intercept values at Howard Springs (amounting to 70 \% of the maximum observed $H$ at this site). The minimum value of intercept was obtained at Tumbarumba (5\% of the maximum observed $H$). Note, that if we assumed just a slight under-estimation of upwelling longwave radiation by 40 W m$^-{2}$ at Howard Springs (ca. 8\% of observed $R_{lup}$), the intercept was reduced from 294 (Fig. \ref{fig:2_mx_c}c) to 17  W m$^-{2}$ (Fig. \ref{fig:mxc_dis}a) without change in other regression paramaters (m, RMSE, $R^{2}$). In this study, we did not apply any energy balance closure scheme, as a Bowen ratio closure, although resulting in higher $R^2$ values at HS, also led to even greater intercept (c) (Fig. \ref{fig:mxc_dis}b). 
+Interestingly, adding 40 W m$^-{2}$ to the  measured upwelling longwave radiation and subsequent energy balance closure largely removes the intercept and at the same time increases $R^2$, as shown in \textbf(SI Fig. \ref{fig:Rlup_ebc}). Also the bias between MODIS and plot-scale LST is reduced from -10.66 $K$ (Table.\ref{table:eps_comp}) to 4.01 $K$ (\ref{fig:Rlup_ebc}) by adding 40 $Wm^{-2}$ and closing the the energy balance   %SJS: I moved the last sentence up and reformuated a bit. Please check. What happened to the bias between MODIS and plot-scale LST if ? Might be worth mentioning, whether this also reduced the bias at HS.%GT the bias decreased by 6.5 K added in text please check
 
 \begin{figure}[h!]
 \begin{subfigure}{\textwidth}
@@ -268,7 +262,7 @@ Interestingly, adding 40 W m$^-{2}$ to the  measured upwelling longwave radiatio
    \end{overpic}
    \end{subfigure}
  \setlength{\belowcaptionskip}{-3ex}
-\caption{Sensible heat flux as a function of surface-to-air temperature difference based on Eq. \ref{eq_H2} ($H = m (T_{s} - T_{a}) + c$). $\epsilon$ was fitted to minimise RMSE of a robust linear regression. The title of the plot contains site, year, month and the fitted $\epsilon$-value. The legend correspond to Fig. \ref{fig:HDT}.The colour code indicates the degree of energy imbalance of each data point (i.e. $R_{net} - H - LE - G$). %SJS: please check if this is correct. 
+\caption{Sensible heat flux as a function of surface-to-air temperature difference based on Eq. \ref{eq_H2} ($H = m (T_{s} - T_{a}) + c$). $\epsilon$ was fitted to minimise RMSE of a robust linear regression. The title of the plot contains site, year, month and the fitted $\epsilon$-value. The legend correspond to Fig. \ref{fig:HDT}.The colour code indicates the degree of energy imbalance of each data point (i.e. $R_{net} - H - LE - G$).  
 	}
 \label{fig:2_mx_c}
 \end{figure}
@@ -335,7 +329,7 @@ The uncertainty in plot-scale $\epsilon$ estimated using Eq. \ref{eq_Tleq} ('leq
 %\label{fig:uncas}
   \centering
   \begin{overpic}[width=\textwidth]{unc_eps_vio} % ,grid,tics=10 (opteps_boxplt_threebox)
-  \put (9,49){\textbf{a}}
+  \put (9,51){\textbf{a}}
    
   \end{overpic}
   %\includegraphics[width=\linewidth]{/opteps_boxplt}
@@ -345,14 +339,14 @@ The uncertainty in plot-scale $\epsilon$ estimated using Eq. \ref{eq_Tleq} ('leq
 \begin{subfigure}{.4\textwidth}
   \centering
   \begin{overpic}[width=\textwidth]{tsta_unc_leq_vio} % ,grid,tics=10
-  \put (15,75){\textbf{b}}
+  \put (12,63){\textbf{b}}
   \end{overpic}
   %\label{fig:uncas1}
 \end{subfigure}%
 \begin{subfigure}{.4\textwidth}
   \centering
   \begin{overpic}[width=\textwidth]{tsta_unc_seq_voi} % ,grid,tics=10
-  \put (15,75){\textbf{c}}
+  \put (10,67){\textbf{c}}
   \end{overpic}
   %\label{fig:uncas2}
 \end{subfigure}
@@ -360,34 +354,31 @@ The uncertainty in plot-scale $\epsilon$ estimated using Eq. \ref{eq_Tleq} ('leq
 %\begin{figure}[h!]
 
 \setlength{\belowcaptionskip}{-3ex}
-\caption{Uncertainty in plot-scale estimations of $\epsilon$ and surface-air temperature differences ($T_{s} - T_{a}$) at Alice Springs (AS), based on Eq. \ref{eq_H} (no intercept in $H(\Delta T)$). Monthly values of $\epsilon$ shown for 2017 and hourly $T_{s} - T_{a}$ for 15 August 2017. \textbf{(a)} Uncertainty in monthly plot-scale emissivity due to uncertainty in $H$, $R_{lup}$, $R_{ldw}$ and $T_{a}$, using Eq. \ref{eq_leq} ('leq', blue)  and Eq. \ref{eq_seq} ('seq', black). \textbf{(b)} Hourly uncertainty in $T_{s} - T_{a}$ based on Eq. \ref{eq_leq}, due to uncertainty in $R_{lup}$, $R_{ldw}$ and $T_{a}$ when landscape-scale emissivity is used ($\epsilon_{MODIS}$, orange) or due to uncertainty in $H$, $R_{lup}$, $R_{ldw}$ and $T_{a}$ when plot-scale emissivity is used ($\epsilon_{plot}$, blue). \textbf{(c)} Same as Panel b, but based on Eq. \ref{eq_seq}. 
+\caption{Uncertainty in plot-scale estimations of $\epsilon$ and surface-air temperature differences ($T_{s} - T_{a}$) at Alice Springs (AS), based on Eq. \ref{eq_H} (no intercept in $H(\Delta T)$). Monthly values of $\epsilon$ shown for 2017 and hourly $T_{s} - T_{a}$ for 15 August 2017. \textbf{(a)} Uncertainty in monthly plot-scale emissivity due to uncertainty in $H$, $R_{lup}$, $R_{ldw}$ and $T_{a}$, using Eq. \ref{eq_leq} ('leq', blue)  and Eq. \ref{eq_seq} ('seq', black). \textbf{(b)} Hourly uncertainty in $T_{s} - T_{a}$ on 15 July based on Eq. \ref{eq_leq}, due to uncertainty in $R_{lup}$, $R_{ldw}$ and $T_{a}$ when landscape-scale emissivity is used ($\epsilon_{MODIS}$, orange) or due to uncertainty in $H$, $R_{lup}$, $R_{ldw}$ and $T_{a}$ when plot-scale emissivity is used ($\epsilon_{plot}$, blue). \textbf{(c)} Same as Panel b, but based on Eq. \ref{eq_seq}. 
 }
 \label{fig:eps_unc1}
 \end{figure}
 
 \section{Discussion}
-Our analysis revealed a fundamental flaw in the commonly used short equation (Eq. \ref{eq_Tseq}) for estimating plot-scale LST and $\epsilon$, as it does not produce the same results as the long equation (Eq. \ref{eq_Tleq}) even with high values of $\epsilon$. In fact, the short equation strongly over-estimates the sensitivity of LST to $\epsilon$ (\textbf{SI Fig. \ref{fig:LST sensitivity to emissivity}}), as it neglects the fact that low emissivity results in a greater fraction of reflected longwave in the sensor signal (compare Eqs. \ref{eq_Tseq} and \ref{eq_Tleq}). The sensitivity of the long equation (Eq. \ref{eq_Tleq}) to $\epsilon$ is driven by the contrast between $R_{lup}$ and $R_{ldwn}$, whereas, for the short equation (Eq. \ref{eq_Tseq}), it is only driven by observed $R_{lup}$ (\textbf{SI Fig. \ref{fig:longwave}}). For instance, an error of 0.01 in $\epsilon$ at a water-limited site (e.g. AS) can cause an error of 0.17 K using Eq. (\ref{eq_Tleq}) and 0.79 K using Eq. (\ref{eq_Tseq}) respectively (\textbf{SI Fig. \ref{fig:LST sensitivity to emissivity}}). This means that small errors in $\epsilon$ can result in large differences in LST when using the short equation, or conversely, unrealistic LST values can conveniently be rectified by slightly changing the $\epsilon$ value. 
-This is illustrated e.g. in Fig. \ref{fig:eps_unc1}, where estimation of plot-scale $\epsilon$ resulted in similar LST values between the short and long equations, but with vastly different $\epsilon$ values and much greater uncertainty in estimated $\epsilon$ using the long equation compared to the short equation. Considering that the short equation ignores an important component of longwave radiation, it must be concluded that in this case, it achieves seemingly the right results for the wrong reasons. The reduced sensitivity of the long equation (\ref{eq_Tleq}) to $\epsilon$ is of advantage for plot-scale LST estimation, since plot-scale $\epsilon$ is usually unknown and therefore used as an approximate value \cite{mallick2018bridging}. However, when using the long equation in conjunction with plot-scale $H$ measurements to estimate plot-scale $\epsilon$, we obtained unrealistically low $\epsilon$ values at some sites (e.g. HS and LF, Table \ref{table:eps_comp}) in comparison to previously reported  $\epsilon$ values for a soil-vegetation system\cite{sugita1996optimal,snyder1998classification}. This strong bias in plot-scale $\epsilon$ estimates was largely removed if an intercept in the $H(\Delta T)$ relationship was allowed (right column in Table \ref{table:eps_comp}). 
+Our analysis revealed a fundamental flaw in the commonly used short equation (Eq. (\ref{eq_Tseq})) for estimating plot-scale LST and $\epsilon$, as it does not produce the same results as the long equation (Eq. (\ref{eq_Tleq})) even with high values of $\epsilon$ (MODIS $\epsilon$). In fact, the short equation strongly over-estimates the sensitivity of LST to $\epsilon$ (\textbf{SI Fig. \ref{fig:LST sensitivity to emissivity}}), as it neglects the fact that low emissivity results in a greater fraction of reflected longwave in the sensor signal (compare Eq. (\ref{eq_Tseq}) and (\ref{eq_Tleq})). The sensitivity of the long equation (Eq. (\ref{eq_Tleq})) to $\epsilon$ is driven by the contrast between $R_{lup}$ and $R_{ldwn}$, whereas, for the short equation (Eq. (\ref{eq_Tseq})), it is only driven by observed $R_{lup}$ (\textbf{SI Fig. \ref{fig:longwave}}). For instance, an error of 0.01 in $\epsilon$ at a water-limited site (e.g. AS) can cause an error of 0.17 K using Eq. (\ref{eq_Tleq}) and 0.79 K using Eq. (\ref{eq_Tseq}) respectively (\textbf{SI Fig. \ref{fig:LST sensitivity to emissivity}}). This means that small errors in $\epsilon$ can result in large differences in LST when using the short equation, or conversely, unrealistic LST values can conveniently be rectified by slightly changing the $\epsilon$ value. This is illustrated e.g. in Fig. \ref{fig:eps_unc1}, where estimation of plot-scale $\epsilon$ resulted in similar LST values between the short and long equations, but with vastly different $\epsilon$ values and much greater uncertainty in estimated $\epsilon$ using the long equation compared to the short equation. Considering that the short equation ignores an important component of longwave radiation, it must be concluded that in this case, it achieves seemingly the right results for the wrong reasons. The reduced sensitivity of the long equation (Eq. (\ref{eq_Tleq})) to $\epsilon$ is of advantage for plot-scale LST estimation, since plot-scale $\epsilon$ is usually unknown and therefore used as an approximate value \cite{mallick2018bridging}. However, when using the long equation in conjunction with plot-scale $H$ measurements to estimate plot-scale $\epsilon$, we obtained unrealistically low $\epsilon$ values at some sites (e.g. HS and LF, Table \ref{table:eps_comp}) in comparison to previously reported  $\epsilon$ values for a soil-vegetation system\cite{sugita1996optimal,snyder1998classification}. This strong bias in plot-scale $\epsilon$ estimates was largely removed if an intercept in the $H(\Delta T)$ relationship was allowed (Table \ref{table:eps_comp}, plot-scale $\epsilon$). 
 The intercept (i.e. $\Delta T \ne 0$ at $H=0$) could be caused by combining measurements coming from instruments (radiometer, eddy covariance system) with different footprints\cite{marcolla2018geometry}. The mismatch of source areas becomes important if the surface underlying the instruments has heterogeneous land cover. 
- Although "footprint awareness" is often omitted at ECS under the assumption of ho­mogeneity \cite{chu2021representativeness}, in patchy vegetation, the radiation sensor can be "seeing" a different vegetation fraction than that contributing to EC measurements, meaning that $H\not= 0$ at $\Delta T=0$. This problem was not detected by Holmes et al. \cite{holmes_land_2009-1}, as the short equation (Eq. \ref{eq_Tseq}) was used, and due to its high sensitivity to $\epsilon$ (\textbf{SI Fig. \ref{fig:LST sensitivity to emissivity}} a) even a small reduction in $\epsilon$ corrected the offset in $H(\Delta T)$ (Fig. \ref{fig:HDT}a). In contrast, when repeating the same analysis using the long equation (Eq. (\ref{eq_Tleq})), a larger reduction is required to remove the intercept, resulting in lower $\epsilon$ (Fig. \ref{fig:HDT}b). By allowing an intercept in the $H(\Delta T)$ regression, we implicitly account for the possibility of a footprint mismatch or instrument bias in the data. This small change in methodology enables us to detect such problems by inspecting the value of the intercept ($c$). Considering  the aerodynamic footprint to be larger than the radiometric footprint \cite{marcolla2018geometry,chu2021representativeness}, a positive intercept can be interpreted as the $H$ from the aerodynamic footprint which is not seen by the radiometer.
+ Although "footprint awareness" is often omitted at ECS under the assumption of ho­mogeneity \cite{chu2021representativeness}, in patchy vegetation, the radiation sensor can be "seeing" a different vegetation fraction than that contributing to EC measurements, meaning that $H\not= 0$ at $\Delta T=0$. This problem was not detected by Holmes et al. \cite{holmes2009land}, as the short equation (Eq. (\ref{eq_Tseq})) was used, and due to its high sensitivity to $\epsilon$ (\textbf{SI3 Fig. \ref{fig:LST sensitivity to emissivity}}a) even a small reduction in $\epsilon$ corrected the offset in $H(\Delta T)$ (Fig. \ref{fig:HDT}a). In contrast, when repeating the same analysis using the long equation (Eq. (\ref{eq_Tleq})), a larger reduction is required to remove the intercept, resulting in lower $\epsilon$ (Fig. \ref{fig:HDT}b). By allowing an intercept in the $H(\Delta T)$ regression, we implicitly account for the possibility of a footprint mismatch or instrument bias in the data. This small change in methodology enables us to detect such problems by inspecting the value of the intercept ($c$). Considering  the aerodynamic footprint to be larger than the radiometric footprint \cite{marcolla2018geometry,chu2021representativeness}, a positive intercept can be interpreted as the $H$ from the aerodynamic footprint which is not seen by the radiometer.
 
- The intercept was very high for the sites HS and LF (Table. \ref{table:eps_comp}). A close inspection of the $H(\Delta T)$ plots at these sites (\textbf{SI} Fig. \ref{fig:hs_hdt}) revealed negative daytime $T_{s} -T_{a}$ (Fig. \ref{fig:long_short_eq_epsilon_MODIS}), which may suggest an underestimation of $R_{lup}$. While testing this hypothesis at HS (having the highest intercept, Fig. \ref{fig:2_mx_c}c) we found that  adding roughly 40 $Wm^-{2}$ (approx 8\% of observed $R_{lup}$, Fig. \ref{fig:wninb}) in observed $R_{lup}$ led to significant reduction in the intercept from 294 $Wm^-{2}$ (Fig. \ref{fig:2_mx_c} c) to 17 $Wm^-{2}$ and positive day-time $T_{s} - T_{a}$ (Fig. \ref{fig:mxc_dis}a). The other linear regression parameters (m, $R^{2}$, RMSE) were not affected (Fig. \ref{fig:mxc_dis}a cf. Fig. \ref{fig:2_mx_c}c). The hemispherical view of the radiometers looking down at a heterogeneous canopy makes it possible that they "see" more tree crowns and less soil than area contributing to the eddy covariance footprint. This could lead to an underestimation of $R_{lup}$, and an underestimation by 40 $Wm^-{2}$ would be equivalent to approximately by 5-10$\%$ of the observed flux and within the range of a typical energy imbalance found at this site (\textbf{SI 6}, Fig. \ref{fig:wninb}). 
- %SJS: The below does not make sense to me, as I don't see a clear correlation between intercept and Hmax, and I also don't understand the relevance. Could you check?
- %Also, the intercept in $H(\Delta T)$ was proportional to the maximum observed $H$ for each month as shown in Fig. \ref{fig:2_mx_c}. The ratio between $H_{max}$ and intercept varies between $0\%$ to $30 \%$ for TUM (\textbf{SI 7} Fig. \ref{fig:yr_intrc}). 
+ The intercept was very high for the sites HS and LF (Table. \ref{table:eps_comp}). A close inspection of the $H(\Delta T)$ plots at these sites (\textbf{SI} Fig. \ref{fig:hs_hdt}) revealed negative day-time $T_{s} -T_{a}$ (Fig. \ref{fig:long_short_eq_epsilon_MODIS}), which may suggest an underestimation of $R_{lup}$. While testing this hypothesis at HS (having the highest intercept, Fig. \ref{fig:2_mx_c}c) we found that  adding roughly 40 $Wm^{-2}$ (approx. 8\% of observed $R_{lup}$, Fig. \ref{fig:mxc_dis}) in observed $R_{lup}$ led to significant reduction in the intercept from 294 $Wm^{-2}$ (Fig. \ref{fig:2_mx_c}c) to 17 $Wm^{-2}$ and positive day-time $T_{s} - T_{a}$ (Fig. (\ref{fig:mxc_dis}a)). The other linear regression parameters (m, $R^{2}$, RMSE) were not affected ( compare Fig. (\ref{fig:mxc_dis}a and \ref{fig:2_mx_c}c). The hemispherical view of the radiometers looking down at a heterogeneous canopy makes it possible that they "see" more tree crowns and less soil than area contributing to the eddy covariance footprint. This could lead to an underestimation of $R_{lup}$, and an underestimation by $30-40$ $Wm^{-2}$ would be equivalent to approximately by 5-10$\%$ of the observed flux and within the range of a typical energy imbalance found at this site (\textbf{SI6}, Fig. \ref{fig:Rlup_ebc}). 
+  
  Previous studies have found a dependence of footprint mismatch on wind direction \cite{chu2021representativeness,marcolla2018geometry,morillas2013using}, but we did not find a significant relation between monthly intercept and dominant wind direction at Howard Springs. %SJS: I slightly re-wrote, please check.
 % Limitation:surface energy balance closure.
 %\cite{marcolla2018geometry,rotenberg2011distinct}
-Surface heterogeneity has also been recognized as one of the potential causes for the lack of energy balance closure observed at most ECS at diurnal scales \cite{wilson2002energy, stoy2013data}. However, in our analysis the use of an energy balance closure scheme (based on the Bowen ratio) led to much lower values of plot-scale $\epsilon$ using Holmes approach with the long equation and without intercept. In contrast, if an intercept was allowed, energy balance closure led to an increase in positive intercept (Fig. \ref{fig:2_mx_c}). %SJS: the previous two sentences were a bit confusing, as the reduction in epsilon only happens if you don't use an intercept, while the second speaks of an increased intercept. I tried to clarify, please check.
-Other studies on plot-scale $\epsilon$ estimation have also used the observed fluxes without correction\cite{chen2003surface, holmes_land_2009-1,juang2007separating,maes2019potential}. 
+Surface heterogeneity has also been recognized as one of the potential causes for the lack of energy balance closure observed at most ECS at diurnal scales \cite{wilson2002energy, stoy2013data}. However, in our analysis the use of an energy balance closure scheme (based on the Bowen ratio) led to much lower values of plot-scale $\epsilon$ using Holmes approach with the long equation and without intercept. In contrast, if an intercept was allowed, energy balance closure led to an increase in positive intercept (Fig. \ref{fig:mxc_dis}b). %SJS: the previous two sentences were a bit confusing, as the reduction in epsilon only happens if you don't use an intercept, while the second speaks of an increased intercept. I tried to clarify, please check.
+Other studies on plot-scale $\epsilon$ estimation have also used the observed fluxes without correction\cite{chen2003surface, holmes2009land,juang2007separating,maes2019potential}. 
 %SJS: The next sentence is incomplete and I think it is already captured above. Please check.
 %Closing energy imbalance using Bowen ratio closure scheme \cite{foken2008energy} which results into higher intercept and $R^{2}$ as shown in Fig \ref{fig:mxc_dis}b. 
-However, our analysis suggests that the footprint mismatch may cause a small bias in the upwelling longwave radiation measurements that does not necessarily correlate with the energy imbalance. When we added 40 W m$^-{2}$ to the measured upwelling longwave radiation and subsequently closed the energy balance at the site with the largest $H(\Delta T)$ intercept, we largely removed the intercept and at the same time obtained realistic $\epsilon$ values and an increased $R^2$ (\textbf(SI Fig. \ref{fig:Rlup_ebc}).
+However, our analysis suggests that the footprint mismatch may cause a small bias in the up-welling longwave radiation measurements that does not necessarily correlate with the energy imbalance. When we added 40 $Wm^{-2}$ to the measured up-welling longwave radiation and subsequently closed the energy balance at the site with the largest $H(\Delta T)$ intercept, we largely removed the intercept and at the same time obtained realistic $\epsilon$ values and an increased $R^2$ \textbf(SI Fig. \ref{fig:Rlup_ebc}a).
  %GT when both correction in Rlup and energy imbalance is closed we reduce the intercept and increase the R2 and slope please see Fig. 13 but I dont know how to mention it here ? %SJS: I included this here and in the results, but I just realised that we did not show in how far adding 40 W and closing the energy balance also improves the epsilon estimate. Could you still add this?
 
 %SJS: Git, what did you write below? resulted into? upto? comparson? Obviously, you re-wrote the below paragraphs without re-reading and without marking it for me to re-read. I tried to correct/re-write.
-When estimating plot-scale LST using landscape-scale $\epsilon$ values, we found strongly negative bias in comparison to MODIS LST, particularly at sites with a sparse canopy, which is in agreement with previous studies where the bias for sparse canopy reached up to 12$K$ \cite{guillevic2018land}. Plot-scale LST estimates based on plot-scale $\epsilon$ largely reduced this bias between plot-scale and MODIS LST (Table \textbf{\ref{table:SI2_optlstandmod}}). The use of plot-scale $\epsilon$ instead of landscape-scale $\epsilon$ also reduced the uncertainty in diurnal LST (Fig. \ref{fig:eps_unc1}b,c), even though the plot-scale $\epsilon$ estimations were unrealistically low. Allowing an intercept in the procedure ($H=m*\Delta T + c$)  results in more realistic plot-scale $\epsilon$ estimates but again increases the bias between plot-scale and MODIS LST at most of the study sites (Table \ref{table:eps_comp}). Given that the fit of a linear model without intercept is statistically questionable in general \cite{eisenhauer2003regression}, and the fact that such a fit resulted in unrealistically low values of $\epsilon$ at some sites, we conclude that fitting a model with intercept is the more robust approach, and that a significant intercept should be used as a red flag for the utility of the data for estimation of plot-scale LST. At the sites with the largest intercept values, we found that an assumed bias in upwelling longwave radiation by only 8\% would largely remove the intercept and result in realistic $\epsilon$ values, but a detailed analysis of such bias and potential correction approaches is beyond the scope of this study.
-%SJS: I don't understand the next sentence, so commented it out.
-%The increase in bias could be attributed to implicit consideration of spatial heterogeneity (by accepting intercept) at plot-scale, whereas, MODIS LST (landscape scale) are integrated pixel information considering radiating signal from a homogeneous surface. 
+%GT sorry, I rewrote please read
+When estimating plot-scale LST using landscape-scale $\epsilon$ values, we found strongly negative bias in comparison to MODIS LST, particularly at sites with a sparse canopy, which is in agreement with previous studies where the bias for sparse canopy reached up to 12 $K$ \cite{guillevic2018land}. Plot-scale LST estimates based on plot-scale $\epsilon$ using $H(\Delta T)$ linearfit without an intercept largely reduced this bias between plot-scale and MODIS LST (Table \textbf{\ref{table:SI2_optlstandmod}}). Unrealistically low plot-scale $\epsilon$ also reduced the uncertainty in diurnal LST (Fig. \ref{fig:eps_unc1}b,c) in comparison to landscape-scale $\epsilon$. Allowing an intercept ($H=m*\Delta T + c$) in plot-scale $\epsilon$ estimation results in more realistic plot-scale $\epsilon$ estimates but again the plot-scale LST is unrealistic and inconsistent with observed $H$ due to high intercept for sites like HS (Fig. \ref{fig:2_mx_c}c). Also the plot-scale $\epsilon$ estimated with intercept in $H(\Delta T)$ linearfit increased the bias between plot-scale and MODIS LST at most of the study sites (Table \ref{table:eps_comp}). At the sites with the largest intercept values, we found that an assumed bias in up-welling longwave radiation by only 6-9\% would largely remove the intercept and result in realistic $\epsilon$ values, and also reduces the bias between MODIS and plot-scale LST (Fig. \ref{fig:mxc_dis}a, Fig. \ref{fig:Rlup_ebc}b). A detailed analysis of such bias and potential correction approaches is beyond the scope of this study. Given that the fit of a linear model without intercept is statistically questionable in general \cite{eisenhauer2003regression}, and the fact that such a fit resulted in unrealistically low values of $\epsilon$ at some sites, we conclude that fitting a model with intercept is the more robust approach, and that a significant intercept should be used as a red flag for the utility of the data for estimation of plot-scale LST. 
 
 Note that the fluxes observed at ECS are representative of the composite signal from both, soil and vegetation, which typically have a different range of surface temperatures and emissivities\cite{jin2006improved}. The $\epsilon$ of soil strongly depends on soil moisture content \cite{mira2007influence}, whereas the $\epsilon$ of a canopy depends on its structural attributes and leaf area index, the latter of which can vary strongly at the seasonal scale \cite{chen2015determining}. For example, the laboratory-measured directional $\epsilon$ for various canopy elements (bark, leaf and its arrangement, stem wood) ranged between 0.9 to 1 \cite{vishnevetsky2019method}. Laboratory measurements of thermal infrared reflectance spectra suggests that the $\epsilon$ variation from structural unknowns, such as leaf orientation, is more significant than the differences in leaf component emissivity among plant species \cite{snyder1998classification}. Consequently, it is clear that the $\epsilon$ of a surface is a function of many factors and detailed study of all these factors is out of scope of the present study. Derivation of landscape-scale broadband $\epsilon_{land}$ from narrowband spectral emissivity is a first-order approximation for capturing the integrated effects of land cover from MODIS spectral bands\cite{jin2006improved}, whereas the derivation of plot-scale $\epsilon$ from EC flux data, as analyzed in this study, provides an independent, alternative estimate of $\epsilon$ and at the same time provides a quality check on the correspondence between radiometric and aerodynamic measurements at a given ECS.
 %SJS: The below sentence seems to contradict what we just said, i.e. that plot-scale emissivity helps getting plot-scale LST right, so I commented it out and tried to close the paragraph above with a different sentence. Please check.
@@ -402,30 +393,33 @@ Note that the fluxes observed at ECS are representative of the composite signal 
  %SJS: The below sentence is not very informative, as the problem applies to both satellite and plot-scale derivations of epsilon, and given that your plot-scale estimates of epsilon can only be done at monthly time scale, th temporal resolution of satellite data is hardly the issue here.
  %Estimation of an intrinsic property such as $\epsilon$ using time varying fluxes can be considered imprecise; however, considering the spatial and temporal limitation of satellite derived data, the plot-scale $\epsilon$ estimation is a best possible alternative.
 
-In summary, our results reveal that the short equation (neglecting downwelling longwave radiation) leads to biased estimates of LST and hugely over-estimated sensitivity of LST to surface emissivity. Therefore, the use of Eq. (\ref{eq_Tseq}) is not recommended and should be replaced by Eq. (\ref{eq_leq}) if measurements of downwelling longwave radiation are available. 
+In summary, our results reveal that the short equation (neglecting down-welling longwave radiation) leads to biased estimates of LST and hugely over-estimated sensitivity of LST to surface emissivity. Therefore, the use of Eq. (\ref{eq_Tseq}) is not recommended and should be replaced by Eq. (\ref{eq_leq}) if measurements of down-welling longwave radiation are available. We also found that representing observed $H=m*(\Delta T)$ for estimating plot-scale $\epsilon$ reduces the uncertainty in diurnal LST estimation in comparison to the use of MODIS-based landscape-scale emissivity for the wrong reasons. However, representing $H (\Delta T)$ linearfit with intercept reveals the coherance between estimated LST and observed sensible heat at plot-scale. The decrease in intercept by correcting bias in up-welling longwave suggests an additional correction along with the energy balance closure. Therefore, the approach of representing $H(\Delta T)$  with an intercept emphasizes the "footprint awareness" concept when using eddy covariance fluxes in combination with local radiometer measurements. The proposed method has the potential to provide a more robust benchmark information for model calibration and validation. Overall, the implications of our study are of particular relevance for the research community interested in understanding diurnal and seasonal feedback in soil-vegetation systems based on fluxes, emissivity and LST estimated at the plot-scale. 
+
+
+
+%SJS: I re-wrote the above, please check. Once you fixed Fig. 15 b, where the uncertainty of Delta T for epsilon with intercept is too large, you could also more strongly recommend the use of the equation with intercept. See my comment in the caption of this figure.
+
 %SJS: I don't understand the next sentence. Do you mean that LSM evaluation often uses ECS fluxes and MODIS LST? We have not really shown in this paper that this is problematic.
 %Considering the widespread use of both ECS recorded fluxes and MODIS LST in LSMs applications, the use of plot-scale $\epsilon$ can be advantageous as it reduces the bias between plot-scale and MODIS LST. 
 %SJS: The below needs re-writing. You could just refer back to your research questions posed in the intro and then conclude about the best method of estimaing LST. But for this, we need to know the results for Tleq with intercept, as Fig. 15 seems wrong. See my comment in the caption of that figure.
-We also found that the use of observed $H$ for estimating plot-scale $\epsilon$ reduces the uncertainty in diurnal LST estimation in comparison to the use of MODIS-based landscape-scale emissivity, and at the same time reveals if the estimated LST values are consistent with observed plot-scale flux data. This is particularly the case if a model with intercept is used for the linear fit of $H (\Delta T)$. Therefore, the approach proposed in this work has the potential to provide a more robust benchmark information for model calibration and validation, while emphasising the "footprint awareness" concept when using eddy covariance fluxes in combination with local radiometer measurements. Overall, the implications of our study are of particular relevance for the research community interested in understanding diurnal and seasonal feedback in soil-vegetation systems based on fluxes, emissivity and LST estimated at the plot scale. %SJS: I re-wrote the above, please check. Once you fixed Fig. 15 b, where the uncertainty of Delta T for epsilon with intercept is too large, you could also more strongly recommend the use of the equation with intercept. See my comment in the caption of this figure.
 
 
 \section{Methods}  \label{sec:Methods}
 \subsubsection{Research data}
 \textbf{Tower data}:
-ECS collect micro-meteorological measurements above the surface (vegetation canopy) using towers (flux tower) following common measurement protocols \cite{baldocchi2001fluxnet}. The towers are commonly equipped with an instrument made up of pyrgeometers or radiometers to measure up-welling and down-welling shortwave and longwave radiation, which is further used to calculate net radiation (Eq. \ref{eq_Rn1}). Besides radiative fluxes, measurement at ECS also include sensible and latent heat fluxes, net carbon-dioxide exchange and a range of meteorological variables, such as air temperature, humidity and wind speed. $T_{a}$ is the air temperature measured at a reference height above the canopy. Each flux measurement is accompanied by a flagging system based on the second CarboEurope-IP QA/QC workshop \cite{gilberto2020fluxnet2015}. In our current work we use only high quality (flag 0) data. For the analysis, ten sites were selected to represent a variety of land cover types and climates (Table \ref{table:studysites}). Eight sites belong to the North Australian Tropical Transect (NATT) and two sites (Yatir Forest, Brookings) are chosen to replicate results from Holmes et.al\cite{holmes_land_2009-1}. Eddy covariance Level 3 data is obtained from http://data.ozflux.org.au/portal/pub/listPubCollections.jspx for Australian sites. The data for Brookings was obtained from Ameriflux whereas the data for Yatir Forest was obtained from personal communication with Professor Yakir's lab in order to obtain the older version of the data which was used by Holmes et al.\cite{holmes_land_2009}%(http://www.ntlis.nt.gov.au/metadata/export_data?metadata_id=2DBCB77120B306B6E040CD9B0F274EFE&type=html#Citation).a. %SJS: Yatir Forest is not really 
+ECS collect micro-meteorological measurements above the surface (vegetation canopy) using towers (flux tower) following common measurement protocols \cite{baldocchi2001fluxnet}. The towers are generally equipped with an instrument made up of pyrgeometers or radiometers to measure up-welling and down-welling shortwave and longwave radiation, which is further used to calculate net radiation (Eq. \ref{eq_Rn1}). Besides radiative fluxes, measurement at ECS also include sensible and latent heat fluxes, net carbon-dioxide exchange and a range of meteorological variables, such as air temperature, humidity and wind speed. $T_{a}$ is the air temperature measured at a reference height above the canopy. Each flux measurement is accompanied by a flagging system based on the second CarboEurope-IP QA/QC workshop \cite{gilberto2020fluxnet2015}. In our current work we use only high quality (flag 0) data. For the analysis, ten sites were selected to represent a variety of land cover types and climates (Table \ref{table:studysites}). Eight sites belong to the North Australian Tropical Transect (NATT) and two sites (Yatir Forest, Brookings) are chosen to replicate results from Holmes et.al\cite{holmes2009land}. Eddy covariance level 3 data is obtained from http://data.ozflux.org.au/portal/pub/listPubCollections.jspx for Australian sites. The data for Brookings was obtained from Ameriflux whereas the data for Yatir Forest was obtained from personal communication with Professor Yakir's lab in order to obtain the older version of the data which was used by Holmes et al.\cite{holmes2009land}%(http://www.ntlis.nt.gov.au/metadata/export_data?metadata_id=2DBCB77120B306B6E040CD9B0F274EFE&type=html#Citation).a. %SJS: Yatir Forest is not really %GT i didn't get your comment here?
 
 \textbf{MODIS data}:
-Landscape scale emissivity and LST data (MODIS product MOD11A1) was downloaded from NASA earth data \href{https://lpdaac.usgs.gov/}. It is a level 3 daily LST product gridded in the sinusoidal projection at a spatial resolution of 0.928 $km$ by 0.928 $km$. The daily LST pixel values in each granules (tile contains 1200 x 1200 grids in 1200 rows and 1200 columns) is retrieved by the generalized split-window algorithm under clear-sky conditions and MODIS LST values are averaged by overlapping pixels in each grid with overlapping areas as weight\cite{wan2007collection}. The downloaded data in hierarchical data format (hdf), were converted into tagged image file format (tiff) using a python package called PyModis \cite{delucchi2014pymodis}. From tiff the files are converted into csv format. The details of data extraction and conversion can be found at $https://renkulab.io/projects/gitanjali.thakur/modis_lst_fpar/$. %SJS: Need to put it on zenodo and refer to it in the paper.
-Thermal remote sensing (MODIS) is used to measure spectral emissivity through four channels (28, 29, 30, 31) at wavelengths ranging between 8-12 $\mu$m \cite{jin_improved_2006-1} and the system of equations is iteratively solved for a given range of wavelengths (9 - 12$\mu$m) to obtain $\epsilon$ and LST using radiative transfer models\cite{hulley2012quantifying,jin2006improved,wang_evaluation_2009} In the current study dataset columns used to compare plot-scale LST are: day time daily LST, local view time. In order to obtain landscape-scale the emissivity from bands 31 and 32 are used, these bands have more stable emissivities ranging from ~0.92-1 thus used to derive broadband emissivity \cite{wan_land_nodate-1}. 
-%The radiative energy emitted at a specific wavelength is related to its temperature using Planck's function\cite{wang_estimation_2005-1}
- 
+Landscape-scale emissivity and LST data (MODIS product MOD11A1) was downloaded from NASA earth data \href{https://lpdaac.usgs.gov/}. It is a level 3 daily LST product gridded in the sinusoidal projection at a spatial resolution of 0.928 $km$ by 0.928 $km$. The daily LST pixel values in each granules (tile contains 1200 x 1200 grids in 1200 rows and 1200 columns) is retrieved by the generalized split-window algorithm under clear-sky conditions and MODIS LST values are averaged by overlapping pixels in each grid with overlapping areas as weight\cite{wan2007collection}. The downloaded data in hierarchical data format (hdf), were converted into tagged image file format (tiff) using a python package called PyModis \cite{delucchi2014pymodis}. From tiff the files are converted into csv format. The details of data extraction and conversion can be found at $https://renkulab.io/projects/gitanjali.thakur/modis_lst_fpar/$. %SJS: Need to put it on zenodo and refer to it in the paper.
+Thermal remote sensing (MODIS) is used to measure spectral emissivity through four channels (28, 29, 30, 31) at wavelengths ranging between 8-12 $\mu$m \cite{jin2006improved} and the system of equations is iteratively solved for a given range of wavelengths (9 - 12$\mu$m) to obtain $\epsilon$ and LST using radiative transfer models\cite{hulley2012quantifying,jin2006improved,wang2009evaluation} In the current study,  dataset columns used to compare plot-scale LST are: day time daily LST and local view time. In order to obtain landscape-scale $\epsilon$ the emissivity from bands 31 and 32 are used. These bands have more stable emissivities ranging from ~0.92-1, thus used to derive broadband emissivity \cite{wan2007collection}. 
+
 \begin{table}[h!]
 \centering
 \caption{Description of study sites}
 \begin{tabular}{|p{2.5cm}|p{1.5cm}|p{2.2cm}|p{1.5cm}|p{2cm}|p{1cm}|}
  \hline
- \textbf{Study site} &\textbf{latitute, longitude} & \textbf{Landcover} & \textbf{Time-period} 
- & \textbf{longwave sensors} & \textbf{Sensor installation height (m)} \\
+ \textbf{Study site} &\textbf{Latitute, Longitude} & \textbf{Landcover} & \textbf{Time-period} 
+ & \textbf{Longwave sensors} & \textbf{Sensor installation height (m)} \\
  \hline 
  Sturt Plains (SP) &  -17.1507, 133.3502 & Mitchell Grass & 2016-2019 & CG-2 & 4.8\\ 
  \hline
@@ -454,44 +448,39 @@ Brookings (BR) & 44.352, 96.840 & Cropland & 2005 & pyrgeometers\cite{guillevic2
 \end{table}
 
 
-\textbf{Plot-scale emissivity}:
+\textbf{Plot-scale emissivity estimation}:
 This approach was initially proposed by Holmes\cite{holmes2009land} to estimate plot-scale $\epsilon$ using the short equation (Eq. \ref{eq_Tseq}) with $H$, $R_{lup}$, $T_{a}$. In the present work, we have used both the long equation (Eq. \ref{eq_Tleq}) and short equation (Eq. \ref{eq_Tseq}) to estimate $\epsilon$.
-The prime variables used in the study are $H$, $R_{lup}$, $R_{ldwn}$, and, $T_{a}$, whereas the ancillary variables $R_{n}$ and wind speed ($Ws$) are used to filter the data for analysis. The data filtering criteria are ($R_{n} > 25 Wm^-2$) and wind speed ($Ws > 2ms^-1$)\cite{holmes_land_2009}. Data($R_{lup}, R_{ldwn}, H, T_{a}$) satisfying the filtering criteria is segregated monthly. Assuming an initial $\epsilon$ value, observed longwave radiation ($R_{lup}$, $R_{ldwn}$) is used to estimate $T_{s}$ for each valid data point within a month. For each month, a linear regression (with or without intercept, see main text) is performed between sensible heat ($H$) and surface-air temperature difference $T_{s}-T_{a}$ (Fig. \ref{fig:flow_chart}b) using Scipy $https://docs.scipy.org/doc/scipy-0.16.0/reference/generated/scipy.stats.linregress.html$. %SJS: Please check how to cite Scipy correctly.
+The prime variables used in the study are $H$, $R_{lup}$, $R_{ldwn}$, and, $T_{a}$, whereas the ancillary variables $R_{n}$ and wind speed ($Ws$) are used to filter the data for analysis. The data filtering criteria are ($R_{n} > 25$ $Wm^{-2}$) and wind speed ($Ws > 2ms^{-1}$)\cite{holmes2009land}. Data ($R_{lup}$, $R_{ldwn}$, $H$, $T_{a}$) satisfying the filtering criteria is segregated monthly. Assuming an initial $\epsilon$ value, observed longwave radiation ($R_{lup}$, $R_{ldwn}$) is used to estimate $T_{s}$ for each valid data point within a month. For each month, a linear regression (with or without intercept, see main text) is performed between sensible heat ($H$) and surface-air temperature difference ($T_{s}-T_{a}$) (Fig. \ref{fig:flow_chart}b) using Scipy $https://docs.scipy.org/doc/scipy-0.16.0/reference/generated/scipy.stats.linregress.html$. %SJS: Please check how to cite Scipy correctly.
 This procedure is repeated using a predefined range of $\epsilon$ from 0.4 until 0.998 with a step size of 0.002.
-From all the values of $\epsilon$ that resulted in strong enough correlation between $H$ and $T_{s}-T_{a}$ ($R^{2}>0.5$) the value that achieved the smallest RMSE was chosen as the correct $\epsilon$ for the given month. An illustration plot for RMSE and $\epsilon$ is shown in \textbf{SI5}. The $\epsilon$ is obtained for each month using both, long Eq.(\ref{eq_Tleq}) and short equation Eq.(\ref{eq_Tseq}) and termed as $\epsilon_{leq}$ and $\epsilon_{seq}$ respectively, as shown in Fig. \ref{fig:flow_chart}b. 
-For sites like HS and LF resulting in a high value of intercept the 8$\%$ of day time observed $R_{lup}$ was added to the measured data and monthly plot-scale $\epsilon$ was estimated. Additionally the energy imbalance at the study sites was closed using Bowen ratio closure scheme and the plot-scale emissivity was estimated. %SJS: Did you really do this for both HS and LF? I only saw the results for HS. Not sure if this needs a separate description here, or if a mention in the results is enough.
+From all the values of $\epsilon$ that resulted in strong correlation between $H$ and $T_{s}-T_{a}$ ($R^{2}>0.5$), the value that achieved the smallest RMSE was chosen as the suitable $\epsilon$ for the given month. An illustration plot for RMSE and $\epsilon$ is shown in \textbf{SI5} Fig. \ref{fig:rmse_eps}. The $\epsilon$ is obtained for each month using both, long (Eq. (\ref{eq_Tleq})) and short equation (Eq.(\ref{eq_Tseq})) and termed as $\epsilon_{leq}$ and $\epsilon_{seq}$ respectively, as shown in Fig. \ref{fig:flow_chart}b. 
+For sites like HS and LF resulting in a high value of intercept, we hypothesize the underestimation of $R_{lup}$ and corrected it by adding $6-8\%$ of the observed day time observed $R_{lup}$ was added to the measured data and monthly plot-scale $\epsilon$ was estimated. Additionally, the energy imbalance at the study sites was closed using Bowen ratio closure scheme and the plot-scale emissivity was estimated. %SJS: Did you really do this for both HS and LF? I only saw the results for HS. Not sure if this needs a separate description here, or if a mention in the results is enough.%GT yes i did it for both to confirm if the correction method works for both.
 
-Recently, another approach for plot-scale $\epsilon$ estimation using Eq. (\ref{eq_Rlup}) was discussed by Maes et.al (2019)\cite{maes2019potential}. For each month, the observed $R_{lup}$,  $R_{ldwn}$, $T_{a}$  are filtered for non rainy days, $-2 < H <2$ , and $\alpha < 0.4$. The $\epsilon$ is estimated by substituting $T_{s} = T_{a}$ in Eq. (\ref{eq_Rlup}) as shown in Eq. (\ref{eq_e_Maes}). The monthly $\epsilon$  was represented as the median of $\epsilon$ obtained by substituting filtered data in Eq. (\ref{eq_e_Maes}). 
+Recently, another approach for plot-scale $\epsilon$ estimation using Eq. (\ref{eq_Rlup}) was discussed by Maes et.al (2019)\cite{maes2019potential}. For each month, the observed $R_{lup}$,  $R_{ldwn}$, $T_{a}$  are filtered for non rainy days using the filtering criteria ($-2 < H <2$ , and $\alpha < 0.4$). The $\epsilon$ is estimated by substituting $T_{s} = T_{a}$ in Eq. (\ref{eq_Rlup}) as shown in Eq. (\ref{eq_e_Maes}). The monthly $\epsilon$  was represented as the median of $\epsilon$ obtained by substituting filtered data in Eq. (\ref{eq_e_Maes}). 
 \begin{equation}\label{eq_e_Maes}
 \epsilon = \frac{R_{ldwn} - R_{lup}}{R_{ldwn} - T_{a}^{4} \sigma}
 \end{equation}
 %SJS: Where are the results for this? They were not mentioned in the discussion at all, right?
+%GT: the red emissivity dots in figure 1 are from this equation. In discussion we just cite there work to show the emissivity obtained using long equation is always smaller irrespective of the method use in the estimation. 
 
-\textbf{LST comparsion}: LST estimates based on optimum $\epsilon$ for each month using a linear regression with and without intercept $H(\Delta T)$ is compared to the MODIS daily LST. For each month the $T_{s}$ estimates using plot scale $/epsilon$ and MODIS $/epsilon$ corresponding to the exact TERRA daily time of pass was obtained (30 minute tower data was upsampled to each minute using linear interpolation). TERRA (satellite) overpasses at local solar time between 10:30 am to 12 pm in ascending mode \cite{guillevic2017land}. Plot-scale LST at local satellite overpass ( $T_{leq}$ and $T_{seq}$) was obtained using interpolated longwave radiation measurement %SJS: why interpolated?
-and coresponding monthly plot-scale $\epsilon$. Plot-scale daily LST is compared to MODIS LST in terms of mean, bias, RMSE and $R^2$ using a robust linear regression model (scipy stat model) %SJS: Need to provide a proper reference to scipy stats model
- as shown in Fig. \ref{fig:flow_chart}a. The goodness of fit between plot-scale and landscape scale LST was determined by looking at $R^2$ (Fig. \ref{fig:flow_chart}b). The bias is estimated as the mean of deviation between daily MODIS LST and ground-based $T_{s}$ ($T_{leq,seq} - T_{MODIS}$). See SI table for data sources and acronyms in \textbf{SI1}.
+
+\textbf{LST comparison}: LST estimates based on optimum $\epsilon$ for each month using a linear regression with and without intercept $H(\Delta T)$ is compared to the MODIS daily LST. For each month the $T_{s}$ estimates using plot-scale $\epsilon$ and MODIS $\epsilon$ corresponding to the exact TERRA day-time of pass was obtained (30 minute tower data was upsampled to each minute using linear interpolation). TERRA (satellite) overpasses at local solar time between 10:30 am to 12 pm in ascending mode \cite{guillevic2017land}. Plot-scale LST at local satellite overpass ( $T_{leq}$ and $T_{seq}$) was obtained using interpolated longwave radiation measurement to match the exact time of pass %SJS: why interpolated? %GT I have 30 min interval data so that i interpolate it for each minute to exactly get the values at modis time of pass
+and corresponding monthly plot-scale $\epsilon$. Plot-scale daily LST is compared to MODIS LST in terms of mean, bias, RMSE and $R^2$ using a robust linear regression model (scipy stat model,$https://github.com/scipy/scipy/blob/v1.7.1/scipy/stats/_stats_mstats_common.py$ %SJS: Need to provide a proper link for scipy %GT i have provided the git link also the \url and \href is not working for me in this doc. any suggestions?
+ as shown in Fig. \ref{fig:flow_chart}a. The goodness of fit between plot-scale and landscape-scale LST was determined by looking at $R^2$ (Fig. \ref{fig:flow_chart}b). The bias is estimated as the mean of deviation between daily MODIS LST and ground-based $T_{s}$ ($T_{leq,seq} - T_{MODIS}$). See SI table for data sources and acronyms in \textbf{SI1}.
 
 
 
 \textbf{General approach}:
-We estimate landscape scale broadband $\epsilon$ using MODIS spectral $\epsilon$ as shown in Bahir et. al (2017)\cite{bahir_evaluation_2017}.
+We estimate landscape-scale broadband $\epsilon$ using MODIS spectral $\epsilon$ as shown in Bahir et. al (2017)\cite{bahir2017evaluation}.
 \begin{equation}\label{eq_emodis}
 \epsilon_{MODIS}= 0.4587 \epsilon_{31} + 0.5414 \epsilon_{32}
 \end{equation}
-Tower based longwave radiation measurement ($R_{lup}$, $R_{ldwn}$) passing the filtering criteria (as mentioned in above) along with MODIS based $\epsilon$ was used to invert LST using Eq. (\ref{eq_Tleq}) and  Eq. (\ref{eq_Tseq}). The obtained plot-scale LST was compared to landscape scale MODIS LST using a robust linear regression as mentioned above and shown in Fig. \ref{fig:flow_chart}a.
+Tower-based longwave radiation measurement ($R_{lup}$, $R_{ldwn}$) passing the filtering criteria (as mentioned in plot-scale emissivity estimation) along with MODIS based $\epsilon$ was used to invert LST using Eq. (\ref{eq_Tleq}) and  Eq. (\ref{eq_Tseq}). The obtained plot-scale LST was compared to landscape-scale MODIS LST using a robust linear regression as mentioned above and shown in Fig. \ref{fig:flow_chart}a.
 
-%In order to avoid the  error in  measured longwave fluxes, quality flag filter has been applied to the datasets used for LST retreivals. The remaining speculated source of error can be MODIS based surface emissivity, therefore another method of broadband emissivity estimation is used
-%SJS: Could you re-formulate to focus on what you did and how?
-%\hyperlink{https://earthdata.nasa.gov/earth-observation-data/near-real-time/download-nrt-data/modis-nrt#ed-modis-terra-aqua-c6}.
-%SJS: downloaded from where? 
-%I would just use acronyms here and then provide a table with the data sources related to the acronyms.
+
 
 \textbf{Uncertainty estimation}:
-Uncertainty in plot-scale $/epsilon$ and LST was quantified based on an assumed systematic error (caused by a potential bias in measurement devices) at the study sites. 
-In a first step, based on the literature \cite{trenberth2012tracking,foken2008energy} the error bounds of each input variable ($ H$, $R_{lup}$, $R_{ldw}$, $T_{a}$) used for plot-scale $\epsilon$ estimation were defined. The error bounds for $R_{lup}$ and $R_{ldwn}$ are -5 to 5 W m$^{-2}$ \cite{trenberth2012tracking}, for $H$, we used -20 to 20 W m$^{-2}$ and for $T_{a}$ -1 to 1 K \cite{foken2008energy}. The error samples (perturbation) within these bounds was generated using the Saltelli sampling scheme (using python based package SALIB\cite{saltelli2017new}). Each error sample is added to the monthly segregated measured fluxes as explained above. Observed fluxes combined with perturbued fluxes are used to estimate $T_{s}$ using Eq. (\ref{eq_Tseq}) and  Eq. (\ref{eq_Tleq}). The obtained range of diurnal $T_{s}$ and observed $T_{a}$ with perturbation is used to calculate the uncertainity in $\Delta T$. Perturbed sensible heat flux($H+ sample error$) and perturbed $\Delta T$ is used to obtain $\epsilon$ as described above.
-%SJS: what did you mean by "in site specific apporach"? I replaced it by "above", as there is no headline "site specific approach". Please check throughout.
-The range of monthly plot-scale $/epsilon$ obtained is reported as uncertainity in monthly $\epsilon$. 
-% For instance radiation measurement which can vary between sites due to the difference in accuracy and precision of the in-situ radiometers or pyrgeometer, differences in field of view (fov), wavelength bands, and spectral response functions of the sensors. For reference, the accuracy of dedicated infrared temperature (IRT) sensors is given by their manufacturers as $0.5$K, but it is not clear what sources of uncertainty are considered in this estimation \cite{vickers2010uncertainty}. 
+Uncertainty in plot-scale $\epsilon$ and LST was quantified based on an assumed systematic error (caused by a potential bias in measurement devices) at the study sites. 
+In a first step, based on the literature \cite{trenberth2012tracking,foken2008energy} the error bounds of each input variable ($ H$, $R_{lup}$, $R_{ldw}$, $T_{a}$) used for plot-scale $\epsilon$ estimation were defined. The error bounds for $R_{lup}$ and $R_{ldwn}$ are -5 to 5 $Wm^{-2}$ \cite{trenberth2012tracking}, for $H$, we used -20 to 20 $Wm^{-2}$ and for $T_{a}$ we used -1 to 1 $K$ \cite{foken2008energy}. The error samples (perturbation) within these bounds were generated using the Saltelli sampling scheme (using python based package SALIB\cite{saltelli2017new}). Each error sample is added to the monthly segregated measured fluxes as explained above. Observed fluxes combined with perturbed fluxes are used to estimate $T_{s}$ using Eq. (\ref{eq_Tseq}) and  Eq. (\ref{eq_Tleq}). The obtained range of diurnal $T_{s}$ and observed $T_{a}$ with perturbation is used to calculate the uncertainity in $\Delta T$; an example for July 15 is shown in Fig. \ref{fig:eps_unc1}c. Perturbed sensible heat flux($H + $sample error) and perturbed $\Delta T$ is used to obtain $\epsilon$ as described in plot-scale $\epsilon$ estimation. The range of monthly plot-scale $\epsilon$ obtained is reported as uncertainty in monthly $\epsilon$. 
 
  
 \begin{figure}[h!]
@@ -520,7 +509,7 @@ The range of monthly plot-scale $/epsilon$ obtained is reported as uncertainity 
 \centering
 \scalebox{0.75}{
 \begin{tikzpicture}[node distance=2cm]
-\node (txt) [textbox] {Site specific approach (plot-scale $\epsilon$)};
+\node (txt) [textbox] {Plot-scale $\epsilon$};
 \node (start) [startstop, yshift= -1 cm] {Eddy covariance data,  Level 3, $R_{lup}$, $R_{ldw}$, $H$, $T_a$, $R_n$, $WS$};
 node[anchor=north] {yes} (start);
 \node (in1) [io, below of=start] {$R_{lup}$, $R_{ldw}$, $\epsilon \in ({0.998, 0.4})$};
@@ -535,7 +524,8 @@ node[anchor=north] {yes} (start);
 %\node (stop) [startstop, below of=out1] {Stop};
 \draw [arrow] (start) -- (in1);
 \draw [arrow] (in1) --  node[anchor=south,xshift=1cm, yshift=-0.5cm] {Eq. \ref{eq_Tleq},Eq. \ref{eq_Tseq}} (pro1);
-\draw [arrow] (pro1) -- node[anchor=south,xshift=1.9cm, yshift=-0.5cm] {linear regression $H(\Delta T)$} (dec1);
+\draw [arrow] (pro1) -- node[anchor=south,xshift=1.9cm, yshift=-0.3cm] {$H$ and $\Delta T$ linearfit} (dec1);
+\draw [arrow] (pro1) -- node[anchor=south,xshift=2.1cm, yshift=-0.9cm] { with and without intercept} (dec1);
 \draw [arrow] (dec1) -- node[anchor=east] {yes} (pro2a);
 \draw [arrow] (dec1) -- node[anchor=south] {no} (pro2b);
 \draw [arrow] (pro2b) |- (pro1);
@@ -550,12 +540,12 @@ node[anchor=north] {yes} (start);
 \label{fig:flow_chart}
 \end{figure}
 
-
-
+\section{Author contributions statement}
+GT, SJS, KM, and IT designed the study. GT conducted the analysis and prepared the manuscript together with SJS. KM, IT and MS provided textual input, corrections, suggestions and critical discussion of the manuscript.
 
 
 \section{Acknowledgements}
-We would like to thank Dr. Maik Renner for pointing us to the work by Holmes et al. and Dan Yakir's lab for providing Yatir Forest data and helpful discussions. We are also grateful to Thomas Foken, Jason Beringer, Lindsay Hutley for insightful discussions and Remko Nijzink for his help in programming and RENKU. This work is supported by the Luxembourg National Research Fund (FNR) ATTRACT programme (WAVE, A16/SR/11254288). Mauro Sulis acknowledges the financial support of the FNR CORE programme (CAPACITY, C19/SR/13652816).
+We would like to thank Dr. Maik Renner for pointing us to the work by Holmes et al. and Dan Yakir's lab for providing Yatir Forest data and helpful discussions. We are also grateful to Michael Roderick, Thomas Foken, Jason Beringer, Lindsay Hutley for insightful discussions and Remko Nijzink for his help in RENKU. This work is supported by the Luxembourg National Research Fund (FNR) ATTRACT programme (WAVE, A16/SR/11254288). Mauro Sulis acknowledges the financial support of the FNR CORE programme (CAPACITY, C19/SR/13652816).
 
 %Acknowledgements should be brief, and should not include thanks to anonymous referees and editors, or effusive comments. Grant or contribution numbers may be acknowledged.
 
@@ -643,62 +633,92 @@ YA & 0.974 & 0.855 &-2.081 & 0.855 & -3.45 & 0.97& 0.522 &-4.517 & 0.93 & 0.793 
 \label{table:SI2_optlstandmod}  
 \end{table}
 
-
-
-
 \subsection*{SI3. Emissivity estimation at Howards spring and positive $T_{s}-T_{a}$ }
 \begin{figure}[h!]
 	\begin{subfigure}{\textwidth}
 		\begin{overpic}[width=0.45\textwidth]{hS_seq_2018-05} % ,grid,tics=10
-			\put (18,61){\textbf{a}}
+			\put (18,56){\textbf{a}}
 		\end{overpic}
 		\begin{overpic}[width=0.45\textwidth]{hS_le_2018-05} % ,grid,tics=10
-			\put (18,61){\textbf{b}}
+			\put (18,56){\textbf{b}}
 		\end{overpic}
 	\end{subfigure}
 	\setlength{\belowcaptionskip}{-3ex}
-	\caption{$ H and \Delta T$ plots at Howard Springs with optimised emissivity. %SJS: Git, can you please check all your text and figure titles and captions for correct spelling of Howard Springs and all the other sites? Or get someone else to check this if you just don't see it?
+	\caption{$ H and \Delta T$ plots at Howard Springs with optimised emissivity. 
 	}
 	\label{fig:hs_hdt}
 \end{figure}
  
 \subsection*{SI4.$T_{s}$ sensitivity to $\epsilon$ at Alice spring and Tumbarumba}
- \begin{figure}[h!]
-\centering
-\begin{subfigure}{.5\textwidth}
-  \centering
-  \includegraphics[width=.95\linewidth]{Alice_spring_longw.png}
-  \caption{Alice Springs}
-  
-\end{subfigure}%
-\begin{subfigure}{.5\textwidth}
-  \centering
-  \includegraphics[width=.95\linewidth]{TUM_longw}
-  \caption{Tumbarumba}
-\end{subfigure}
-\setlength{\belowcaptionskip}{-3ex}
-\caption{Measured up-welling and down-welling longwave timeseries}
-\label{fig:longwave}
-\end{figure}
-In general, the broadband emissivity range for a land cover can vary between 0.87 to 0.98\cite{jin_improved_2006}. The noontime measured longwave for two contrasting landcover types (semi-arid mulga, tropical savanna woodland) are used to quantify the sensitivity of LST to emissivity as shown in Fig. (\ref{fig:LST sensitivity to emissivity}).
+
 \begin{figure}[h!]
-\centering
-\begin{subfigure}{.5\textwidth}
-  \centering
-  \includegraphics[width=.95\linewidth]{{Alice_spring_Ts_sensitivity_2005}}
-  \caption{}
-  \label{fig:sub1}
-\end{subfigure}%
-\begin{subfigure}{.5\textwidth}
-  \centering
-  \includegraphics[width=.95\linewidth]{Tum_Ts_sensitivity_2016}
-  \caption{}
-  \label{fig:sub2}
-\end{subfigure}
-\setlength{\belowcaptionskip}{-3ex}
-\caption{Sensitivity of LST estimated using two equations to the range of Broadband emissivity The black dots and blue Stars depicts LST using simplified (Eq. \ref{eq_seq}) and complete (Eq. (\ref{eq_leq}). Midday longwave measurement for 15June, 2016 at Alice Springs and Tumbarumba is used} %SJS Figure title: Alice Springs (s missing, capital S)
-\label{fig:LST sensitivity to emissivity}
+	\begin{subfigure}{\textwidth}
+		\begin{overpic}[width=0.45\textwidth]{Alice_spring_longw.png} % ,grid,tics=10
+			\put (16,75){\textbf{a}}
+		\end{overpic}
+		\begin{overpic}[width=0.45\textwidth]{TUM_longw} % ,grid,tics=10
+			\put (16,75){\textbf{b}}
+		\end{overpic}
+	\end{subfigure}
+	\setlength{\belowcaptionskip}{-3ex}
+	\caption{In general, the broadband emissivity range for a land cover can vary between 0.87 to 0.98\cite{jin2006improved}. The noontime measured longwave for two contrasting landcover types (semi-arid mulga, tropical savanna woodland) are used to quantify the sensitivity of LST to emissivity
+	}
+	\label{fig:longwave}
 \end{figure}
+
+
+
+
+
+
+ 
+\begin{figure}[h!]
+	\begin{subfigure}{\textwidth}
+		\begin{overpic}[width=0.45\textwidth]{AS_RMSE_2018} % ,grid,tics=10
+			\put (14,69){\textbf{a}}
+		\end{overpic}
+		\begin{overpic}[width=0.45\textwidth]{tum_RMSE_2017} % ,grid,tics=10
+			\put (14,71){\textbf{b}}
+		\end{overpic}
+	\end{subfigure}
+	\setlength{\belowcaptionskip}{-3ex}
+	\caption{The RMSE and emissivity for $H(\Delta T)$ linear fit using long equation (a) Alice Spring (b) Tumbarumba
+	}
+	\label{fig:rmse_eps}
+\end{figure}
+
+
+
+
+\begin{figure}[h!]
+	\begin{subfigure}{\textwidth}
+		\begin{overpic}[width=0.45\textwidth]{Alice_spring_Ts_sensitivity_2005} % ,grid,tics=10
+			\put (16,64){\textbf{a}}
+		\end{overpic}
+		\begin{overpic}[width=0.45\textwidth]{Tum_Ts_sensitivity_2016} % ,grid,tics=10
+			\put (16,64){\textbf{b}}
+		\end{overpic}
+	\end{subfigure}
+	\setlength{\belowcaptionskip}{-3ex}
+	\caption{Sensitivity of LST estimated using two equations to the range of Broadband emissivity The black dots and blue Stars depicts LST using simplified (Eq. \ref{eq_seq}) and complete (Eq. (\ref{eq_leq}). Midday longwave measurement for 15June, 2016 at Alice Springs and Tumbarumba is used}
+	
+	\label{fig:LST sensitivity to emissivity}
+\end{figure}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -709,62 +729,54 @@ In general, the broadband emissivity range for a land cover can vary between 0.8
 \subsection*{SI5.RMSE and Epsilon}
 \label{Subsection:RMSE}
 \begin{figure}[h!]
-\centering
-\begin{subfigure}{.5\textwidth}
-  \centering
-  \includegraphics[width=.95\linewidth]{AS_RMSE_2018}
-  \caption{Alice Springs}
-  
-\end{subfigure}%
-\begin{subfigure}{.5\textwidth}
-  \centering
-  \includegraphics[width=.95\linewidth]{tum_RMSE_2017}
-  \caption{Tumbarumba}
-\end{subfigure}
-\setlength{\belowcaptionskip}{-3ex}
-\caption{RMSE and emissivity curve}
-\label{fig:rmse_eps}
+	\begin{subfigure}{\textwidth}
+		\begin{overpic}[width=0.45\textwidth]{AS_RMSE_2018} % ,grid,tics=10
+			\put (14,68){\textbf{a}}
+		\end{overpic}
+		\begin{overpic}[width=0.45\textwidth]{tum_RMSE_2017} % ,grid,tics=10
+			\put (14,70){\textbf{b}}
+		\end{overpic}
+	\end{subfigure}
+	\setlength{\belowcaptionskip}{-3ex}
+	\caption{The RMSE and emissivity for $H(\Delta T)$ linear fit using long equation (a) Alice Spring (b) Tumbarumba
+	}
+	\label{fig:rmse_eps}
 \end{figure}
 
 \subsection*{SI6.Energy imbalance and observed fluxes}
 \label{Subsection:wnimb}
+
 \begin{figure}[h!]
-  \includegraphics[scale=0.5]{hs_enb.png}
-  \caption{Measured fluxes and estimated energy imbalance at Howard springs for 2016/08}
-  \label{fig:wninb}
-  \end{figure}
-  
-  \begin{figure}[h!]
-	\includegraphics[scale=0.35]{rlup_br_hs.png}
-	\centering
-    \caption{Sensible heat flux as a function of surface-to-air temperature difference based on Eq. \ref{eq_H2} ($H = m (T_{s} - T_{a}) + c$). Same analysis and legends as in Fig. \ref{fig:2_mx_c}c), but after adding 40 ($W m^{-2}$) to measured $R_{lup}$ and closing the energy balance using a Bowen ratio closure scheme.}
+	\begin{subfigure}{\textwidth}
+		\begin{overpic}[width=0.45\textwidth]{rlup_br_hs.png} % ,grid,tics=10
+			\put (16,57){\textbf{a}}
+		\end{overpic}
+		\begin{overpic}[width=0.45\textwidth]{hs_lst_cor.png} % ,grid,tics=10
+			\put (22,53){\textbf{b}}
+		\end{overpic}
+	\end{subfigure}
+	\setlength{\belowcaptionskip}{-3ex}
+	\caption{(a)Sensible heat flux as a function of surface-to-air temperature difference based on Eq. \ref{eq_H2} ($H = m (T_{s} - T_{a}) + c$). Same analysis and legends as in Fig. \ref{fig:2_mx_c}c), but after adding 35 ($W m^{-2}$) to measured $R_{lup}$ and closing the energy balance using a Bowen ratio closure scheme. (b) The LST comparison plot using by closing energy imbalance and correcting observed $R_{lup}$ by adding 40$Wm^{-2}$
+	}
 	\label{fig:Rlup_ebc}
 \end{figure}
 
-\subsection*{SI7.H and intercept}
+\subsection*{SI7.Uncertainity and intercept}
 \label{Subsection:intercept}
-\begin{figure}[h!]
-  \includegraphics[scale=0.5]{Plots/TUm_hmx_intrc}
-  \caption{Monthly $H_{max}$ and estimated intercept (c) for each month using $H = m (T_{s} - T_{a})+ c$ using complete equation (Eq. \ref{eq_leq})(c). Red line is the intercept and blue line shows monthly maximum $H$ at Tumbarumba (2015 - 2017)}
-  \label{fig:yr_intrc}
-  \end{figure}
+
   
-%\includegraphics[scale=0.5]{Plots/as_mx+c.png} 
-%\caption{
-%\subsection*{SI7.Uncertainity and intercept}
-%\label{fig:2_mx_c}
-%\end{figure}
+
 
 \begin{figure}[h!]
 	\begin{overpic}[width=0.45\textwidth]{3_blocks_eps_unc} % 
-		\put (18,58){\textbf{a}}
+		\put (12,50){\textbf{a}}
 	\end{overpic}
 	\begin{overpic}[width=0.45\textwidth]{tsta_interc} % ,grid,tics=10
-		\put (18,58){\textbf{b}}
+		\put (14,62){\textbf{b}}
 	\end{overpic}
 	\setlength{\belowcaptionskip}{-3ex}
-	\caption{(a) Uncertainty in plot-scale $\epsilon$ using the short equation (Seq) or the long equation (Leq, with and without intercept). (b) Uncertainty in hourly $T_s -T_a$ using long equation with and without intercept. %SJS: Need to place the "a" label in a visible place.
-		%SJS: Something is weird here. If the uncertainty in epsilon is smaller for Leq with intercept, how can the uncertainty in Tleq-Ta be greater? The intercept only matters for epsilon, not for Tleq, so this does not make sense!
+	\caption{(a) Uncertainty in plot-scale $\epsilon$ using the short equation (Seq) or the long equation (Leq, with and without intercept). (b) Uncertainty in hourly $\Delta T$ using long equation with and without intercept for July 15. %SJS: Need to place the "a" label in a visible place.
+		%SJS: Something is weird here. If the uncertainty in epsilon is smaller for Leq with intercept, how can the uncertainty in Tleq-Ta be greater? The intercept only matters for epsilon, not for Tleq, so this does not make sense!%GT if you look at the Eq. 7 of the paper when the range of eps is higher (using without intercept) the range of Ts is smaller as the perturbation is Rlup and Rldwn remains constant. Just to clear here one day (15th july hourly data for the given hour) is used with all 1000 perturbation. Does this make sense to you ?
 	}
 	\label{fig:unc_intrc}
 \end{figure}
