@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2020.7.17)  12 NOV 2021 19:43
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2020.7.17)  12 NOV 2021 19:54
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2013,7 +2013,7 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 779.
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 779.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 779.
 Package rerunfilecheck Info: File `lst_emis_SI_v2.out' has not changed.
-(rerunfilecheck)             Checksum: 547D97F2D93C954D807EA57CCD185ABC;777.
+(rerunfilecheck)             Checksum: 3BC4DAA77A00219DB12222E1B5A14092;811.
 
 
 LaTeX Warning: There were multiply-defined labels.
@@ -2045,7 +2045,7 @@ tic/uhvr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/symbol/usyr.pfb><
 ve/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/share/texlive/texmf-dist/f
 onts/type1/urw/times/utmr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/
 times/utmri8a.pfb>
-Output written on lst_emis_SI_v2.pdf (18 pages, 1054961 bytes).
+Output written on lst_emis_SI_v2.pdf (18 pages, 1055002 bytes).
 PDF statistics:
  671 PDF objects out of 1000 (max. 8388607)
  537 compressed objects within 6 object streams
