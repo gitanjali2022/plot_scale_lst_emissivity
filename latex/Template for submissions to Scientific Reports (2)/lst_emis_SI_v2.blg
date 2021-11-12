@@ -3,44 +3,44 @@ Capacity: max_strings=100000, hash_size=100000, hash_prime=85009
 The top-level auxiliary file: lst_emis_SI_v2.aux
 The style file: naturemag-doi.bst
 Database file #1: not_indexed_ref.bib
-You've used 49 entries,
+You've used 47 entries,
             2380 wiz_defined-function locations,
-            1291 strings with 20883 characters,
-and the built_in function-call counts, 19420 in all, are:
-= -- 1383
-> -- 500
-< -- 1
-+ -- 250
-- -- 125
-* -- 2433
-:= -- 2158
-add.period$ -- 147
-call.type$ -- 49
-change.case$ -- 53
+            1278 strings with 20318 characters,
+and the built_in function-call counts, 18377 in all, are:
+= -- 1315
+> -- 460
+< -- 0
++ -- 230
+- -- 115
+* -- 2303
+:= -- 2056
+add.period$ -- 141
+call.type$ -- 47
+change.case$ -- 49
 chr.to.int$ -- 0
-cite$ -- 49
-duplicate$ -- 1723
-empty$ -- 1756
-format.name$ -- 167
-if$ -- 3837
+cite$ -- 47
+duplicate$ -- 1633
+empty$ -- 1669
+format.name$ -- 155
+if$ -- 3621
 int.to.chr$ -- 0
-int.to.str$ -- 49
-missing$ -- 407
-newline$ -- 255
-num.names$ -- 49
-pop$ -- 297
+int.to.str$ -- 47
+missing$ -- 384
+newline$ -- 245
+num.names$ -- 47
+pop$ -- 272
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 309
+skip$ -- 278
 stack$ -- 0
-substring$ -- 1000
-swap$ -- 1700
-text.length$ -- 1
+substring$ -- 968
+swap$ -- 1603
+text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
 warning$ -- 0
-while$ -- 125
-width$ -- 51
-write$ -- 545
+while$ -- 120
+width$ -- 49
+write$ -- 522

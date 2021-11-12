@@ -299,26 +299,6 @@
   \textbf{\bibinfo{volume}{113}}, \bibinfo{pages}{223--243}
   (\bibinfo{year}{2002}).
 
-\bibitem{chen2003surface}
-\bibinfo{author}{Chen, Y.}, \bibinfo{author}{Sun-Mack, S.},
-  \bibinfo{author}{Minnis, P.}, \bibinfo{author}{Smith, W.~L.} \&
-  \bibinfo{author}{Young, D.~F.}
-\newblock \bibinfo{title}{Surface spectral emissivity derived from modis data}.
-\newblock In \emph{\bibinfo{booktitle}{Optical Remote Sensing of the Atmosphere
-  and Clouds III}}, vol. \bibinfo{volume}{4891}, \bibinfo{pages}{361--369}
-  (\bibinfo{organization}{International Society for Optics and Photonics},
-  \bibinfo{year}{2003}).
-
-\bibitem{juang2007separating}
-\bibinfo{author}{Juang, J.-Y.}, \bibinfo{author}{Katul, G.},
-  \bibinfo{author}{Siqueira, M.}, \bibinfo{author}{Stoy, P.} \&
-  \bibinfo{author}{Novick, K.}
-\newblock \bibinfo{journal}{\bibinfo{title}{Separating the effects of albedo
-  from eco-physiological changes on surface temperature along a successional
-  chronosequence in the southeastern united states}}.
-\newblock {\emph{\JournalTitle{Geophysical Research Letters}}}
-  \textbf{\bibinfo{volume}{34}} (\bibinfo{year}{2007}).
-
 \bibitem{guillevic2018land}
 \bibinfo{author}{Guillevic, P.} \emph{et~al.}
 \newblock \bibinfo{journal}{\bibinfo{title}{Land surface temperature product
