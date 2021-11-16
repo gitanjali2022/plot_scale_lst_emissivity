@@ -1,0 +1,30 @@
+'@id': https://git.list.lu/projects/gitanjali.thakur/plotscale_lst
+'@type':
+- http://schema.org/Project
+- http://www.w3.org/ns/prov#Location
+http://schema.org/agent: 0.16.2
+http://schema.org/creator:
+  '@id': mailto:gitanjali.thakur@list.lu
+  '@type':
+  - http://schema.org/Person
+  - http://www.w3.org/ns/prov#Person
+  http://schema.org/affiliation: null
+  http://schema.org/alternateName: null
+  http://schema.org/email: gitanjali.thakur@list.lu
+  http://schema.org/name: Gitanjali Thakur
+  http://www.w3.org/2000/01/rdf-schema#label: Gitanjali Thakur
+http://schema.org/dateCreated: '2021-11-16T15:16:43.869972+00:00'
+http://schema.org/name: plotscale_lst
+http://schema.org/schemaVersion: '8'
+https://swissdatasciencecenter.github.io/renku-ontology#automatedTemplateUpdate: false
+https://swissdatasciencecenter.github.io/renku-ontology#immutableTemplateFiles: []
+https://swissdatasciencecenter.github.io/renku-ontology#templateId: python-minimal
+https://swissdatasciencecenter.github.io/renku-ontology#templateMetadata: '{"description":
+  "This project contains all the analysis of the paper titled \"Challenges and unvertainty
+  in LST and emissivity estimation at plot-scale using flux tower data\"", "__template_source__":
+  "renku", "__template_ref__": null, "__template_id__": "python-minimal", "__namespace__":
+  "", "__sanitized_project_name__": "", "__repository__": "", "__project_slug__":
+  "", "__renku_version__": "0.16.2", "name": "plotscale_lst"}'
+https://swissdatasciencecenter.github.io/renku-ontology#templateReference: null
+https://swissdatasciencecenter.github.io/renku-ontology#templateSource: renku
+https://swissdatasciencecenter.github.io/renku-ontology#templateVersion: 0.16.2

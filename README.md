@@ -1,37 +1,40 @@
-# plot_scale LST 
+# plotscale_lst
 
-This project contains variable definitions, equations and  from the paper titled: Challenges and uncertainty in estimating emissivity and surface temperature using flux tower measurements.
+This project contains all the analysis of the paper titled "Challenges and unvertainty in LST and emissivity estimation at plot-scale using flux tower data"
 
-At the plot-scale, the flux tower recorded up-welling and, down-welling longwave radiation components are inverted (we named it long equation) to retrieve land surface temperature (LST). Since the down-welling longwave component was not measured routinely until recently, usually only the up-welling longwave component is used (we named it short equation) for the plot-scale LST retrieval and emissivity estimation. Plot-scale emissivity was estimated using a fitting procedure based on observed sensible heat flux and estimated surface-to-air temperature difference. Even with the availability of down-welling longwave radiation it is a common practice to use short equation for LST and emissivity estimation. In this project we have used 10 eddy-covariance data to answer three relevant questions:
+## Introduction
 
-1. How much bias is introduced in plot-scale LST and emissivity when short equation is used instead of long equation?
-2.Does plot-scale emissivity estimation have an advantage over landscape-scale (MODIS) emissivity?
-3.How much uncertainty is introduced in plot-scale LST and ε due to uncertainty in measured EC fluxes?
+This is a Renku project - basically a git repository with some
+bells and whistles. You'll find we have already created some
+useful things like `data` and `notebooks` directories and
+a `Dockerfile`.
 
+## Working with the project
 
+The simplest way to start your project is right from the Renku
+platform - just click on the `Environments` tab and start a new session.
+This will start an interactive environment right in your browser.
 
+To work with the project anywhere outside the Renku platform,
+click the `Settings` tab where you will find the
+git repo URLs - use `git` to clone the project on whichever machine you want.
 
-## Contents
+### Changing interactive environment dependencies
 
-- [/Notebook/HDT_mx+c.ipynb]:notebook fot all sites using an intercept in H(DT) 
+Initially we install a very minimal set of packages to keep the images small.
+However, you can add python and conda packages in `requirements.txt` and
+`environment.yml` to your heart's content. If you need more fine-grained
+control over your environment, please see [the documentation](https://renku.readthedocs.io/en/latest/user/advanced_interfaces.html#dockerfile-modifications).
 
-- [/Notebook/HDT_mx.ipynb]: All study sites analysis using reboust linear regression model
+## Project configuration
 
-- [/Notebook/HDT_mx.ipynb]:All study sites analysis forcing linear regression through zero
+Project options can be found in `.renku/renku.ini`. In this
+project there is currently only one option, which specifies
+the default type of environment to open, in this case `/lab` for
+JupyterLab. You may also choose `/tree` to get to the "classic" Jupyter
+interface.
 
-- [Notebook/mx_leq_mainpaper.ipynb]: LST sensitivity to emissivity 
+## Moving forward
 
-  
-- [Notebook/threebox_AS.ipynb]: uncertainty in emissivity
-
-- [/Notebook/alice_spr_TS-Ta_unc.ipynb]: uncertainty in diurnal LST
-
-- [Data/tern]:  Data of north aurstalian sites
-
-- [Data/fluxnet]:  Data from fluxnet sites
-
-- [Data/]:  MODIS terra MODA011 for LST and emissivity
-
-- [latex]: paper plots and texfile
- - [output]: contains random samples using sobol
-
+Once you feel at home with your project, we recommend that you replace
+this README file with your own project documentation! Happy data wrangling!
