@@ -236,14 +236,6 @@
 \newblock {\emph{\JournalTitle{Journal of Geophysical Research: Atmospheres}}}
   \textbf{\bibinfo{volume}{117}} (\bibinfo{year}{2012}).
 
-\bibitem{margulis2019joint}
-\bibinfo{author}{Margulis, S.~A.}, \bibinfo{author}{Liu, Y.} \&
-  \bibinfo{author}{Baldo, E.}
-\newblock \bibinfo{journal}{\bibinfo{title}{A joint landsat-and modis-based
-  reanalysis approach for midlatitude montane seasonal snow characterization}}.
-\newblock {\emph{\JournalTitle{Frontiers in Earth Science}}}
-  \bibinfo{pages}{272} (\bibinfo{year}{2019}).
-
 \bibitem{sugita1996optimal}
 \bibinfo{author}{Sugita, M.} \& \bibinfo{author}{Brutsaert, W.}
 \newblock \bibinfo{journal}{\bibinfo{title}{Optimal measurement strategy for
@@ -261,6 +253,14 @@
 \newblock {\emph{\JournalTitle{International Journal of Remote Sensing}}}
   \textbf{\bibinfo{volume}{19}}, \bibinfo{pages}{2753--2774}
   (\bibinfo{year}{1998}).
+
+\bibitem{margulis2019joint}
+\bibinfo{author}{Margulis, S.~A.}, \bibinfo{author}{Liu, Y.} \&
+  \bibinfo{author}{Baldo, E.}
+\newblock \bibinfo{journal}{\bibinfo{title}{A joint landsat-and modis-based
+  reanalysis approach for midlatitude montane seasonal snow characterization}}.
+\newblock {\emph{\JournalTitle{Frontiers in Earth Science}}}
+  \bibinfo{pages}{272} (\bibinfo{year}{2019}).
 
 \bibitem{wilson2002energy}
 \bibinfo{author}{Wilson, K.} \emph{et~al.}

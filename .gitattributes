@@ -1,0 +1,6 @@
+LST_revis_round1.pdf filter=lfs diff=lfs merge=lfs -text
+LST_revis_round1.synctex.gz filter=lfs diff=lfs merge=lfs -text
+SI.pdf filter=lfs diff=lfs merge=lfs -text
+diff.pdf filter=lfs diff=lfs merge=lfs -text
+diff.synctex.gz filter=lfs diff=lfs merge=lfs -text
+main.pdf filter=lfs diff=lfs merge=lfs -text
