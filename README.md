@@ -1,37 +1,37 @@
-# plot_scale LST 
+# Challenges and uncertainty in estimating emissivity and surface temperature using flux tower measurements.
 
-This project contains variable definitions, equations and  from the paper titled: Challenges and uncertainty in estimating emissivity and surface temperature using flux tower measurements.
+This project contains variable definitions, equations and  from the paper titled: Accounting for downwelling longwave radiation reduces the contribution of emissivity to uncertainty in surface temperature estimates from flux tower data
+ 
+Land surface temperature (LST) is a preeminent state variable that controls the energy and water exchange between the Earth’s surface and the atmosphere. At the landscape-scale, LST is derived from thermal infrared radiance measured using space-borne radiometers. At the plot-scale, the flux tower recorded longwave radiation components are inverted to retrieve LST. Since the down-welling longwave component was not measured routinely until recently, usually only the up-welling longwave component is used for the plot-scale LST retrieval. However, we found that ignoring reflected down-welling longwave radiation for plot-scale LST estimations can lead to substantial error. This also has important implications for estimating the correct surface emissivity using flux tower measurements, which is needed for plot-scale LST retrievals.
 
-At the plot-scale, the flux tower recorded up-welling and, down-welling longwave radiation components are inverted (we named it long equation) to retrieve land surface temperature (LST). Since the down-welling longwave component was not measured routinely until recently, usually only the up-welling longwave component is used (we named it short equation) for the plot-scale LST retrieval and emissivity estimation. Plot-scale emissivity was estimated using a fitting procedure based on observed sensible heat flux and estimated surface-to-air temperature difference. Even with the availability of down-welling longwave radiation it is a common practice to use short equation for LST and emissivity estimation. In this project we have used 10 eddy-covariance data to answer three relevant questions:
-
-1. How much bias is introduced in plot-scale LST and emissivity when short equation is used instead of long equation?
-2.Does plot-scale emissivity estimation have an advantage over landscape-scale (MODIS) emissivity?
-3.How much uncertainty is introduced in plot-scale LST and ε due to uncertainty in measured EC fluxes?
-
-
+To better understand and improve approaches of plot-scale LST estimation, the present study addresses the following research questions:
+1.Can we obtain an adequate estimate of plot-scale LST while neglecting the reflected down-welling longwave radiation?
+2.item Does the estimation of plot-scale emissivity based on observed sensible heat flux have an advantage over satellite-derived emissivity for plot-scale LST estimation?   
+3.item How much uncertainty is introduced in plot-scale LST and emissivity due to uncertainty in measured EC fluxes?    
+    
 
 
 ## Contents
 
 - [/Notebook/HDT_mx+c.ipynb](/Notebook/HDT_mx+c.ipynb):notebook for all sites using an intercept in H(DT) 
 
-- [/Notebook/HDT_mx.ipynb]: All study sites analysis using reboust linear regression model
+- [/Notebook/HDT_mx.ipynb](/Notebook/HDT_mx.ipynb): All study sites analysis using reboust linear regression model
 
-- [/Notebook/HDT_mx.ipynb]:All study sites analysis forcing linear regression through zero
+- [/Notebook/HDT_mx.ipynb](/Notebook/HDT_mx.ipynb):All study sites analysis forcing linear regression through zero
 
-- [Notebook/mx_leq_mainpaper.ipynb]: LST sensitivity to emissivity 
+- [/Notebook/mx_leq_mainpaper.ipynb](/Notebook/mx_leq_mainpaper.ipynb): LST sensitivity to emissivity 
 
   
-- [Notebook/threebox_AS.ipynb]: uncertainty in emissivity
+- [/Notebook/threebox_AS.ipynb](/Notebook/threebox_AS.ipynb): uncertainty in emissivity and LST
 
-- [/Notebook/alice_spr_TS-Ta_unc.ipynb]: uncertainty in diurnal LST
+- [/Notebook/alice_spr_TS-Ta_unc.ipynb](/Notebook/alice_spr_TS-Ta_unc.ipynb): uncertainty in diurnal LST
 
-- [Data/tern]:  Data of north aurstalian sites
+- [/Data/tern](/Data/tern): Eddy covariance data for north aurstalian sites
 
-- [Data/fluxnet]:  Data from fluxnet sites
+- [Data/fluxnet](Data/fluxnet):  Data from fluxnet sites
 
-- [Data/]:  MODIS terra MODA011 for LST and emissivity
+- [Data/Modis_LST](Data/Modis_LST):  MODIS terra extracted data version6 (MOD11A1) for LST and emissivity
 
-- [latex]: paper plots and texfile
- - [output]: contains random samples using sobol
+- [/latex](/latex): paper plots and .tex files
+ - [/output](/output): contains random samples generated for uncertainty 
 
