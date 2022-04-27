@@ -4,3 +4,10 @@ SI.pdf filter=lfs diff=lfs merge=lfs -text
 diff.pdf filter=lfs diff=lfs merge=lfs -text
 diff.synctex.gz filter=lfs diff=lfs merge=lfs -text
 main.pdf filter=lfs diff=lfs merge=lfs -text
+LST_revis_round2.pdf filter=lfs diff=lfs merge=lfs -text
+LST_revis_round2.synctez.gz filter=lfs diff=lfs merge=lfs -text
+diff1.pdf filter=lfs diff=lfs merge=lfs -text
+diff7.pdf filter=lfs diff=lfs merge=lfs -text
+diff7.synctex.gz filter=lfs diff=lfs merge=lfs -text
+LST_revis_round2.synctex.gz filter=lfs diff=lfs merge=lfs -text
+plotstum_longw.png filter=lfs diff=lfs merge=lfs -text
