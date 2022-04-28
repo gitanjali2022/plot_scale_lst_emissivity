@@ -74,40 +74,32 @@
 \newblock {\emph{\JournalTitle{Nature}}} \bibinfo{pages}{1--5}
   (\bibinfo{year}{2021}).
 
-\bibitem{stoy2013data}
-\bibinfo{author}{Stoy, P.~C.} \emph{et~al.}
-\newblock \bibinfo{journal}{\bibinfo{title}{A data-driven analysis of energy
-  balance closure across fluxnet research sites: The role of landscape scale
-  heterogeneity}}.
-\newblock {\emph{\JournalTitle{Agricultural and forest meteorology}}}
-  \textbf{\bibinfo{volume}{171}}, \bibinfo{pages}{137--152}
-  (\bibinfo{year}{2013}).
+\bibitem{mallick2018bridging}
+\bibinfo{author}{Mallick, K.} \emph{et~al.}
+\newblock \bibinfo{journal}{\bibinfo{title}{Bridging thermal infrared sensing
+  and physically-based evapotranspiration modeling: From theoretical
+  implementation to validation across an aridity gradient in australian
+  ecosystems}}.
+\newblock {\emph{\JournalTitle{Water Resources Research}}}
+  \textbf{\bibinfo{volume}{54}}, \bibinfo{pages}{3409--3435}
+  (\bibinfo{year}{2018}).
 
-\bibitem{cullen2007energy}
-\bibinfo{author}{Cullen, N.~J.}, \bibinfo{author}{M{\"o}lg, T.},
-  \bibinfo{author}{Kaser, G.}, \bibinfo{author}{Steffen, K.} \&
-  \bibinfo{author}{Hardy, D.~R.}
-\newblock \bibinfo{journal}{\bibinfo{title}{Energy-balance model validation on
-  the top of kilimanjaro, tanzania, using eddy covariance data}}.
-\newblock {\emph{\JournalTitle{Annals of Glaciology}}}
-  \textbf{\bibinfo{volume}{46}}, \bibinfo{pages}{227--233}
-  (\bibinfo{year}{2007}).
+\bibitem{holmes2009land}
+\bibinfo{author}{Holmes, T.}, \bibinfo{author}{De~Jeu, R.},
+  \bibinfo{author}{Owe, M.} \& \bibinfo{author}{Dolman, A.}
+\newblock \bibinfo{journal}{\bibinfo{title}{Land surface temperature from ka
+  band (37 ghz) passive microwave observations}}.
+\newblock {\emph{\JournalTitle{Journal of Geophysical Research: Atmospheres}}}
+  \textbf{\bibinfo{volume}{114}} (\bibinfo{year}{2009}).
 
-\bibitem{baldocchi2001fluxnet}
-\bibinfo{author}{Baldocchi, D.} \emph{et~al.}
-\newblock \bibinfo{journal}{\bibinfo{title}{Fluxnet: A new tool to study the
-  temporal and spatial variability of ecosystem-scale carbon dioxide, water
-  vapor, and energy flux densities}}.
-\newblock {\emph{\JournalTitle{Bulletin of the American Meteorological
-  Society}}} \textbf{\bibinfo{volume}{82}}, \bibinfo{pages}{2415--2434}
-  (\bibinfo{year}{2001}).
-
-\bibitem{guillevic2017land}
-\bibinfo{author}{Guillevic, P.} \emph{et~al.}
-\newblock \bibinfo{journal}{\bibinfo{title}{Land surface temperature product
-  validation best practice protocol. version 1.0}}.
-\newblock {\emph{\JournalTitle{Best Practice for Satellite-Derived Land Product
-  Validation}}} \bibinfo{pages}{60} (\bibinfo{year}{2017}).
+\bibitem{maes2019potential}
+\bibinfo{author}{Maes, W.~H.}, \bibinfo{author}{Gentine, P.},
+  \bibinfo{author}{Verhoest, N.~E.} \& \bibinfo{author}{Miralles, D.~G.}
+\newblock \bibinfo{journal}{\bibinfo{title}{Potential evaporation at
+  eddy-covariance sites across the globe}}.
+\newblock {\emph{\JournalTitle{Hydrology and Earth System Sciences}}}
+  \textbf{\bibinfo{volume}{23}}, \bibinfo{pages}{925--948}
+  (\bibinfo{year}{2019}).
 
 \bibitem{wang2013global}
 \bibinfo{author}{Wang, K.} \& \bibinfo{author}{Dickinson, R.~E.}
@@ -143,33 +135,6 @@
   \textbf{\bibinfo{volume}{20}}, \bibinfo{pages}{4237--4264}
   (\bibinfo{year}{2016}).
 
-\bibitem{mallick2018bridging}
-\bibinfo{author}{Mallick, K.} \emph{et~al.}
-\newblock \bibinfo{journal}{\bibinfo{title}{Bridging thermal infrared sensing
-  and physically-based evapotranspiration modeling: From theoretical
-  implementation to validation across an aridity gradient in australian
-  ecosystems}}.
-\newblock {\emph{\JournalTitle{Water Resources Research}}}
-  \textbf{\bibinfo{volume}{54}}, \bibinfo{pages}{3409--3435}
-  (\bibinfo{year}{2018}).
-
-\bibitem{holmes2009land}
-\bibinfo{author}{Holmes, T.}, \bibinfo{author}{De~Jeu, R.},
-  \bibinfo{author}{Owe, M.} \& \bibinfo{author}{Dolman, A.}
-\newblock \bibinfo{journal}{\bibinfo{title}{Land surface temperature from ka
-  band (37 ghz) passive microwave observations}}.
-\newblock {\emph{\JournalTitle{Journal of Geophysical Research: Atmospheres}}}
-  \textbf{\bibinfo{volume}{114}} (\bibinfo{year}{2009}).
-
-\bibitem{maes2019potential}
-\bibinfo{author}{Maes, W.~H.}, \bibinfo{author}{Gentine, P.},
-  \bibinfo{author}{Verhoest, N.~E.} \& \bibinfo{author}{Miralles, D.~G.}
-\newblock \bibinfo{journal}{\bibinfo{title}{Potential evaporation at
-  eddy-covariance sites across the globe}}.
-\newblock {\emph{\JournalTitle{Hydrology and Earth System Sciences}}}
-  \textbf{\bibinfo{volume}{23}}, \bibinfo{pages}{925--948}
-  (\bibinfo{year}{2019}).
-
 \bibitem{verma2016global}
 \bibinfo{author}{Verma, M.} \emph{et~al.}
 \newblock \bibinfo{journal}{\bibinfo{title}{Global surface net-radiation at 5
@@ -193,15 +158,6 @@
 \newblock {\emph{\JournalTitle{Agricultural and Forest Meteorology}}}
   \textbf{\bibinfo{volume}{77}}, \bibinfo{pages}{153--166}
   (\bibinfo{year}{1995}).
-
-\bibitem{kustas2007utility}
-\bibinfo{author}{Kustas, W.~P.}, \bibinfo{author}{Anderson, M.~C.},
-  \bibinfo{author}{Norman, J.~M.} \& \bibinfo{author}{Li, F.}
-\newblock \bibinfo{journal}{\bibinfo{title}{Utility of radiometric--aerodynamic
-  temperature relations for heat flux estimation}}.
-\newblock {\emph{\JournalTitle{Boundary-Layer Meteorology}}}
-  \textbf{\bibinfo{volume}{122}}, \bibinfo{pages}{167--187}
-  (\bibinfo{year}{2007}).
 
 \bibitem{holmes2016cloud}
 \bibinfo{author}{Holmes, T.~R.}, \bibinfo{author}{Hain, C.~R.},
@@ -306,6 +262,15 @@
   \textbf{\bibinfo{volume}{113}}, \bibinfo{pages}{223--243}
   (\bibinfo{year}{2002}).
 
+\bibitem{stoy2013data}
+\bibinfo{author}{Stoy, P.~C.} \emph{et~al.}
+\newblock \bibinfo{journal}{\bibinfo{title}{A data-driven analysis of energy
+  balance closure across fluxnet research sites: The role of landscape scale
+  heterogeneity}}.
+\newblock {\emph{\JournalTitle{Agricultural and forest meteorology}}}
+  \textbf{\bibinfo{volume}{171}}, \bibinfo{pages}{137--152}
+  (\bibinfo{year}{2013}).
+
 \bibitem{twine2000correcting}
 \bibinfo{author}{Twine, T.~E.} \emph{et~al.}
 \newblock \bibinfo{journal}{\bibinfo{title}{Correcting eddy-covariance flux
@@ -377,6 +342,25 @@
 \newblock {\emph{\JournalTitle{Applied optics}}} \textbf{\bibinfo{volume}{58}},
   \bibinfo{pages}{4599--4609} (\bibinfo{year}{2019}).
 
+\bibitem{cullen2007energy}
+\bibinfo{author}{Cullen, N.~J.}, \bibinfo{author}{M{\"o}lg, T.},
+  \bibinfo{author}{Kaser, G.}, \bibinfo{author}{Steffen, K.} \&
+  \bibinfo{author}{Hardy, D.~R.}
+\newblock \bibinfo{journal}{\bibinfo{title}{Energy-balance model validation on
+  the top of kilimanjaro, tanzania, using eddy covariance data}}.
+\newblock {\emph{\JournalTitle{Annals of Glaciology}}}
+  \textbf{\bibinfo{volume}{46}}, \bibinfo{pages}{227--233}
+  (\bibinfo{year}{2007}).
+
+\bibitem{baldocchi2001fluxnet}
+\bibinfo{author}{Baldocchi, D.} \emph{et~al.}
+\newblock \bibinfo{journal}{\bibinfo{title}{Fluxnet: A new tool to study the
+  temporal and spatial variability of ecosystem-scale carbon dioxide, water
+  vapor, and energy flux densities}}.
+\newblock {\emph{\JournalTitle{Bulletin of the American Meteorological
+  Society}}} \textbf{\bibinfo{volume}{82}}, \bibinfo{pages}{2415--2434}
+  (\bibinfo{year}{2001}).
+
 \bibitem{gilberto2020fluxnet2015}
 \bibinfo{author}{Gilberto, P.} \emph{et~al.}
 \newblock \bibinfo{journal}{\bibinfo{title}{The fluxnet2015 dataset and the
@@ -404,6 +388,13 @@
 \newblock {\emph{\JournalTitle{Journal of Geophysical Research: Atmospheres}}}
   \textbf{\bibinfo{volume}{117}} (\bibinfo{year}{2012}).
 
+\bibitem{guillevic2017land}
+\bibinfo{author}{Guillevic, P.} \emph{et~al.}
+\newblock \bibinfo{journal}{\bibinfo{title}{Land surface temperature product
+  validation best practice protocol. version 1.0}}.
+\newblock {\emph{\JournalTitle{Best Practice for Satellite-Derived Land Product
+  Validation}}} \bibinfo{pages}{60} (\bibinfo{year}{2017}).
+
 \bibitem{wang2008validating}
 \bibinfo{author}{Wang, W.}, \bibinfo{author}{Liang, S.} \&
   \bibinfo{author}{Meyers, T.}
@@ -412,6 +403,15 @@
 \newblock {\emph{\JournalTitle{Remote Sensing of Environment}}}
   \textbf{\bibinfo{volume}{112}}, \bibinfo{pages}{623--635}
   (\bibinfo{year}{2008}).
+
+\bibitem{kustas2007utility}
+\bibinfo{author}{Kustas, W.~P.}, \bibinfo{author}{Anderson, M.~C.},
+  \bibinfo{author}{Norman, J.~M.} \& \bibinfo{author}{Li, F.}
+\newblock \bibinfo{journal}{\bibinfo{title}{Utility of radiometric--aerodynamic
+  temperature relations for heat flux estimation}}.
+\newblock {\emph{\JournalTitle{Boundary-Layer Meteorology}}}
+  \textbf{\bibinfo{volume}{122}}, \bibinfo{pages}{167--187}
+  (\bibinfo{year}{2007}).
 
 \bibitem{bahir2017evaluation}
 \bibinfo{author}{Bahir, M.} \emph{et~al.}

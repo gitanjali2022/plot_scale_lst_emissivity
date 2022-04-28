@@ -17,7 +17,8 @@
 \usepackage[tablename=SI Table]{caption}
 
 \graphicspath{{./Plots/}}
-\title{ Challenges and uncertainty in plot-scale emissivity and surface temperature estimation using flux tower measurements}
+\title{Downwelling longwave radiation and sensible heat flux observations are critical for surface temperature
+and emissivity estimation from flux tower data}
 
 %\addbibresource{My_ref.bib}
 \author[1,*]{Gitanjali Thakur}
@@ -31,9 +32,7 @@
 \affil[*]{stanislaus.schymanski@list.lu}
 
 \begin{abstract}
-
-Land surface temperature (LST) is a preeminent state variable that controls the energy and water exchange between the Earth’s surface and the atmosphere. At the landscape-scale, LST is derived from thermal infrared radiance measured using space-borne radiometers. At the plot-scale, the flux tower recorded longwave radiation components are inverted to retrieve LST. Since the down-welling longwave component was not measured routinely until recently, usually only the up-welling longwave component is used for the plot-scale LST retrieval. However, we found that ignoring reflected down-welling longwave radiation for plot-scale LST estimations can lead to substantial error. This also has important implications for estimating the correct surface emissivity using flux tower measurements, which is needed for plot-scale LST retrievals. The present study proposes a new method for plot-scale emissivity and LST estimation and addresses in detail the consequences of omitting down-welling longwave radiation as frequently done in the literature. Our analysis uses ten eddy covariance sites with different land cover types and found that the LST values obtained using both up-welling and down-welling longwave radiation components are 0.5 to 1.5 K lower than estimates using only up-welling longwave radiation. Furthermore, the proposed method helps identify inconsistencies between plot-scale radiometric and aerodynamic measurements, likely due to footprint mismatch between measurement approaches. We also found that such inconsistencies can be removed by slight corrections to the up-welling longwave component and subsequent energy balance closure, resulting in realistic estimates of surface emissivity and consistent relationships between energy fluxes and surface-air temperature differences. Landscape-scale day-time LST obtained from satellite data (MODIS TERRA) was strongly correlated with our plot-scale estimates for most of the sites, but higher by several Kelvin at two sites. We also quantified the uncertainty in estimated LST and surface emissivity using the different methods and found that the proposed method does not result in increased uncertainty. The results of this work have significant implications for the combined use of aerodynamic and radiometric measurements to understand the interactions and feedbacks between LST and surface-atmosphere exchange processes.
-
+Land surface temperature (LST) is a preeminent state variable that controls the energy and water exchange between the Earth’s surface and the atmosphere. At the landscape-scale, LST is derived from thermal infrared radiance measured using space-borne radiometers. At the plot-scale, the flux tower recorded longwave radiation components are inverted to retrieve LST. Since the down-welling longwave component was not measured routinely until recently, usually only the up-welling longwave component is used for the plot-scale LST retrieval. However, we found that ignoring reflected down-welling longwave radiation for plot-scale LST estimations can lead to substantial error. This also has important implications for estimating the correct surface emissivity using flux tower measurements, which is needed for plot-scale LST retrievals. The present study proposes a new method for plot-scale emissivity and LST estimation and addresses in detail the consequences of omitting down-welling longwave radiation as frequently done in the literature. Our analysis uses ten eddy covariance sites with different land cover types and found that the LST values obtained using both up-welling and down-welling longwave radiation components are 0.5 to 1.5 K lower than estimates using only up-welling longwave radiation. Furthermore, the proposed method helps identify inconsistencies between plot-scale radiometric and aerodynamic measurements, likely due to footprint mismatch between measurement approaches. We also found that such inconsistencies can be removed by slight corrections to the up-welling longwave component and subsequent energy balance closure, resulting in realistic estimates of surface emissivity and consistent relationships between energy fluxes and surface-air temperature differences. The correspondence between plot-scale LST and landscape-scale LST depends on site-specific characteristics, such as canopy density, sensor locations and viewing angles. Here we also quantify the uncertainty in plot-scale LST estimates due to uncertainty in tower-based measurements using the different methods. The results of this work have significant implications for the combined use of aerodynamic and radiometric measurements to understand the interactions and feedbacks between LST and surface-atmosphere exchange processes.
 
 
 
@@ -213,7 +212,7 @@ YA & 0.974 & 0.855 &-2.081 & 0.855 & -3.45 & 0.97& 0.522 &-4.517 & 0.93 & 0.793 
 		\put (14,62){\textbf{b}}
 	\end{overpic}
 	\setlength{\belowcaptionskip}{-3ex}
-	\caption{(a) Uncertainty in plot-scale $\epsilon$ using the short equation and long equation (with and without intercept in $H$ and $\Delta T$ plots). (b) Uncertainty in hourly $\Delta T$ using long equation with and without intercept for July 15. 
+	\caption{(a) Uncertainty in plot-scale $\epsilon$ using the short equation and long equation (with and without intercept in $H$ and $\Delta T$ plots). (b) Distribution in hourly $\Delta T$ using long equation with and without intercept for July 15. 
 	}
 	\label{fig:unc_intrc}
 \end{figure}
