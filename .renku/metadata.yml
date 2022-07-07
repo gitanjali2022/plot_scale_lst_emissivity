@@ -20,8 +20,9 @@ https://swissdatasciencecenter.github.io/renku-ontology#automatedTemplateUpdate:
 https://swissdatasciencecenter.github.io/renku-ontology#immutableTemplateFiles: []
 https://swissdatasciencecenter.github.io/renku-ontology#templateId: python-minimal
 https://swissdatasciencecenter.github.io/renku-ontology#templateMetadata: '{"description":
-  "This project contains all the analysis of the paper titled \"Challenges and unvertainty
-  in LST and emissivity estimation at plot-scale using flux tower data\"", "__template_source__":
+  "This project contains variable  definitions and equations from the paper titled:
+  Accounting for downwelling longwave radiation reduces the contribution of emissivity
+  to uncertainty in surface temperature estimates from flux tower data", "__template_source__":
   "renku", "__template_ref__": null, "__template_id__": "python-minimal", "__namespace__":
   "", "__sanitized_project_name__": "", "__repository__": "", "__project_slug__":
   "", "__renku_version__": "0.16.2", "name": "plotscale_lst"}'
