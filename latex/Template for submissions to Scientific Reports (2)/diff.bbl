@@ -342,6 +342,24 @@
 \newblock {\emph{\JournalTitle{Applied optics}}} \textbf{\bibinfo{volume}{58}},
   \bibinfo{pages}{4599--4609} (\bibinfo{year}{2019}).
 
+\bibitem{chakraborty2021land}
+\bibinfo{author}{Chakraborty, T.}, \bibinfo{author}{Lee, X.},
+  \bibinfo{author}{Ermida, S.} \& \bibinfo{author}{Zhan, W.}
+\newblock \bibinfo{journal}{\bibinfo{title}{On the land emissivity assumption
+  and landsat-derived surface urban heat islands: A global analysis}}.
+\newblock {\emph{\JournalTitle{Remote Sensing of Environment}}}
+  \textbf{\bibinfo{volume}{265}}, \bibinfo{pages}{112682}
+  (\bibinfo{year}{2021}).
+
+\bibitem{wang2008validating}
+\bibinfo{author}{Wang, W.}, \bibinfo{author}{Liang, S.} \&
+  \bibinfo{author}{Meyers, T.}
+\newblock \bibinfo{journal}{\bibinfo{title}{Validating modis land surface
+  temperature products using long-term nighttime ground measurements}}.
+\newblock {\emph{\JournalTitle{Remote Sensing of Environment}}}
+  \textbf{\bibinfo{volume}{112}}, \bibinfo{pages}{623--635}
+  (\bibinfo{year}{2008}).
+
 \bibitem{cullen2007energy}
 \bibinfo{author}{Cullen, N.~J.}, \bibinfo{author}{M{\"o}lg, T.},
   \bibinfo{author}{Kaser, G.}, \bibinfo{author}{Steffen, K.} \&
@@ -394,15 +412,6 @@
   validation best practice protocol. version 1.0}}.
 \newblock {\emph{\JournalTitle{Best Practice for Satellite-Derived Land Product
   Validation}}} \bibinfo{pages}{60} (\bibinfo{year}{2017}).
-
-\bibitem{wang2008validating}
-\bibinfo{author}{Wang, W.}, \bibinfo{author}{Liang, S.} \&
-  \bibinfo{author}{Meyers, T.}
-\newblock \bibinfo{journal}{\bibinfo{title}{Validating modis land surface
-  temperature products using long-term nighttime ground measurements}}.
-\newblock {\emph{\JournalTitle{Remote Sensing of Environment}}}
-  \textbf{\bibinfo{volume}{112}}, \bibinfo{pages}{623--635}
-  (\bibinfo{year}{2008}).
 
 \bibitem{kustas2007utility}
 \bibinfo{author}{Kustas, W.~P.}, \bibinfo{author}{Anderson, M.~C.},
